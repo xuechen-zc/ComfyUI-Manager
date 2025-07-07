@@ -83,8 +83,10 @@ if %HAS_CHANGES%==1 (
 
 :: 设置分支名
 set DEV_BRANCH=dev
-set MASTER_BRANCH=main  :: 主干改为 main
-set UPSTREAM_URL=https://github.com/Comfy-Org/ComfyUI-Manager.git  :: 使用 ComfyUI-Manager 仓库的 URL
+set MASTER_BRANCH=main
+
+:: 设置上游仓库地址（不要改动这个，除非你知道自己在做什么）
+set UPSTREAM_URL=https://github.com/Comfy-Org/ComfyUI-Manager.git
 set UPSTREAM_NAME=upstream
 set ORIGIN_NAME=origin
 
@@ -106,34 +108,22 @@ if %errorlevel% neq 0 (
     goto end
 )
 
-:: 输出 MASTER_BRANCH 变量值用于调试
-echo MASTER_BRANCH: %MASTER_BRANCH%
-
-:: 强制切换到 main 分支并设置跟踪 upstream/main
-git checkout %MASTER_BRANCH% --force
-if %errorlevel% neq 0 (
-    echo ❌ 切换到 main 分支失败。
-    goto end
-)
-
-git branch --set-upstream-to=%UPSTREAM_NAME%/%MASTER_BRANCH% %MASTER_BRANCH%
-if %errorlevel% neq 0 (
-    echo ❌ 设置 upstream 跟踪失败。
-    goto end
-)
-echo ✅ 已切换到 main 分支并设置跟踪 upstream/main。
-
 echo.
-echo ==== Step 3: 合并 upstream/main 到本地 main ====
+echo ==== Step 3: 切换到 master 并合并 upstream/master ====
+git checkout %MASTER_BRANCH% 2>nul
+if %errorlevel% neq 0 (
+    echo ❌ 无法切换到 master 分支。
+    goto end
+)
 git merge %UPSTREAM_NAME%/%MASTER_BRANCH% --no-edit
 if %errorlevel% neq 0 (
-    echo ❌ 合并 upstream/main 到本地 main 失败。
+    echo ❌ 合并 upstream 到 master 失败。
     goto end
 )
 git push %ORIGIN_NAME% %MASTER_BRANCH%
 
 echo.
-echo ==== Step 4: 切换回 dev 并合并 main ====
+echo ==== Step 4: 切换回 dev 并合并 master ====
 git checkout %DEV_BRANCH% 2>nul
 if %errorlevel% neq 0 (
     echo ❌ 无法切换到 dev 分支。
@@ -141,7 +131,7 @@ if %errorlevel% neq 0 (
 )
 git merge %MASTER_BRANCH% --no-edit
 if %errorlevel% neq 0 (
-    echo ❌ 合并 main 到 dev 失败。
+    echo ❌ 合并 master 到 dev 失败。
     goto end
 )
 git push %ORIGIN_NAME% %DEV_BRANCH%
