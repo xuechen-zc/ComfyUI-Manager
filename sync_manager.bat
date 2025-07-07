@@ -106,26 +106,19 @@ if %errorlevel% neq 0 (
     goto end
 )
 
-:: 检查本地是否存在 main 分支
-git branch | findstr /C:"%MASTER_BRANCH%" >nul
+:: 强制切换到 main 分支并设置跟踪 upstream/main
+git checkout %MASTER_BRANCH% --force
 if %errorlevel% neq 0 (
-    echo ❌ 本地没有 main 分支，正在创建并跟踪 upstream/main...
-    git checkout -b %MASTER_BRANCH% %UPSTREAM_NAME%/%MASTER_BRANCH%
-    if %errorlevel% neq 0 (
-        echo ❌ 创建或切换到 main 分支失败。
-        goto end
-    )
-    echo ✅ 已创建并切换到 main 分支。
-) else (
-    echo 本地已存在 main 分支，确保它跟踪 upstream/main...
-    git checkout %MASTER_BRANCH%
-    git branch --set-upstream-to=%UPSTREAM_NAME%/%MASTER_BRANCH% %MASTER_BRANCH%
-    if %errorlevel% neq 0 (
-        echo ❌ 设置 upstream 跟踪失败。
-        goto end
-    )
-    echo ✅ 已切换到 main 分支并设置跟踪 upstream/main。
+    echo ❌ 切换到 main 分支失败。
+    goto end
 )
+
+git branch --set-upstream-to=%UPSTREAM_NAME%/%MASTER_BRANCH% %MASTER_BRANCH%
+if %errorlevel% neq 0 (
+    echo ❌ 设置 upstream 跟踪失败。
+    goto end
+)
+echo ✅ 已切换到 main 分支并设置跟踪 upstream/main。
 
 echo.
 echo ==== Step 3: 合并 upstream/main 到本地 main ====
