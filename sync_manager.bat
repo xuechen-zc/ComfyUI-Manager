@@ -106,6 +106,9 @@ if %errorlevel% neq 0 (
     goto end
 )
 
+:: 输出 MASTER_BRANCH 变量值用于调试
+echo MASTER_BRANCH: %MASTER_BRANCH%
+
 :: 强制切换到 main 分支并设置跟踪 upstream/main
 git checkout %MASTER_BRANCH% --force
 if %errorlevel% neq 0 (
