@@ -117,8 +117,14 @@ if %errorlevel% neq 0 (
     )
     echo ✅ 已创建并切换到 main 分支。
 ) else (
-    echo 本地已存在 main 分支，切换到该分支...
+    echo 本地已存在 main 分支，确保它跟踪 upstream/main...
     git checkout %MASTER_BRANCH%
+    git branch --set-upstream-to=%UPSTREAM_NAME%/%MASTER_BRANCH% %MASTER_BRANCH%
+    if %errorlevel% neq 0 (
+        echo ❌ 设置 upstream 跟踪失败。
+        goto end
+    )
+    echo ✅ 已切换到 main 分支并设置跟踪 upstream/main。
 )
 
 echo.
