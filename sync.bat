@@ -19,7 +19,7 @@ copy /Y "%~f0" "%TEMP_SCRIPT%" >nul
 
 :: 判断当前是否已经是主脚本
 set IS_MAIN_SCRIPT=0
-for %%f in (%0) do (
+for %%f in ("%~f0") do (
     set FILE_NAME=%%~nxf
 )
 if "%FILE_NAME%"=="temp_script.bat" (
