@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Tr1dae",
+            "title": "ComfyUI-CustomNodes-MVM",
+            "reference": "https://github.com/Tr1dae/ComfyUI-CustomNodes-MVM",
+            "files": [
+                "https://github.com/Tr1dae/ComfyUI-CustomNodes-MVM"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Load Image From Folder MVM, Load Guidance Images From Folder MVM, Load Text From Folder MVM"
+        },
+        {
+            "author": "Vkabuto23",
+            "title": "comfyui_openrouter [UNSAFE]",
+            "reference": "https://github.com/Vkabuto23/comfyui_openrouter",
+            "files": [
+                "https://github.com/Vkabuto23/comfyui_openrouter"
+            ],
+            "install_type": "git-clone",
+            "description": "comfyui openrouter nodes[w/The API key is embedded in the workflow.]"
+        },
+        {
             "author": "subnet99",
             "title": "ComfyUI-URLLoader",
             "reference": "https://github.com/subnet99/ComfyUI-URLLoader",
@@ -1050,7 +1070,7 @@
                 "https://github.com/aa-parky/pipemind-comfyui"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Random Line from File (Seeded), Keyword Prompt Composer, Simple Prompt Combiner (5x), Boolean Switch (Any), Select Line from TxT (Any), Multiline Text Input, Flux 2M Aspect Ratios, SDXL Aspect Ratios, Room Mapper"
+            "description": "NODES: Random Line from File (Seeded), Keyword Prompt Composer, Simple Prompt Combiner (5x), Boolean Switch (Any), Select Line from TxT (Any), Multiline Text Input, Flux 2M Aspect Ratios, SDXL Aspect Ratios, Room Mapper, ..."
         },
         {
             "author": "pacchikAI",
@@ -1990,16 +2010,6 @@
             ],
             "install_type": "git-clone",
             "description": "Nodes to manipulate HTML.[w/This extension poses a risk of XSS vulnerability.]"
-        },
-        {
-            "author": "LLMCoder2023",
-            "title": "ComfyUI-LLMCoderNodes",
-            "reference": "https://github.com/LLMCoder2023/ComfyUI-LLMCoder2023Nodes",
-            "files": [
-                "https://github.com/LLMCoder2023/ComfyUI-LLMCoder2023Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: String Template Interpolation, Variable Definition, Weighted Attributes Formatter"
         },
         {
             "author": "FaberVS",

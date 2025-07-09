@@ -14497,17 +14497,6 @@
             "description": "Batched Runge-Kutta Samplers for ComfyUI"
         },
         {
-            "author": "TechnoByteJS",
-            "title": "TechNodes",
-            "id": "technodes",
-            "reference": "https://github.com/TechnoByteJS/ComfyUI-TechNodes",
-            "files": [
-                "https://github.com/TechnoByteJS/ComfyUI-TechNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for merging, testing and more.\nNOTE: SDNext Merge, VAE Merge, MBW Layers, Repeat VAE, Quantization."
-        },
-        {
             "author": "Fantasy AI Studio",
             "title": "FAI-Node",
             "id": "FAI-Node",
@@ -25740,6 +25729,16 @@
             "description": "An implementation of Nari-Labs Dia TTS"
         },
         {
+            "author": "BobRandomNumber",
+            "title": "ComfyUI-KyutaiTTS",
+            "reference": "https://github.com/BobRandomNumber/ComfyUI-KyutaiTTS",
+            "files": [
+                "https://github.com/BobRandomNumber/ComfyUI-KyutaiTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "A non real-time ComfyUI implementation of Kyutai TTS"
+        },
+        {
             "author": "santiagosamuel3455",
             "title": "ComfyUI-GeminiImageToPrompt",
             "reference": "https://github.com/santiagosamuel3455/ComfyUI-GeminiImageToPrompt",
@@ -27549,6 +27548,16 @@
             "description": "An interactive sketching and drawing node for ComfyUI with stylus/pen support – built for fast, intuitive scribbling directly inside your workflows, geared towards ControlNet-style workflows which utilize scribbles and line art."
         },
         {
+            "author": "o-l-l-i",
+            "title": "Olm DragCrop for ComfyUI",
+            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop",
+            "files": [
+                "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop"
+            ],
+            "install_type": "git-clone",
+            "description": "An interactive image cropping node for ComfyUI, allowing precise visual selection of crop areas directly within your workflow. This node is designed to streamline the process of preparing images for various tasks, ensuring immediate visual feedback and control over your image dimensions."
+        },
+        {
             "author": "xiaogui8dangjia",
             "title": "Comfyui-imagetoSTL",
             "reference": "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL",
@@ -28027,6 +28036,16 @@
             "description": "This is a custom node for ComfyUI that calls the DeepSeek Chat API to process text input and return text output."
         },
         {
+            "author": "linjian-ufo",
+            "title": "GLM-4V Image Descriptor",
+            "reference": "https://github.com/linjian-ufo/ComfyUI_GLM4V_voltspark",
+            "files": [
+                "https://github.com/linjian-ufo/ComfyUI_GLM4V_voltspark"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional AI Image Description Generator\nBased on Zhipu AI GLM-4V multimodal model, batch generate accurate and detailed descriptions for images in Chinese and English"
+        },
+        {
             "author": "jkhayiying",
             "title": "ImageLoadFromLocalOrUrl Node for ComfyUI",
             "id": "JkhaImageLoaderPathOrUrl",
@@ -28231,6 +28250,16 @@
             ],
             "install_type": "git-clone",
             "description": "Channel curves custom node for ComfyUI. RGB, R, G and B, luma and saturation curves adjustments. Save and load presets. Real-time curves adjustment tool directly within the user interface. Precise, interactive control over the tonal range of both image channels and masks, using a GPU-accelerated PyTorch backend for instant feedback."
+        },
+        {
+            "author": "quasiblob",
+            "title": "ComfyUI-EsesImageEffectLevels",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageEffectLevels",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesImageEffectLevels"
+            ],
+            "install_type": "git-clone",
+            "description": "The 'Eses Image Effect Levels' is a ComfyUI custom node that provides a real-time levels adjustment tool directly within the user interface. It allows for interactive control over the tonal range of both images and masks, using a GPU-accelerated PyTorch backend for near instant feedback."
         },
         {
             "author": "TheLustriVA",
@@ -28960,6 +28989,26 @@
             "description": "A ComfyUI node designed to load the most recent image in a folder"
         },
         {
+            "author": "Ben Staniford",
+            "title": "Comfy Contact Sheet Image Loader",
+            "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
+            "files": [
+                "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for loading images from a contact sheet of recent files"
+        },
+        {
+            "author": "Ben Staniford",
+            "title": "LoRa Loader with Trigger Database",
+            "reference": "https://github.com/benstaniford/comfy-lora-loader-with-triggerdb",
+            "files": [
+                "https://github.com/benstaniford/comfy-lora-loader-with-triggerdb"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that provides a LoRa loader with persistent trigger word storage. Automatically saves and loads trigger words for each LoRa model, making your workflow more efficient."
+        },
+        {
             "author": "xxxxxxxxxxxc",
             "title": "flux-kontext-diff-merge",
             "reference": "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge",
@@ -28968,6 +29017,46 @@
             ],
             "install_type": "git-clone",
             "description": "Preserve image quality with flux-kontext-diff-merge. This ComfyUI node merges only changed areas from AI edits, ensuring clarity and detail."
+        },
+        {
+            "author": "PD19 Anime",
+            "title": "ComfyUI-PD19Anime-Nodes",
+            "reference": "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes",
+            "files": [
+                "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful suite of nodes for ComfyUI to dynamically load prompts and images. This pack is especially focused on batch processing from a directory and includes two main nodes: Advanced Prompt & Image Loader (Multiple) and Advanced Prompt & Image Loader (single)."
+        },
+        {
+            "author": "OneThingAI",
+            "title": "ComfyUI OneThing AI Node",
+            "reference": "https://github.com/OneThingAI/ComfyUI_Onething_Image",
+            "files": [
+                "https://github.com/OneThingAI/ComfyUI_Onething_Image"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that integrates with OneThing AI's image generation API."
+        },
+        {
+            "author": "OneThingAI",
+            "title": "ComfyUI OneThing CV Node",
+            "reference": "https://github.com/OneThingAI/ComfyUI_Onething_CV",
+            "files": [
+                "https://github.com/OneThingAI/ComfyUI_Onething_CV"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI allows you to get detailed text descriptions of images using the OneThing AI Vision API. The node integrates with OneThing AI's powerful vision models to provide detailed descriptions of image content."
+        },
+        {
+            "author": "NeuroSenko",
+            "title": "ComfyUI LLM SDXL Adapter",
+            "reference": "https://github.com/NeuroSenko/ComfyUI_LLM_SDXL_Adapter",
+            "files": [
+                "https://github.com/NeuroSenko/ComfyUI_LLM_SDXL_Adapter"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive set of ComfyUI nodes for using Large Language Models (LLM) as text encoders for SDXL image generation through a trained adapter."
         },
 
 
