@@ -2,11 +2,11 @@
 setlocal enabledelayedexpansion
 
 :: 设置临时目录，用于保存脚本副本
-set TEMP_DIR=%TEMP%\temp_git_script
-set TEMP_SCRIPT=%TEMP_DIR%\temp_script.bat
+set "TEMP_DIR=%TEMP%\temp_git_script"
+set "TEMP_SCRIPT=%TEMP_DIR%\temp_script.bat"
 
 :: 获取当前脚本所在目录并保存
-set ORIGINAL_DIR=%~dp0
+set "ORIGINAL_DIR=%~dp0"
 echo Original Directory: %ORIGINAL_DIR%
 
 :: 确保临时目录存在
@@ -18,17 +18,17 @@ if not exist "%TEMP_DIR%" (
 copy /Y "%~f0" "%TEMP_SCRIPT%" >nul
 
 :: 判断当前是否已经是主脚本
-set IS_MAIN_SCRIPT=0
+set "IS_MAIN_SCRIPT=0"
 for %%f in ("%~f0") do (
-    set FILE_NAME=%%~nxf
+    set "FILE_NAME=%%~nxf"
 )
-if "%FILE_NAME%"=="temp_script.bat" (
-    set IS_MAIN_SCRIPT=1
+if "!FILE_NAME!"=="temp_script.bat" (
+    set "IS_MAIN_SCRIPT=1"
 )
 
 :: 如果是第一次执行主脚本，启动新的窗口来执行脚本
 if %IS_MAIN_SCRIPT%==0 (
-    start cmd /k "%TEMP_SCRIPT% %ORIGINAL_DIR%"
+    start "" cmd /k "%TEMP_SCRIPT% \"%ORIGINAL_DIR%\""
     echo.
     echo 请在新窗口中完成操作后按任意键继续...
     pause >nul
@@ -37,8 +37,8 @@ if %IS_MAIN_SCRIPT%==0 (
 
 :: 临时脚本开始
 
-:: 读取传递的原始目录
-set ORIGINAL_DIR=%1
+:: 读取传递的原始目录（去除可能的引号）
+set "ORIGINAL_DIR=%~1"
 
 :: 输出当前目录用于调试
 echo Current Directory before cd: %CD%
@@ -54,15 +54,10 @@ if %errorlevel% neq 0 (
     goto end
 )
 
-:: 检查是否有本地修改
-git status --porcelain >nul
-if %errorlevel% equ 0 (
-    :: 检查是否有修改
-    for /f "delims=" %%i in ('git status --porcelain') do (
-        set HAS_CHANGES=1
-    )
-) else (
-    set HAS_CHANGES=0
+:: 初始化 HAS_CHANGES，检查是否有本地修改
+set "HAS_CHANGES=0"
+for /f "delims=" %%i in ('git status --porcelain') do (
+    set "HAS_CHANGES=1"
 )
 
 :: 如果有本地更改，则执行 commit
@@ -82,13 +77,13 @@ if %HAS_CHANGES%==1 (
 )
 
 :: 设置分支名
-set DEV_BRANCH=dev
-set MASTER_BRANCH=main
+set "DEV_BRANCH=dev"
+set "MASTER_BRANCH=main"
 
 :: 设置上游仓库地址（不要改动这个，除非你知道自己在做什么）
-set UPSTREAM_URL=https://github.com/Comfy-Org/ComfyUI-Manager.git
-set UPSTREAM_NAME=upstream
-set ORIGIN_NAME=origin
+set "UPSTREAM_URL=https://github.com/Comfy-Org/ComfyUI-Manager.git"
+set "UPSTREAM_NAME=upstream"
+set "ORIGIN_NAME=origin"
 
 echo.
 echo ==== Step 1: 检查是否已添加 upstream ====
@@ -143,5 +138,3 @@ echo ✅ 所有操作完成，当前分支仍为 %DEV_BRANCH%
 echo.
 echo 请按任意键关闭窗口...
 pause >nul
-
-:: 临时脚本结束
