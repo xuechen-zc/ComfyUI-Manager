@@ -2,6 +2,16 @@
     "custom_nodes": [
         {
             "author": "quasiblob",
+            "title": "ComfyUI-EsesImageTransform",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageTransform",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesImageTransform"
+            ],
+            "install_type": "git-clone",
+            "description": "Apply 2D transformations to images and masks within ComfyUI. Zoom, position, scale, flip, rotate, squash and stretch the input content. Tile images to create patterns (supports alpha channels). Fill options for managing canvas areas exposed by transformations. Apply masks to RGB images and invert mask inputs or outputs. No extra dependencies."
+        },
+        {
+            "author": "quasiblob",
             "title": "ComfyUI-EsesImageEffectLevels",
             "reference": "https://github.com/quasiblob/ComfyUI-EsesImageEffectLevels",
             "files": [
@@ -9,6 +19,17 @@
             ],
             "install_type": "git-clone",
             "description": "The 'Eses Image Effect Levels' is a ComfyUI custom node that provides a real-time levels adjustment tool directly within the user interface. It allows for interactive control over the tonal range of both images and masks, using a GPU-accelerated PyTorch backend for near instant feedback."
+        },
+        {
+            "author": "voltans-voice-coach",
+            "description": "Displays up to 64 recent images from a folder as numbered thumbnails in a grid contact sheet format, allowing you to select and load one for post-processing",
+            "files": [
+                "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
+            ],
+            "id": "comfy-contact-sheet-image-loader",
+            "install_type": "git-clone",
+            "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
+            "title": "Comfy Contact Sheet Image Loader"
         },
         {
             "author": "BobRandomNumber",
@@ -140,16 +161,6 @@
              ],
              "install_type": "git-clone",
              "description": "Comfy UI node to prompt build for https://huggingface.co/cagliostrolab/animagine-xl-4.0 model"
-        },
-        {
-            "author": "xxxxxxxxxxxc",
-            "title": "flux-kontext-diff-merge",
-            "reference": "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge",
-            "files": [
-                "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge"
-            ],
-            "install_type": "git-clone",
-            "description": "Preserve image quality with flux-kontext-diff-merge. This ComfyUI node merges only changed areas from AI edits, ensuring clarity and detail."
         },
         {
             "author": "Ben Staniford",
@@ -683,16 +694,6 @@
             ],
             "install_type": "git-clone",
             "description": "'Real-time golden ratio pattern composition evaluation tool node for ComfyUI. This does nothing else - but you can move, rotate and scale then pattern to find new things and structures in your images."
-        },
-        {
-            "author": "fchangjun",
-            "title": "MultiSaveImage Node",
-            "reference": "https://github.com/fchangjun/Comfyui_MultiSaveImage",
-            "files": [
-                "https://github.com/fchangjun/Comfyui_MultiSaveImage"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for saving multiple images simultaneously with batch processing and resizing capabilities."
         }
     ]
 }
