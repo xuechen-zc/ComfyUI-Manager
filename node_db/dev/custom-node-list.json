@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "PaleBloodq",
+            "title": "ComfyUI-HFTransformers",
+            "reference": "https://github.com/PaleBloodq/ComfyUI-HFTransformers",
+            "files": [
+                "https://github.com/PaleBloodq/ComfyUI-HFTransformers"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: HFT Pipeline Loader, HFT Classifier, HFT Classification Selector, HFT Object Detector, HFT Image to Text, HFT Depth Estimator"
+        },
+        {
+            "author": "whmc76",
+            "title": "ComfyUI-AudioSuiteAdvanced [WIP]",
+            "reference": "https://github.com/whmc76/ComfyUI-AudioSuiteAdvanced",
+            "files": [
+                "https://github.com/whmc76/ComfyUI-AudioSuiteAdvanced"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI plugin for processing long text files and generating speech, supporting features such as audio separation, text segmentation, and audio merging.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Letz-AI",
+            "title": "ComfyUI-LetzAI [UNSAFE]",
+            "reference": "https://github.com/Letz-AI/ComfyUI-LetzAI",
+            "files": [
+                "https://github.com/Letz-AI/ComfyUI-LetzAI"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI Node for LetzAI Image Generation[w/The API key is embedded in the workflow.]"
+        },
+        {
+            "author": "ZhouNLP",
+            "title": "comfyui_LK_selfuse",
+            "reference": "https://github.com/LK-168/comfyui_LK_selfuse",
+            "files": [
+                "https://github.com/LK-168/comfyui_LK_selfuse"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Mask Diff, Mask Connected Remove, Mask Get Max, Mask Filter with Rate, InspectModelArchitecture, Print Sigma, Adv Scheduler, LK_MaskToSEGS, LK_SegsAdjust, String Filter, String Remove Duplicate, String Modify, ... \nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "junhe421",
+            "title": "comfyui_batch_image_processor [WIP]",
+            "reference": "https://github.com/junhe421/comfyui_batch_image_processor",
+            "files": [
+                "https://github.com/junhe421/comfyui_batch_image_processor"
+            ],
+            "install_type": "git-clone",
+            "description": "A Kontext Bench-style ComfyUI image difference analysis node that supports instruction-based prompt generation and batch TXT editing.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "TinyBeeman",
             "title": "ComfyUI-TinyBee",
             "reference": "https://github.com/TinyBeeman/ComfyUI-TinyBee",
@@ -22,13 +72,13 @@
         },
         {
             "author": "Vkabuto23",
-            "title": "comfyui_openrouter [UNSAFE]",
-            "reference": "https://github.com/Vkabuto23/comfyui_openrouter",
+            "title": "ComfyUI Custom Nodes: OpenRouter & Ollama [UNSAFE]",
+            "reference": "https://github.com/Vkabuto23/comfyui_openrouter_ollama",
             "files": [
-                "https://github.com/Vkabuto23/comfyui_openrouter"
+                "https://github.com/Vkabuto23/comfyui_openrouter_ollama"
             ],
             "install_type": "git-clone",
-            "description": "comfyui openrouter nodes[w/The API key is embedded in the workflow.]"
+            "description": "ComfyUI Custom Nodes: OpenRouter & Ollama[w/The API key is embedded in the workflow.]"
         },
         {
             "author": "subnet99",
@@ -249,7 +299,7 @@
                 "https://github.com/No-22-Github/ComfyUI_SaveImageCustom"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Fish-Speech Loader, Fish-Speech TTS, Fish-Speech Audio Preview"
+            "description": "Easy save image with dir+name"
         },
         {
             "author": "jiafuzeng",
@@ -259,7 +309,7 @@
                 "https://github.com/jiafuzeng/comfyui-fishSpeech"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Save Image (Dir + Name)"
+            "description": "NODES: Fish-Speech Loader, Fish-Speech TTS, Fish-Speech Audio Preview"
         },
         {
             "author": "bleash-dev",
