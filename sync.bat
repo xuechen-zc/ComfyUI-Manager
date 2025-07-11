@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: 设置临时目录，用于保存脚本副本
-set "TEMP_DIR=%TEMP%\temp_git_script"
+set "TEMP_DIR=%TEMP%\temp_git_script_comfyui_manager"
 set "TEMP_SCRIPT=%TEMP_DIR%\temp_script.bat"
 
 :: 获取当前脚本所在目录并保存
