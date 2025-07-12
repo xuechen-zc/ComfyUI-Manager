@@ -2503,36 +2503,7 @@ def gitclone_update(files, instant_execution=False, skip_script=False, msg_prefi
 
 
 def update_to_stable_comfyui(repo_path):
-    try:
-        repo = git.Repo(repo_path)
-        try:
-            repo.git.checkout(repo.heads.master)
-        except:
-            logging.error(f"[ComfyUI-Manager] Failed to checkout 'master' branch.\nrepo_path={repo_path}\nAvailable branches:")
-            for branch in repo.branches:
-                logging.error('\t'+branch.name)
-            return "fail", None
-
-        versions, current_tag, _ = get_comfyui_versions(repo)
-        
-        if len(versions) == 0 or (len(versions) == 1 and versions[0] == 'nightly'):
-            logging.info("[ComfyUI-Manager] Unable to update to the stable ComfyUI version.")
-            return "fail", None
-            
-        if versions[0] == 'nightly':
-            latest_tag = versions[1]
-        else:
-            latest_tag = versions[0]
-
-        if current_tag == latest_tag:
-            return "skip", None
-        else:
-            logging.info(f"[ComfyUI-Manager] Updating ComfyUI: {current_tag} -> {latest_tag}")
-            repo.git.checkout(latest_tag)
-            return 'updated', latest_tag
-    except:
-        traceback.print_exc()
-        return "fail", None
+    print('-当前分支的同步功能被禁用 请通过脚本进行同步 而不是使用自己的git同步')
             
 
 def update_path(repo_path, instant_execution=False, no_deps=False):
