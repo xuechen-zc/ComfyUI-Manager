@@ -1,6 +1,88 @@
 {
     "custom_nodes": [
         {
+            "author": "quasiblob",
+            "title": "ComfyUI-EsesImageCompare",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageCompare",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesImageCompare"
+            ],
+            "install_type": "git-clone",
+            "description": "Interactive A/B image comparison node with a draggable slider to reveal one image over another. Includes difference and other blend modes for more detailed analysis, allowing one to spot changes in similar images. Node also outputs a passthrough image of input A, and a grayscale difference mask."
+        },
+        {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-ThinkSound",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-ThinkSound",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-ThinkSound"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-ThinkSound is now available in ComfyUI, ThinkSound is a unified Any2Audio generation framework with flow matching guided by Chain-of-Thought (CoT) reasoning."
+        },
+        {
+            "author": "xChenNing",
+            "title": "ComfyUI_Image_Pin",
+            "id": "comfyui-image-pin",
+            "reference": "https://github.com/CheNing233/ComfyUI_Image_Pin",
+            "files": [
+                "https://github.com/CheNing233/ComfyUI_Image_Pin"
+            ],
+            "install_type": "git-clone",
+            "description": "Allows you to pin images to the JSON of your workflow, migrate with JSON, or embed in image's metadata. supports image compression."
+        },
+        {
+            "author": "LaoMaoBoss",
+            "title": "ComfyUI-WBLESS",
+            "id": "LaoMaoBoss",
+            "reference": "https://github.com/LaoMaoBoss/ComfyUI-WBLESS",
+            "files": [
+                "https://github.com/LaoMaoBoss/ComfyUI-WBLESS"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI's custom node package. This custom node has many practical functions, including global variables and process flow control."
+        },
+        {
+            "author": "zade23",
+            "title": "Comfyui-Distill-Any-Depth",
+            "reference": "https://github.com/zade23/Comfyui-Distill-Any-Depth",
+            "files": [
+                "https://github.com/zade23/Comfyui-Distill-Any-Depth"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes to use Distill-Any-Depth prediction."
+        },
+        {
+            "author": "tritant",
+            "title": "ComfyUI-Advanced-Photo-Grain",
+            "reference": "https://github.com/tritant/ComfyUI-Advanced-Photo-Grain",
+            "files": [
+                "https://github.com/tritant/ComfyUI-Advanced-Photo-Grain"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Photo Film Grain"
+        },
+        {
+            "author": "zeeoale",
+            "title": "PromptCreatorNodetraumakom Prompt Generator",
+            "reference": "https://github.com/zeeoale/PromptCreatorNode",
+            "files": [
+                "https://github.com/zeeoale/PromptCreatorNode"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful custom node for ComfyUI that generates rich, dynamic prompts based on modular JSON worlds — with color realm control (RGB / CMYK), LoRA triggers, and optional AI-based prompt enhancement."
+        },
+        {
+            "author": "Erehr",
+            "title": "ComfyUI-Eagle-Autosend",
+            "reference": "https://github.com/Erehr/ComfyUI-Eagle-Autosend",
+            "files": [
+                "https://github.com/Erehr/ComfyUI-Eagle-Autosend"
+            ],
+            "install_type": "git-clone",
+            "description": "Tired of manually saving and organizing your generated images? This custom node for ComfyUI automates the entire process. Any image saved during your workflow is instantly sent to your Eagle library, intelligently tagged and annotated for effortless organization."
+        },
+        {
             "author": "silveroxides",
             "title": "ComfyUI Power Shift Scheduler",
             "reference": "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler",
@@ -22,14 +104,14 @@
                 "description": "Excel spreadsheet-driven ComfyUI nodes that let you load models, values, and workflows based on saved rows in Excel. Great for organizing and switching between CLIPs, VAEs, LoRAs, and more."
         },
         {
-            "author": "company8",
+            "author": "claptrap0",
             "title": "ComfyUI_LLM_Hub",
-            "reference": "https://github.com/company8/ComfyUI_LLM_Hub",
+            "reference": "https://github.com/claptrap0/ComfyUI_LLM_Hub",
             "files": [
-                "https://github.com/company8/ComfyUI_LLM_Hub"
+                "https://github.com/claptrap0/ComfyUI_LLM_Hub"
             ],
             "install_type": "git-clone",
-            "description": "A prompt-generator for ComfyUI, utilizing the power of a language model to turn a provided text-to-image prompt into a more detailed and improved prompt."
+            "description": "Utilize the power of an LLM into ComfyUI to transform your text-to-image and text-to-video ideas into highly detailed prompts for generation while giving you full control."
         },
         {
             "author": "XmYx",
@@ -654,48 +736,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom ComfyUI nodes for generating outfit prompts representing diverse ethnicities, cultures, and regions. Uses extensible JSON data for clothing, accessories, and poses, with “random/disabled” dropdowns for flexibility. Advanced prompt engineering is supported via Ollama LLM integration. Easily add new regions, ethnicities, or cultures by updating data files and creating lightweight node wrappers. Designed for artists, researchers, and developers seeking culturally rich, customizable prompt generation in ComfyUI workflows."
-        },
-        {
-            "author": "creepybits",
-            "title": "Save Image To Google Drive",
-            "id": "creepybits",
-            "reference": "https://github.com/Creepybits/ComfyUI-Save_To_GDrive",
-            "files": [
-                "https://github.com/Creepybits/ComfyUI-Save_To_GDrive"
-            ],
-            "install_type": "git-clone",
-            "description": "This ComfyUI node will save images directly to Google Drive by using Google's free API service."
-        },
-        {
-            "author": "set-soft",
-            "title": "Audio Separation",
-            "reference": "https://github.com/set-soft/AudioSeparation",
-            "files": [
-                "https://github.com/set-soft/AudioSeparation"
-            ],
-            "install_type": "git-clone",
-            "description": "Audio separation (demixing) using AI. Separating Voices, Instruments, Bass, Drums, etc. CLI and ComfyUI"
-        },
-        {
-          "author": "sunx.ai",
-          "title": "SunxAI Custom Nodes for ComfyUI",
-          "id": "comfyui_sun_nodes",
-          "reference": "https://github.com/upseem/comfyui_sun_nodes",
-          "files": [
-            "https://github.com/upseem/comfyui_sun_nodes"
-          ],
-          "install_type": "git-clone",
-          "description": "A set of custom nodes developed by SunxAI for ComfyUI, including image loop processing and more. "
-        },
-        {
-            "author": "risunobushi",
-            "title": "ComfyUI_sm4ll-Wrapper",
-            "reference": "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper",
-            "files": [
-                "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that integrates with the sm4ll-VTON API for virtual try-on functionality."
         }
     ]
 }
