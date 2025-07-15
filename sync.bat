@@ -138,4 +138,3 @@ echo ✅ 所有操作完成，当前分支仍为 %DEV_BRANCH%
 echo.
 echo 请按任意键关闭窗口...
 pause >nul
-exit
