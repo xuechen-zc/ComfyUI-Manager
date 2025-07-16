@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "jisenhua",
+            "title": "ComfyUI-yolov5-face [WIP]",
+            "reference": "https://github.com/UmutGuzel/tryvariantai-comfyui",
+            "files": [
+                "https://github.com/UmutGuzel/tryvariantai-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Fill Transparency, Mask Expand Border, Mask Expand Border (Advanced), Mask to Transparent, Debug Mask Visualizer, White to Transparent, White Detector\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "visualbruno",
+            "title": "ComfyUI-QRemeshify",
+            "reference": "https://github.com/visualbruno/ComfyUI-QRemeshify",
+            "files": [
+                "https://github.com/visualbruno/ComfyUI-QRemeshify"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: QRemeshify"
+        },
+        {
+            "author": "jisenhua",
+            "title": "ComfyUI-yolov5-face [WIP]",
+            "reference": "https://github.com/JiSenHua/ComfyUI-yolov5-face",
+            "files": [
+                "https://github.com/JiSenHua/ComfyUI-yolov5-face"
+            ],
+            "install_type": "git-clone",
+            "description": "A YOLOv5 face detection project for ComfyUI.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "zopieux",
+            "title": "ComfyUI-zopi [UNSAFE]",
+            "reference": "https://github.com/zopieux/ComfyUI-zopi",
+            "files": [
+                "https://github.com/zopieux/ComfyUI-zopi"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Eval Python, Load TensortRT + checkpoint + CLIP + VAE [w/This node pack contains a vulnerability that allows remote code execution.]"
+        },
+        {
+            "author": "przewodo",
+            "title": "ComfyUI-Przewodo-Utils [WIP]",
+            "reference": "https://github.com/przewodo/ComfyUI-Przewodo-Utils",
+            "files": [
+                "https://github.com/przewodo/ComfyUI-Przewodo-Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Utilities to make it easy to develop advanced Workflows without having to use a lot of nodes for simple stuff.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "hulipanpan",
             "title": "Comfyui_tuteng [WIP]",
             "reference": "https://github.com/hulipanpan/Comfyui_tuteng",
@@ -730,16 +780,6 @@
             ],
             "install_type": "git-clone",
             "description": "Interactive Terminal in a node for ComfyUI[w/This custom extension provides a remote web-based shell (terminal) interface to the machine running the ComfyUI server. By installing and using this extension, you are opening a direct, powerful, and potentially dangerous access point to your system.]"
-        },
-        {
-            "author": "whmc76",
-            "title": "ComfyUI-LongTextTTSSuite [WIP]",
-            "reference": "https://github.com/whmc76/ComfyUI-LongTextTTSSuite",
-            "files": [
-                "https://github.com/whmc76/ComfyUI-LongTextTTSSuite"
-            ],
-            "install_type": "git-clone",
-            "description": "This plugin can cut txt or srt files, hand them over to TTS for speech slicing generation, and synthesize long speech\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "usrname0",
@@ -1819,7 +1859,7 @@
                 "https://github.com/silent-rain/ComfyUI-SilentRain"
             ],
             "install_type": "git-clone",
-            "description": "An attempt to implement ComfyUI custom nodes using the Rust programming language."
+            "description": "Ecological extension of comfyui using Rust language."
         },
         {
             "author": "Linsoo",
@@ -2851,16 +2891,6 @@
             ],
             "install_type": "git-clone",
             "description": "It’s estimated that ComfyUI itself will support it soon, so go ahead and give it a try!"
-        },
-        {
-            "author": "kijai",
-            "title": "ComfyUI-WanVideoWrapper [WIP]",
-            "reference": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-            "files": [
-               "https://github.com/kijai/ComfyUI-WanVideoWrapper"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI diffusers wrapper nodes for WanVideo"
         },
         {
             "author": "ltdrdata",
