@@ -146,6 +146,16 @@
             "title_aux": "ComfyUI_Fooocus"
         }
     ],
+    "https://github.com/1H-hobit/ComfyUI_InternVL3": [
+        [
+            "DynamicPreprocess",
+            "InternVLHFInference",
+            "InternVLModelLoader"
+        ],
+        {
+            "title_aux": "ComfyComfyUI_InternVL3 [WIP]"
+        }
+    ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
             "ImageAddLabel",
@@ -193,6 +203,16 @@
         ],
         {
             "title_aux": "ComfyUI-1hewNodes [WIP]"
+        }
+    ],
+    "https://github.com/206811/ComfyUI_ZhipuAIO": [
+        [
+            "ZhipuAIOConfigNode",
+            "ZhipuAIO_VisionNode",
+            "ZhipuTranslateNode"
+        ],
+        {
+            "title_aux": "ComfyUI_ZhipuAIO"
         }
     ],
     "https://github.com/3dmindscapper/ComfyUI-PartField": [
@@ -540,6 +560,14 @@
             "title_aux": "comfyui-textools [WIP]"
         }
     ],
+    "https://github.com/Aero-Ex/comfyui_diffswap": [
+        [
+            "DiffSwapNode"
+        ],
+        {
+            "title_aux": "comfyui_diffswap"
+        }
+    ],
     "https://github.com/AhBumm/ComfyUI-Upscayl": [
         [
             "Upscayl Upscaler"
@@ -859,21 +887,6 @@
         ],
         {
             "title_aux": "ComfyUI-FileOps [UNSAFE]"
-        }
-    ],
-    "https://github.com/Baverne/comfyUI-TiledWan": [
-        [
-            "TileAndStitchBack",
-            "TiledWanImageStatistics",
-            "TiledWanImageToMask",
-            "TiledWanMaskStatistics",
-            "TiledWanVideoSLGSimple",
-            "TiledWanVideoSamplerSimple",
-            "TiledWanVideoVACEpipe",
-            "WanVideoVACEpipe"
-        ],
-        {
-            "title_aux": "TiledWan ComfyUI Node Set [WIP]"
         }
     ],
     "https://github.com/BenjaMITM/ComfyUI_On_The_Fly_Wildcards": [
@@ -1675,6 +1688,14 @@
             "title_aux": "ComfyUI-LLMs-Toolkit [WIP]"
         }
     ],
+    "https://github.com/Huangcj2005/comfyui-HandDetect": [
+        [
+            "HandMaskGenerator"
+        ],
+        {
+            "title_aux": "comfyui-HandDetect"
+        }
+    ],
     "https://github.com/IfnotFr/ComfyUI-Ifnot-Pack": [
         [
             "Face Crop",
@@ -2065,6 +2086,34 @@
             "title_aux": "ComfyUI-Lucian [WIP]"
         }
     ],
+    "https://github.com/LucianoCirino/ComfyUI-invAIder-Nodes": [
+        [
+            "\ud83d\udc7e Any Switch",
+            "\ud83d\udc7e Any Switch Large",
+            "\ud83d\udc7e Any Switch Medium",
+            "\ud83d\udc7e Any to Any",
+            "\ud83d\udc7e Debug Tensor Structure",
+            "\ud83d\udc7e Evaluate Anything",
+            "\ud83d\udc7e Image Crop",
+            "\ud83d\udc7e Image Grid",
+            "\ud83d\udc7e Image Overlay",
+            "\ud83d\udc7e Img to Gif",
+            "\ud83d\udc7e Int to Bits",
+            "\ud83d\udc7e Is Image Fully Transparent",
+            "\ud83d\udc7e Load Any",
+            "\ud83d\udc7e Load Image Batch",
+            "\ud83d\udc7e Number Counter",
+            "\ud83d\udc7e Preview Image if True",
+            "\ud83d\udc7e Save AnimPNG If True",
+            "\ud83d\udc7e Save Any",
+            "\ud83d\udc7e Save Image If True",
+            "\ud83d\udc7e Seed Controller",
+            "\ud83d\udc7e Signed Integer"
+        ],
+        {
+            "title_aux": "ComfyUI-invAIder-Nodes"
+        }
+    ],
     "https://github.com/LyazS/ComfyUI-aznodes": [
         [
             "CrossFadeImageSequence",
@@ -2185,6 +2234,7 @@
             "ImageCountConcatenate",
             "ImageHeigthStitch",
             "ImageWidthStitch",
+            "Image_Resize",
             "MergeImageChannels",
             "random_any",
             "show_type",
@@ -2758,9 +2808,10 @@
             "End Node",
             "Extract .webp from Folder",
             "Extract the First Frame",
+            "Find the most similar webp",
             "Fuse People and Cigarette",
             "Get Pose",
-            "Path Pose to People",
+            "Patch Pose to People",
             "Smoking Auto Label"
         ],
         {
@@ -3644,6 +3695,14 @@
         ],
         {
             "title_aux": "json-creator [WIP]"
+        }
+    ],
+    "https://github.com/ahmedbana/upload-to-azure": [
+        [
+            "AzureBlobUploader"
+        ],
+        {
+            "title_aux": "upload-to-azure"
         }
     ],
     "https://github.com/aiden1020/ComfyUI_Artcoder": [
@@ -4968,6 +5027,7 @@
             "VideoTriangleCFGGuidance",
             "VoxelToMesh",
             "VoxelToMeshBasic",
+            "Wan22ImageToVideoLatent",
             "WanCameraEmbedding",
             "WanCameraImageToVideo",
             "WanFirstLastFrameToVideo",
@@ -5107,6 +5167,26 @@
             "title_aux": "Comfyui_AutoSurvey"
         }
     ],
+    "https://github.com/dexintenebri/comfyui_voxel_nodes": [
+        [
+            "AutoVoxelScaler",
+            "DepthEstimationNode",
+            "DepthToVox",
+            "MultiViewVoxelFusion",
+            "OptimizedVoxelizationNode",
+            "ProceduralChunkedWFC3DTerrain",
+            "ShapeCompletionNode",
+            "VoxelExportNode",
+            "VoxelModelLoader",
+            "VoxelPreview",
+            "VoxelPreviewNode",
+            "VoxelToGLB",
+            "WFC3DTerrainGenerator"
+        ],
+        {
+            "title_aux": "comfyui_voxel_nodes [WIP]"
+        }
+    ],
     "https://github.com/dfl/comfyui-stylegan": [
         [
             "BatchAverageStyleGANLatents",
@@ -5194,6 +5274,16 @@
         ],
         {
             "title_aux": "ComfyUI_BWiZ_Nodes [WIP]"
+        }
+    ],
+    "https://github.com/eggsbenedicto/DiffusionRenderer-ComfyUI": [
+        [
+            "Cosmos1ForwardRenderer",
+            "Cosmos1InverseRenderer",
+            "LoadDiffusionRendererModel"
+        ],
+        {
+            "title_aux": "DiffusionRenderer-ComfyUI [WIP]"
         }
     ],
     "https://github.com/eigenpunk/ComfyUI-audio": [
@@ -5343,6 +5433,7 @@
             "AdjustBottomAlphaDistance",
             "AlignFace",
             "Alpha Crop and Position Image",
+            "ComfyDeployAPINode",
             "CreateOutlineMask",
             "GenerateTimestamp",
             "GetMostCommonColors",
@@ -6880,6 +6971,25 @@
         ],
         {
             "title_aux": "ssd-1b-comfyui"
+        }
+    ],
+    "https://github.com/lazybuttalented/ComfyUI_LBT": [
+        [
+            "LBT_CombineImagesFromBatch",
+            "LBT_CombineImagesFromList",
+            "LBT_CropByMask",
+            "LBT_GetFolderInfo",
+            "LBT_ListInfo",
+            "LBT_LoadImagesFromFolder",
+            "LBT_LoadImagesFromList",
+            "LBT_LoadTextFromFolder",
+            "LBT_LoadVideoFromFolder",
+            "LBT_SaveImage",
+            "LBT_StringToList",
+            "LBT_TextImageLibraryComparison"
+        ],
+        {
+            "title_aux": "ComfyUI_LBT [WIP]"
         }
     ],
     "https://github.com/leadbreak/comfyui-faceaging": [
@@ -8695,22 +8805,6 @@
             "title_aux": "comfyui-sourceful-official"
         }
     ],
-    "https://github.com/spawner1145/comfyui-spawner-nodes": [
-        [
-            "ConditioningCrossAttention",
-            "ConditioningInspector",
-            "ConditioningPacker",
-            "ImageMetadataReader",
-            "SaveTrainingDataPair",
-            "TensorInspector",
-            "TensorShapeAdapter",
-            "TextEncoderDecoder",
-            "json_process"
-        ],
-        {
-            "title_aux": "comfyui-spawner-nodes"
-        }
-    ],
     "https://github.com/sswink/comfyui-lingshang": [
         [
             "LS_ALY_Seg_Body_Utils",
@@ -8828,6 +8922,17 @@
         ],
         {
             "title_aux": "ComfyUI-SaveImgNextcloud"
+        }
+    ],
+    "https://github.com/system-out-cho/displayHistory_ComfyUI": [
+        [
+            "Client Proxy",
+            "DisplayHistory",
+            "Example",
+            "Image Selector"
+        ],
+        {
+            "title_aux": "displayHistory [WIP]"
         }
     ],
     "https://github.com/takoyaki1118/ComfyUI_PromptExtractor": [
@@ -9359,6 +9464,14 @@
             "title_aux": "comfyui-wormley-nodes"
         }
     ],
+    "https://github.com/xgfone/ComfyUI_PromptLogoCleaner": [
+        [
+            "PromptLogoCleaner"
+        ],
+        {
+            "title_aux": "ComfyUI_PromptLogoCleaner"
+        }
+    ],
     "https://github.com/xiaoyumu/ComfyUI-XYNodes": [
         [
             "AdjustImageColor",
@@ -9524,12 +9637,13 @@
             "LoadImageFromDirectoryNode",
             "LoadImageFromURLNode",
             "LoadStringFromDirectoryNode",
-            "OllamaVisionNode",
-            "OutputIsListNode",
-            "OutputIsNonListNode",
+            "LoadStringNode",
+            "OllamaClientNode",
+            "OllamaNode",
             "PrependTagsNode",
             "PrintAnyNode",
             "PrintImageNode",
+            "RemoveDuplicateTagsNode",
             "SaveImageToDirectoryNode",
             "SaveStringToDirectoryNode",
             "SequenceStringListNode",
