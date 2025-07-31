@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "tankenyuen-ola",
+            "title": "comfyui-wanvideo-scheduler-loop",
+            "reference": "https://github.com/tankenyuen-ola/comfyui-wanvideo-scheduler-loop",
+            "files": [
+                "https://github.com/tankenyuen-ola/comfyui-wanvideo-scheduler-loop"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: WanVideo Scheduler Selector, WanVideo Scheduler Loop, WanVideo Scheduler Info"
+        },
+        {
+            "author": "ElyZeng",
+            "title": "ComfyUI-Translator [NAME CONFLICT]",
+            "reference": "https://github.com/ElyZeng/ComfyUI-Translator",
+            "files": [
+                "https://github.com/ElyZeng/ComfyUI-Translator"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node to translate text between multiple languages using Argos Translate."
+        },
+        {
             "author": "lggcfx2020",
             "title": "ComfyUI-LGGCFX-Tools",
             "reference": "https://github.com/lggcfx2020/ComfyUI-LGGCFX-Tools",
