@@ -15524,6 +15524,17 @@
         {
             "author": "IuvenisSapiens",
             "title": "ComfyUI_MiniCPM-V-2_6-int4",
+            "id": "ComfyUI_MiniCPM-V-4",
+            "reference": "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4",
+            "files": [
+                "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4"
+            ],
+            "install_type": "git-clone",
+            "description": "This is an implementation of [a/MiniCPM-V-4](https://github.com/OpenBMB/MiniCPM-V) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), including support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses."
+        },
+        {
+            "author": "IuvenisSapiens",
+            "title": "ComfyUI_MiniCPM-V-2_6-int4",
             "id": "minicpm-v-2_6-int4",
             "reference": "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4",
             "files": [
@@ -15542,6 +15553,17 @@
             ],
             "install_type": "git-clone",
             "description": "This is an implementation of [a/Qwen2-Audio-7B-Instruct-Int4](https://github.com/QwenLM/Qwen2-Audio) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), including support for text-based queries and audio queries to generate captions or responses."
+        },
+        {
+            "author": "IuvenisSapiens",
+            "title": "ComfyUI_Qwen2-VL-Instruct",
+            "id": "ComfyUI_Qwen2_5-VL-Instruct",
+            "reference": "https://github.com/IuvenisSapiens/ComfyUI_Qwen2_5-VL-Instruct",
+            "files": [
+                "https://github.com/IuvenisSapiens/ComfyUI_Qwen2_5-VL-Instruct"
+            ],
+            "install_type": "git-clone",
+            "description": "This is an implementation of [a/Qwen2.5-VL-Instruct](https://github.com/QwenLM/Qwen2.5-VL) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), which includes, but is not limited to, support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses."
         },
         {
             "author": "mltask",
@@ -15688,17 +15710,6 @@
             ],
             "install_type": "git-clone",
             "description": "Nodes:Batch Image Blend by Mask, Batch Enlarged Overlay, Batch Image Overlay, Remove Black Pixels to Transparent, Canny Shrink and Recenter, ..."
-        },
-        {
-            "author": "OgreLemonSoup",
-            "title": "Gallery&Tabs",
-            "id": "LoadImageGallery",
-            "reference": "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery",
-            "files": [
-                "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds a gallery to the Load Image node and tabs for Load Checkpoint/Lora/etc nodes"
         },
         {
             "author": "OuticNZ",
@@ -16731,17 +16742,6 @@
             "description": "Nodes:KolorsAwesomePrompts"
         },
         {
-            "author": "IuvenisSapiens",
-            "title": "ComfyUI_Qwen2-VL-Instruct",
-            "id": "qwen2-vl-instruct",
-            "reference": "https://github.com/IuvenisSapiens/ComfyUI_Qwen2-VL-Instruct",
-            "files": [
-                "https://github.com/IuvenisSapiens/ComfyUI_Qwen2-VL-Instruct"
-            ],
-            "install_type": "git-clone",
-            "description": "This is an implementation of [a/Qwen2-VL-Instruct](https://github.com/QwenLM/Qwen2-VL) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), which includes, but is not limited to, support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses."
-        },
-        {
             "author": "Hmily",
             "title": "ComfyUI-Light-Tool",
             "id": "comfyui-light-tool",
@@ -17580,6 +17580,17 @@
                "https://github.com/CY-CHENYUE/ComfyUI-FramePack-HY"
             ],
             "description": "A custom node for ComfyUI to FramePack.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "CY-CHENYUE",
+            "title": "ComfyUI-ImageCompositionCy",
+            "id": "ComfyUI-ImageCompositionCy",
+            "reference": "https://github.com/CY-CHENYUE/ComfyUI-ImageCompositionCy",
+            "files": [
+               "https://github.com/CY-CHENYUE/ComfyUI-ImageCompositionCy"
+            ],
+            "description": "A powerful ComfyUI multi-image composition node that supports real-time adjustment of image position, size, and rotation angle on an interactive Canvas, with freehand drawing capabilities and real-time preview of composition effects.",
             "install_type": "git-clone"
         },
         {
@@ -22443,6 +22454,16 @@
              ],
              "install_type": "git-clone",
              "description": "A comprehensive Vision-Language Model (VLM) integration system for ComfyUI with more intelligent prompt optimization, object detection, template support, and performance optimizations. Optimized for Wan2.1, Flux Kontext, and general purpose. Goes well with my other project, an MLX/llama.cpp server with hot swappable models and ollama api compatibility, (heylookitsanllm)[a/https://github.com/fblissjr/heylookitsanllm](https://github.com/fblissjr/heylookitsanllm)"
+        },
+        {
+            "author": "fblissjr",
+            "title": "ComfyUI-QwenImageWanBridge",
+            "reference": "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge",
+            "files": [
+                "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge"
+             ],
+             "install_type": "git-clone",
+             "description": "Custom nodes for bridging Qwen-Image and WAN video models in ComfyUI."
         },
         {
             "author": "vincentfs",
@@ -27845,16 +27866,6 @@
             "description": "Achieve seamless inpainting results without needing a specialized inpainting model."
         },
         {
-            "author": "chaunceyyann",
-            "title": "ComfyUI Image Processing Nodes",
-            "reference": "https://github.com/chaunceyyann/comfyui-image-processing-nodes",
-            "files": [
-                "https://github.com/chaunceyyann/comfyui-image-processing-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI focused on image processing operations."
-        },
-        {
             "author": "hvppycoding",
             "title": "RandomSamplerSchedulerSteps for ComfyUI",
             "reference": "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps",
@@ -30546,6 +30557,88 @@
             "install_type": "git-clone",
             "description": "This project makes local LLMs easy to use for prompt enhancement and image captioning –No API keys. No external tools. No headache."
         },
+        {
+            "author": "HWDigi",
+            "title": "Factory Prompt Generator",
+            "reference": "https://github.com/HWDigi/Factory-Prompts_comfyui",
+            "files": [
+                "https://github.com/HWDigi/Factory-Prompts_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive ComfyUI custom node suite for advanced Safe for Work prompt generation across all checkpoint types (Pony, SDXL, SD1.5, and more). This SFW edition is specifically designed for professional workflows, educational environments, and GitHub hosting compliance."
+        },
+        {
+            "author": "BitWalker",
+            "title": "FlowCV",
+            "reference": "https://github.com/Koren-cy/FlowCV",
+            "files": [
+                "https://github.com/Koren-cy/FlowCV"
+            ],
+            "install_type": "git-clone",
+            "description": "Visual opencv node package based on comfy ui"
+        },
+        {
+            "author": "switzerswish",
+            "title": "LoRA Visualizer",
+            "reference": "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer",
+            "files": [
+                "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that parses prompt text for LoRA tags and visualizes their metadata, including trigger words, strength values, thumbnail previews, and example images."
+        },
+        {
+            "author": "diogod",
+            "title": "TTS Audio Suite",
+            "reference": "https://github.com/diodiogod/TTS-Audio-Suite",
+            "files": [
+                "https://github.com/diodiogod/TTS-Audio-Suite"
+            ],
+            "install_type": "git-clone",
+            "description": "TTS Audio Suite - Universal multi-engine TTS extension for ComfyUI with unified architecture supporting ChatterBox, F5-TTS, and future engines like RVC. Features modular engine adapters, character voice management, comprehensive SRT subtitle support, and advanced audio processing capabilities."
+        },
+        {
+            "author": "fwack",
+            "title": "ComfyUI_API_Manager",
+            "reference": "https://github.com/fwack/ComfyUI_API_Manager_Pro",
+            "files": [
+                "https://github.com/fwack/ComfyUI_API_Manager_Pro"
+            ],
+            "install_type": "git-clone",
+            "description": "This package provides three custom nodes designed to streamline workflows involving API requests, dynamic text manipulation based on API responses, and image posting to APIs. These nodes are particularly useful for automating interactions with APIs, enhancing text-based workflows with dynamic data, and facilitating image uploads."
+        },
+        {
+            "author": "Ferocit",
+            "title": "comfyui-feroccustomnodes",
+            "reference": "https://github.com/Ferocit/comfyui-feroccustomnodes",
+            "files": [
+                "https://github.com/Ferocit/comfyui-feroccustomnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains custom nodes for ComfyUI, designed to enhance your workflow with text-based operations, particularly for managing and utilizing descriptive texts."
+        },
+        {
+            "author": "drozbay",
+            "title": "ComfyUI-WanVaceAdvanced",
+            "reference": "https://github.com/drozbay/ComfyUI-WanVaceAdvanced",
+            "files": [
+                "https://github.com/drozbay/ComfyUI-WanVaceAdvanced"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced/Experimental VACE nodes for WAN video models in ComfyUI."
+        },
+        {
+            "author": "Lovzu",
+            "title": "KittenTTS Node for Voice Generation",
+            "reference": "https://github.com/Lovzu/ComfyUI-KittenTTS",
+            "files": [
+                "https://github.com/Lovzu/ComfyUI-KittenTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Ultra-lightweight text-to-speech model with just 15 million parameters"
+        },
+
+
 
 
 
