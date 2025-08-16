@@ -1844,6 +1844,24 @@
             "title_aux": "ComfyUI-igTools"
         }
     ],
+    "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite": [
+        [
+            "InfiniNode_ApplyKeymapFile",
+            "InfiniNode_CompareStateDicts",
+            "InfiniNode_ComponentCombiner",
+            "InfiniNode_ComponentSplitter",
+            "InfiniNode_LoadStateDict",
+            "InfiniNode_MergeAddDifference",
+            "InfiniNode_MergeSLERP",
+            "InfiniNode_MergeWeightedSum",
+            "InfiniNode_PruneKeys",
+            "InfiniNode_RenameKeys",
+            "InfiniNode_SaveStateDict"
+        ],
+        {
+            "title_aux": "Comfyui-InfiniNode-Model-Suite [UNSAFE]"
+        }
+    ],
     "https://github.com/IsItDanOrAi/ComfyUI-exLoadout": [
         [
             "dropdowns",
@@ -2502,6 +2520,8 @@
     ],
     "https://github.com/MockbaTheBorg/ComfyUI-Mockba": [
         [
+            "mb AI Bypass",
+            "mb AI Detector",
             "mb Barcode",
             "mb CLIP Text Encoder",
             "mb Color Picker",
@@ -2516,9 +2536,11 @@
             "mb File to Image",
             "mb File to Text",
             "mb Hash Generator",
+            "mb Illuminarty",
             "mb Image Batch",
             "mb Image Center Rotate",
             "mb Image Dither",
+            "mb Image FFT",
             "mb Image Film Effect",
             "mb Image Flip",
             "mb Image Load",
@@ -2891,16 +2913,6 @@
         ],
         {
             "title_aux": "DoomFLUX Nodes [WIP]"
-        }
-    ],
-    "https://github.com/PixWizardry/ComfyUI_Sliding_Window": [
-        [
-            "CalculateLatentFrames",
-            "IterativeSampler",
-            "PrepareLatentSchedule"
-        ],
-        {
-            "title_aux": "ComfyUI Sliding Window [WIP]"
         }
     ],
     "https://github.com/Poseidon-fan/ComfyUI-fileCleaner": [
@@ -4318,14 +4330,6 @@
             "title_aux": "ComfyUI-Animemory-Loader"
         }
     ],
-    "https://github.com/apeirography/DaimalyadNodes": [
-        [
-            "DaimalyadModelDownloader"
-        ],
-        {
-            "title_aux": "DaimalyadNodes"
-        }
-    ],
     "https://github.com/apetitbois/nova_utils": [
         [
             "floatList2Float",
@@ -5110,6 +5114,7 @@
             "FluxGuidance",
             "FluxKontextImageScale",
             "FluxKontextMaxImageNode",
+            "FluxKontextMultiReferenceLatentMethod",
             "FluxKontextProImageNode",
             "FluxProCannyNode",
             "FluxProDepthNode",
@@ -5464,7 +5469,6 @@
             "TomePatchModel",
             "TorchCompileModel",
             "TrainLoraNode",
-            "TrimVideoLatent",
             "TripleCLIPLoader",
             "TripoConversionNode",
             "TripoImageToModelNode",
@@ -5496,17 +5500,7 @@
             "VideoTriangleCFGGuidance",
             "VoxelToMesh",
             "VoxelToMeshBasic",
-            "Wan22FunControlToVideo",
-            "Wan22ImageToVideoLatent",
             "WanCameraEmbedding",
-            "WanCameraImageToVideo",
-            "WanFirstLastFrameToVideo",
-            "WanFunControlToVideo",
-            "WanFunInpaintToVideo",
-            "WanImageToVideo",
-            "WanPhantomSubjectToVideo",
-            "WanTrackToVideo",
-            "WanVaceToVideo",
             "WebcamCapture",
             "unCLIPCheckpointLoader",
             "unCLIPConditioning"
@@ -6697,7 +6691,8 @@
     "https://github.com/idoru/ComfyUI-SKCFI-NetworkFileIO": [
         [
             "FilestashUploadNode",
-            "HttpUploadNode"
+            "HttpUploadNode",
+            "MultipartFileHTTPUploadNode"
         ],
         {
             "title_aux": "Filestash Upload Node [UNSAFE]"
@@ -8049,6 +8044,14 @@
         ],
         {
             "title_aux": "ComfyUI-Lygia"
+        }
+    ],
+    "https://github.com/mico-world/comfyui_mico_node": [
+        [
+            "HFUNETLoader"
+        ],
+        {
+            "title_aux": "comfyui_mico_node"
         }
     ],
     "https://github.com/mikebilly/Transparent-background-comfyUI": [
