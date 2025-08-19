@@ -1000,6 +1000,22 @@
             "title_aux": "ComfyUI_ToolsForAutomask"
         }
     ],
+    "https://github.com/BiodigitalJaz/ComfyUI-Dafaja-Nodes": [
+        [
+            "DafajaBackgroundRemover",
+            "DafajaExportSTL",
+            "DafajaMeshGenerator",
+            "DafajaMeshInfo",
+            "DafajaMeshNormalizer",
+            "DafajaMeshProcessor",
+            "DafajaSTLValidator",
+            "DafajaStemsMidiSeparator",
+            "DafajaVAEDecoder"
+        ],
+        {
+            "title_aux": "ComfyUI-Dafaja-Nodes [WIP]"
+        }
+    ],
     "https://github.com/BlueDangerX/ComfyUI-BDXNodes": [
         [
             "BDXTestInt",
@@ -1303,6 +1319,14 @@
         ],
         {
             "title_aux": "ComfyUI Node Switcher"
+        }
+    ],
+    "https://github.com/DenRakEiw/Comfyui-Aspect-Ratio-Processor": [
+        [
+            "AspectRatioProcessor"
+        ],
+        {
+            "title_aux": "Comfyui-Aspect-Ratio-Processor [WIP]"
         }
     ],
     "https://github.com/DenRakEiw/DenRakEiw_Nodes": [
@@ -1844,24 +1868,6 @@
             "title_aux": "ComfyUI-igTools"
         }
     ],
-    "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite": [
-        [
-            "InfiniNode_ApplyKeymapFile",
-            "InfiniNode_CompareStateDicts",
-            "InfiniNode_ComponentCombiner",
-            "InfiniNode_ComponentSplitter",
-            "InfiniNode_LoadStateDict",
-            "InfiniNode_MergeAddDifference",
-            "InfiniNode_MergeSLERP",
-            "InfiniNode_MergeWeightedSum",
-            "InfiniNode_PruneKeys",
-            "InfiniNode_RenameKeys",
-            "InfiniNode_SaveStateDict"
-        ],
-        {
-            "title_aux": "Comfyui-InfiniNode-Model-Suite [UNSAFE]"
-        }
-    ],
     "https://github.com/IsItDanOrAi/ComfyUI-exLoadout": [
         [
             "dropdowns",
@@ -2052,7 +2058,8 @@
     "https://github.com/KohakuBlueleaf/HDM-ext": [
         [
             "HDMCameraParam",
-            "HDMLoader"
+            "HDMLoader",
+            "HDMTreadGamma"
         ],
         {
             "title_aux": "hdm-ext [WIP]"
@@ -2408,6 +2415,14 @@
             "title_aux": "comfy-tif-support"
         }
     ],
+    "https://github.com/Maff3u/MattiaNodes": [
+        [
+            "PointsEditorOnCropped"
+        ],
+        {
+            "title_aux": "MattiaNodes - Points Editor On Cropped [WIP]"
+        }
+    ],
     "https://github.com/MakkiShizu/ComfyUI-MakkiTools": [
         [
             "AnyImageStitch",
@@ -2516,56 +2531,6 @@
         ],
         {
             "title_aux": "ComfyUI_mickster_nodes [WIP]"
-        }
-    ],
-    "https://github.com/MockbaTheBorg/ComfyUI-Mockba": [
-        [
-            "mb AI Bypass",
-            "mb AI Detector",
-            "mb Barcode",
-            "mb CLIP Text Encoder",
-            "mb Color Picker",
-            "mb Data Type Converter",
-            "mb Debug",
-            "mb Demux",
-            "mb Device Transfer",
-            "mb Display",
-            "mb Empty Latent Image",
-            "mb Eval",
-            "mb Exec",
-            "mb File to Image",
-            "mb File to Text",
-            "mb Hash Generator",
-            "mb Illuminarty",
-            "mb Image Batch",
-            "mb Image Center Rotate",
-            "mb Image Dither",
-            "mb Image FFT",
-            "mb Image Film Effect",
-            "mb Image Flip",
-            "mb Image Load",
-            "mb Image Load from URL",
-            "mb Image Preview",
-            "mb Image Rotate",
-            "mb Image Size",
-            "mb Image Subtract",
-            "mb Image to File",
-            "mb KSampler",
-            "mb Mask Invert if Empty",
-            "mb Mask from Color",
-            "mb QR Code",
-            "mb Select",
-            "mb String",
-            "mb Submit",
-            "mb Tensor Channel 4 to 3",
-            "mb Text",
-            "mb Text or File",
-            "mb Text to File",
-            "mb Textbox",
-            "mb Value"
-        ],
-        {
-            "title_aux": "ComfyUI-Mockba"
         }
     ],
     "https://github.com/MrAdamBlack/CheckProgress": [
@@ -3058,6 +3023,20 @@
         ],
         {
             "title_aux": "comfyui-oss-image-save [WIP]"
+        }
+    ],
+    "https://github.com/Rizzlord/ComfyUI-SeqTex": [
+        [
+            "SeqTex_Load_Mesh",
+            "SeqTex_Loader",
+            "SeqTex_Step1_ProcessMesh",
+            "SeqTex_Step2_GenerateCondition",
+            "SeqTex_Step3_GenerateTexture",
+            "SeqTex_Step4_SaveMesh",
+            "SeqTex_TensorsToImages"
+        ],
+        {
+            "title_aux": "ComfyUI-SeqTex"
         }
     ],
     "https://github.com/RobeSantoro/ComfyUI-RobeNodes": [
@@ -5314,6 +5293,7 @@
             "RandomNoise",
             "RebatchImages",
             "RebatchLatents",
+            "RecordAudio",
             "RecraftColorRGB",
             "RecraftControls",
             "RecraftCreativeUpscaleNode",
@@ -5873,6 +5853,15 @@
             "title_aux": "Select key from JSON (Alpha) [UNSAFE]"
         }
     ],
+    "https://github.com/ervinne13/ComfyUI-Metadata-Hub": [
+        [
+            "Metadata Hub",
+            "Save Image With Metadata"
+        ],
+        {
+            "title_aux": "ComfyUI-Metadata-Hub"
+        }
+    ],
     "https://github.com/esciron/ComfyUI-HunyuanVideoWrapper-Extended": [
         [
             "DownloadAndLoadHyVideoTextEncoder",
@@ -6265,6 +6254,7 @@
         [
             "CreatePointsString",
             "XISER_Canvas",
+            "XIS_AdjustTheImage",
             "XIS_CanvasMaskProcessor",
             "XIS_CompositorProcessor",
             "XIS_CropImage",
@@ -6295,6 +6285,7 @@
             "XIS_MaskBatchProcessor",
             "XIS_MaskCompositeOperation",
             "XIS_MergePackImages",
+            "XIS_MultiPointGradient",
             "XIS_MultiPromptSwitch",
             "XIS_PSDLayerExtractor",
             "XIS_PackImages",
@@ -8370,6 +8361,8 @@
             "CloudreveSignin",
             "CloudreveUploadFile",
             "IncrementBatchName",
+            "InoGetSamplerConfig",
+            "InoGetSamplerModel",
             "Ino_BranchImage",
             "Ino_CalculateLoraConfig",
             "Ino_CountFiles",
@@ -9902,6 +9895,14 @@
             "title_aux": "ComfyUI_Toolbox"
         }
     ],
+    "https://github.com/viik420/AdvancedModelDownloader": [
+        [
+            "AdvancedDownloader"
+        ],
+        {
+            "title_aux": "AdvancedModelDownloader [UNSAFE]"
+        }
+    ],
     "https://github.com/virallover/comfyui-virallover": [
         [
             "BrightnessCorrectionNode",
@@ -10237,7 +10238,8 @@
     "https://github.com/xsai-collab/ComfyUI-CombineVideoAndSubtitle": [
         [
             "CombineVideosFromFolder",
-            "getSubtitlesFromVideo"
+            "getSubtitlesFromVideo",
+            "mergeVideoAndSubtitle"
         ],
         {
             "title_aux": "ComfyUI-CombineVideoAndSubtitle"
@@ -10290,30 +10292,38 @@
     ],
     "https://github.com/yanhuifair/ComfyUI-FairLab": [
         [
+            "AddNode",
             "AppendTagsNode",
             "Base64ToImageNode",
             "BlacklistTagsNode",
+            "DivideNode",
             "DownloadImageNode",
             "FillAlphaNode",
             "FixUTF8StringNode",
             "FloatNode",
+            "FloatToIntNode",
+            "IfNode",
             "ImageResizeNode",
             "ImageSizeNode",
             "ImageToBase64Node",
             "ImageToVideoNode",
             "IntNode",
+            "IntToFloatNode",
             "LoadImageFromDirectoryNode",
             "LoadImageFromURLNode",
             "LoadStringFromDirectoryNode",
             "LoadStringNode",
             "MaxNode",
             "MinNode",
+            "MultiplyNode",
+            "NumberNode",
             "OllamaClientNode",
             "OllamaNode",
             "OutpaintingPadNode",
             "PrependTagsNode",
             "PrintAnyNode",
             "PrintImageNode",
+            "PythonScriptNode",
             "RemoveDuplicateTagsNode",
             "SaveImageToDirectoryNode",
             "SaveStringToDirectoryNode",
@@ -10322,6 +10332,7 @@
             "StringCombineNode",
             "StringNode",
             "StringTranslateNode",
+            "SubtractNode",
             "VideoToImageNode"
         ],
         {
@@ -10400,6 +10411,7 @@
             "LamViewVideo",
             "LamViewVideoOut",
             "LoadDirImgPaths",
+            "LoadImagePath",
             "LoadReplaceImage",
             "LongTextToList",
             "MultiControlNetApply",
@@ -10497,6 +10509,15 @@
         ],
         {
             "title_aux": "ComfyUI-Dropbox-API [WIP]"
+        }
+    ],
+    "https://github.com/yuvraj108c/ComfyUI-HYPIR": [
+        [
+            "HYPIRProcess",
+            "LoadHYPIRModel"
+        ],
+        {
+            "title_aux": "ComfyUI HYPIR [NAME CONFLICT]"
         }
     ],
     "https://github.com/zackabrams/ComfyUI-KeySyncWrapper": [
