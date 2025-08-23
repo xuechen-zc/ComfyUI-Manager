@@ -179,10 +179,12 @@
             "ImagePlot",
             "ImageResizeFluxKontext",
             "ImageResizeUniversal",
+            "ImageRotateWithMask",
             "ImageSolid",
             "ImageStrokeByMask",
             "ImageTileMerge",
             "ImageTileSplit",
+            "ImageTileSplitPreset",
             "ListCustomFloat",
             "ListCustomInt",
             "ListCustomSeed",
@@ -193,6 +195,7 @@
             "MaskFillHole",
             "MaskListToBatch",
             "MaskMathOps",
+            "MaskPasteByBBoxMask",
             "PathBuild",
             "RangeMapping",
             "StepSplit",
@@ -754,10 +757,11 @@
     ],
     "https://github.com/AlexYez/comfyui-timesaver": [
         [
+            "LoraMegaMergerCorrect",
+            "LoraRankConverterHQ",
             "TS Cube to Equirectangular",
             "TS Equirectangular to Cube",
             "TS Files Downloader",
-            "TS Qwen2.5",
             "TS Youtube Chapters",
             "TSCropToMask",
             "TSRestoreFromCrop",
@@ -770,6 +774,7 @@
             "TS_ImageResize",
             "TS_MarianTranslator",
             "TS_Qwen3",
+            "TS_Qwen3_Offline",
             "TS_VideoDepthNode",
             "TS_Video_Upscale_With_Model"
         ],
@@ -1713,6 +1718,14 @@
             "title_aux": "ComfyUI Finetuners [WIP]"
         }
     ],
+    "https://github.com/Firetheft/ComfyUI_Local_Image_Gallery": [
+        [
+            "LocalImageGalleryNode"
+        ],
+        {
+            "title_aux": "ComfyUI Local Media Manager [UNSAFE]"
+        }
+    ],
     "https://github.com/Fucci-Mateo/ComfyUI-Airtable": [
         [
             "Push pose to Airtable"
@@ -2237,6 +2250,15 @@
         ],
         {
             "title_aux": "ComfyUI-Linsoo-Custom-Nodes"
+        }
+    ],
+    "https://github.com/LittleTechPomp/comfyui-pixxio": [
+        [
+            "AutoUploadImageToPixxioCollection",
+            "LoadImageFromPixxioAPI"
+        ],
+        {
+            "title_aux": "comfyui-pixxio"
         }
     ],
     "https://github.com/Looking-Glass/LKG-ComfyUI": [
@@ -2817,6 +2839,14 @@
             "title_aux": "ComfyUI-LaplaMask"
         }
     ],
+    "https://github.com/Omario92/ComfyUI-OmarioNodes": [
+        [
+            "DualEndpointColorBlendScheduler"
+        ],
+        {
+            "title_aux": "ComfyUI-OmarioNodes"
+        }
+    ],
     "https://github.com/PATATAJEC/ComfyUI-PatatajecNodes": [
         [
             "ColorMatchFalloff",
@@ -3059,6 +3089,15 @@
         ],
         {
             "title_aux": "ComfyUI_SZtools"
+        }
+    ],
+    "https://github.com/RomanticQq/ComfyUI-Groudingdino-Sam": [
+        [
+            "grounded_sam2_cut_gaussian",
+            "groundingdino"
+        ],
+        {
+            "title_aux": "ComfyUI-Groudingdino-Sam"
         }
     ],
     "https://github.com/RoyKillington/miscomfy-nodes": [
@@ -3445,6 +3484,7 @@
             "SDVN Quick Menu",
             "SDVN QwenEdit TextEncoder",
             "SDVN RGBA to RGB",
+            "SDVN Random Prompt",
             "SDVN Run Python Code",
             "SDVN Run Test",
             "SDVN Save Text",
@@ -5017,7 +5057,6 @@
     ],
     "https://github.com/comfyanonymous/ComfyUI": [
         [
-            "APG",
             "AddNoise",
             "AlignYourStepsScheduler",
             "BasicGuider",
@@ -5026,7 +5065,6 @@
             "CFGGuider",
             "CFGNorm",
             "CFGZeroStar",
-            "CLIPAttentionMultiply",
             "CLIPLoader",
             "CLIPMergeAdd",
             "CLIPMergeSimple",
@@ -5046,7 +5084,6 @@
             "CLIPVisionEncode",
             "CLIPVisionLoader",
             "Canny",
-            "CaseConverter",
             "CheckpointLoader",
             "CheckpointLoaderSimple",
             "CheckpointSave",
@@ -5076,7 +5113,6 @@
             "DisableNoise",
             "DualCFGGuider",
             "DualCLIPLoader",
-            "EmptyAceStepLatentAudio",
             "EmptyCosmosLatentVideo",
             "EmptyHunyuanLatentVideo",
             "EmptyImage",
@@ -5118,9 +5154,6 @@
             "HunyuanImageToVideo",
             "HyperTile",
             "HypernetworkLoader",
-            "IdeogramV1",
-            "IdeogramV2",
-            "IdeogramV3",
             "ImageAddNoise",
             "ImageBatch",
             "ImageBlend",
@@ -5314,9 +5347,6 @@
             "RecraftTextToVectorNode",
             "RecraftVectorizeImageNode",
             "ReferenceLatent",
-            "RegexExtract",
-            "RegexMatch",
-            "RegexReplace",
             "RenormCFG",
             "RepeatImageBatch",
             "RepeatLatentBatch",
@@ -5344,8 +5374,6 @@
             "SamplerER_SDE",
             "SamplerEulerAncestral",
             "SamplerEulerAncestralCFGPP",
-            "SamplerEulerCFGpp",
-            "SamplerLCMUpscale",
             "SamplerLMS",
             "SamplerSASolver",
             "SamplingPercentToSigma",
@@ -5384,13 +5412,6 @@
             "StableCascade_SuperResolutionControlnet",
             "StableZero123_Conditioning",
             "StableZero123_Conditioning_Batched",
-            "StringCompare",
-            "StringConcatenate",
-            "StringContains",
-            "StringLength",
-            "StringReplace",
-            "StringSubstring",
-            "StringTrim",
             "StubConstantImage",
             "StubFloat",
             "StubImage",
@@ -5447,7 +5468,6 @@
             "TestVariadicAverage",
             "TestWhileLoopClose",
             "TestWhileLoopOpen",
-            "TextEncodeAceStepAudio",
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
             "ThresholdMask",
@@ -5464,9 +5484,6 @@
             "TripoTextToModelNode",
             "TripoTextureNode",
             "UNETLoader",
-            "UNetCrossAttentionMultiply",
-            "UNetSelfAttentionMultiply",
-            "UNetTemporalAttentionMultiply",
             "UpscaleModelLoader",
             "VAEDecode",
             "VAEDecodeAudio",
@@ -5479,8 +5496,6 @@
             "VAELoader",
             "VAESave",
             "VPScheduler",
-            "Veo3VideoGenerationNode",
-            "VeoVideoGenerationNode",
             "VideoLinearCFGGuidance",
             "VideoTriangleCFGGuidance",
             "VoxelToMesh",
@@ -7579,6 +7594,17 @@
         ],
         {
             "title_aux": "ComfyUI-MV-HECV"
+        }
+    ],
+    "https://github.com/locphan201/ComfyUI-Alter-Nodes": [
+        [
+            "AlterMMAudioConfig",
+            "AlterMMAudioFeatureUtils",
+            "AlterMMAudioModelLoader",
+            "AlterMMAudioSampler"
+        ],
+        {
+            "title_aux": "ComfyUI-Alter-Nodes"
         }
     ],
     "https://github.com/locphan201/ComfyUI-Alternatives": [

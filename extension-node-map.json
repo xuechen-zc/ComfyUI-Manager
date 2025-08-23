@@ -81,6 +81,8 @@
             "ImageBatchPath",
             "JC",
             "JC_ExtraOptions",
+            "JC_GGUF",
+            "JC_GGUF_adv",
             "JC_adv"
         ],
         {
@@ -355,10 +357,12 @@
             "ImagePlot",
             "ImageResizeFluxKontext",
             "ImageResizeUniversal",
+            "ImageRotateWithMask",
             "ImageSolid",
             "ImageStrokeByMask",
             "ImageTileMerge",
             "ImageTileSplit",
+            "ImageTileSplitPreset",
             "ListCustomFloat",
             "ListCustomInt",
             "ListCustomSeed",
@@ -369,6 +373,7 @@
             "MaskFillHole",
             "MaskListToBatch",
             "MaskMathOps",
+            "MaskPasteByBBoxMask",
             "PathBuild",
             "RangeMapping",
             "StepSplit",
@@ -2489,6 +2494,14 @@
             "title_aux": "ComfyUI_RSS_Feed_Reader"
         }
     ],
+    "https://github.com/BEIBEI-star661/SJ_sweepEffect_Comfyui": [
+        [
+            "SJ_sweepEffect"
+        ],
+        {
+            "title_aux": "SJ_sweepEffect_Comfyui"
+        }
+    ],
     "https://github.com/BIMer-99/ComfyUI_FishSpeech_EX": [
         [
             "AudioToPrompt",
@@ -4400,7 +4413,7 @@
             "NumberedText"
         ],
         {
-            "title_aux": "Numbered Text"
+            "title_aux": "NumberedText"
         }
     ],
     "https://github.com/DenRakEiw/Latent_Nodes": [
@@ -5621,11 +5634,13 @@
     "https://github.com/Fictiverse/ComfyUI_Fictiverse": [
         [
             "Add Margin With Color",
+            "Any to Int/Float/String",
             "Essential Params",
             "Get Last Output Video Path",
             "If Image Valid",
             "Image Params",
             "Is Image Valid ?",
+            "Math Operation",
             "None if same Image",
             "Prompt Assembler",
             "Resize Images To Megapixels",
@@ -9102,6 +9117,7 @@
     ],
     "https://github.com/MNeMoNiCuZ/ComfyUI-mnemic-nodes": [
         [
+            "AudioVisualizer",
             "LoraTagLoader",
             "ResolutionSelector",
             "StringCleaning",
@@ -9116,6 +9132,7 @@
             "\u2728\ud83d\udcac Groq LLM API",
             "\u2728\ud83d\udcdd Groq ALM API - Transcribe",
             "\u2728\ud83d\udcf7 Groq VLM API",
+            "\ud83c\udfb5\ud83d\udcca Audio Visualizer",
             "\ud83c\udff7\ufe0f LoRA Loader Prompt Tags",
             "\ud83d\udcbe Save Text File With Path",
             "\ud83d\udcc1 Get File Path",
@@ -10942,6 +10959,14 @@
         ],
         {
             "title_aux": "ComfyUI-Artist-Selector"
+        }
+    ],
+    "https://github.com/ReinerBforartists/comfyui_auto_prompt_schedule": [
+        [
+            "AutoPromptSchedule"
+        ],
+        {
+            "title_aux": "Auto Prompt Schedule"
         }
     ],
     "https://github.com/Reithan/negative_rejection_steering": [
@@ -16322,6 +16347,8 @@
     ],
     "https://github.com/aiaiaikkk/kontext-super-prompt": [
         [
+            "AdvancedBackgroundRemoval",
+            "BackgroundRemovalSettings",
             "CustomModelPromptGenerator",
             "KontextSuperPrompt",
             "LRPGCanvas",
@@ -17174,8 +17201,6 @@
             "Sage_CLIPSelector",
             "Sage_CacheMaintenance",
             "Sage_CheckLorasForUpdates",
-            "Sage_CheckpointLoaderRecent",
-            "Sage_CheckpointLoaderSimple",
             "Sage_CheckpointSelector",
             "Sage_ChromaCLIPLoaderFromInfo",
             "Sage_CleanText",
@@ -17203,7 +17228,6 @@
             "Sage_JoinText",
             "Sage_KSampler",
             "Sage_KSamplerAudioDecoder",
-            "Sage_KSamplerDecoder",
             "Sage_KSamplerTiledDecoder",
             "Sage_LMStudioLLMPromptText",
             "Sage_LMStudioLLMPromptVision",
@@ -17217,7 +17241,6 @@
             "Sage_LoraStack",
             "Sage_LoraStackInfoDisplay",
             "Sage_LoraStackLoader",
-            "Sage_LoraStackRecent",
             "Sage_ModelInfo",
             "Sage_ModelInfoDisplay",
             "Sage_ModelLoraStackLoader",
@@ -17242,6 +17265,7 @@
             "Sage_SaveText",
             "Sage_SchedulerSelector",
             "Sage_SetText",
+            "Sage_SetTextWithInt",
             "Sage_SixLoraStack",
             "Sage_TextRandomLine",
             "Sage_TextSelectLine",
@@ -17255,7 +17279,6 @@
             "Sage_TripleLoraStack",
             "Sage_TripleQuickLoraStack",
             "Sage_UNETLoRALoader",
-            "Sage_UNETLoader",
             "Sage_UNETLoaderFromInfo",
             "Sage_UNETSelector",
             "Sage_UnetClipVaeToModelInfo",
@@ -19220,6 +19243,7 @@
             "color_adjust_WB_balance",
             "color_adjust_light",
             "color_match_adv",
+            "color_selector",
             "color_tool",
             "creat_any_List",
             "creat_any_batch",
@@ -19293,6 +19317,7 @@
             "pre_ic_light_sd15",
             "pre_latent_light",
             "pre_mul_Mulcondi",
+            "pre_qwen_controlnet",
             "pre_sample_data",
             "sampler_DynamicTileMerge",
             "sampler_DynamicTileSplit",
@@ -20738,13 +20763,18 @@
             "CYHChromaticAberrationNode",
             "CYHFilmGrainNode",
             "CYHFolderFilenameBuilderNode",
+            "CYHGlobalColorGradingNode",
+            "CYHInteractivePainterNode",
             "CYHLatentFluxAspectRatio",
             "CYHLatentPhoneAspectRatio",
             "CYHLatentQwenAspectRatio",
             "CYHLatentSDXLAspectRatio",
             "CYHLatentSocialAspectRatio",
             "CYHLatentVideoAspectRatio",
-            "CYHResolutionMultiplierNode"
+            "CYHResolutionMultiplierNode",
+            "PromptEnhancer",
+            "PromptEnhancerEditable",
+            "PromptToolsSetup"
         ],
         {
             "title_aux": "Chye ComfyUI Toolset"
@@ -21190,7 +21220,6 @@
     ],
     "https://github.com/comfyanonymous/ComfyUI": [
         [
-            "APG",
             "AddNoise",
             "AlignYourStepsScheduler",
             "BasicGuider",
@@ -21199,7 +21228,6 @@
             "CFGGuider",
             "CFGNorm",
             "CFGZeroStar",
-            "CLIPAttentionMultiply",
             "CLIPLoader",
             "CLIPMergeAdd",
             "CLIPMergeSimple",
@@ -21219,7 +21247,6 @@
             "CLIPVisionEncode",
             "CLIPVisionLoader",
             "Canny",
-            "CaseConverter",
             "CheckpointLoader",
             "CheckpointLoaderSimple",
             "CheckpointSave",
@@ -21249,7 +21276,6 @@
             "DisableNoise",
             "DualCFGGuider",
             "DualCLIPLoader",
-            "EmptyAceStepLatentAudio",
             "EmptyCosmosLatentVideo",
             "EmptyHunyuanLatentVideo",
             "EmptyImage",
@@ -21291,9 +21317,6 @@
             "HunyuanImageToVideo",
             "HyperTile",
             "HypernetworkLoader",
-            "IdeogramV1",
-            "IdeogramV2",
-            "IdeogramV3",
             "ImageAddNoise",
             "ImageBatch",
             "ImageBlend",
@@ -21487,9 +21510,6 @@
             "RecraftTextToVectorNode",
             "RecraftVectorizeImageNode",
             "ReferenceLatent",
-            "RegexExtract",
-            "RegexMatch",
-            "RegexReplace",
             "RenormCFG",
             "RepeatImageBatch",
             "RepeatLatentBatch",
@@ -21517,8 +21537,6 @@
             "SamplerER_SDE",
             "SamplerEulerAncestral",
             "SamplerEulerAncestralCFGPP",
-            "SamplerEulerCFGpp",
-            "SamplerLCMUpscale",
             "SamplerLMS",
             "SamplerSASolver",
             "SamplingPercentToSigma",
@@ -21557,13 +21575,6 @@
             "StableCascade_SuperResolutionControlnet",
             "StableZero123_Conditioning",
             "StableZero123_Conditioning_Batched",
-            "StringCompare",
-            "StringConcatenate",
-            "StringContains",
-            "StringLength",
-            "StringReplace",
-            "StringSubstring",
-            "StringTrim",
             "StubConstantImage",
             "StubFloat",
             "StubImage",
@@ -21620,7 +21631,6 @@
             "TestVariadicAverage",
             "TestWhileLoopClose",
             "TestWhileLoopOpen",
-            "TextEncodeAceStepAudio",
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
             "ThresholdMask",
@@ -21637,9 +21647,6 @@
             "TripoTextToModelNode",
             "TripoTextureNode",
             "UNETLoader",
-            "UNetCrossAttentionMultiply",
-            "UNetSelfAttentionMultiply",
-            "UNetTemporalAttentionMultiply",
             "UpscaleModelLoader",
             "VAEDecode",
             "VAEDecodeAudio",
@@ -21652,8 +21659,6 @@
             "VAELoader",
             "VAESave",
             "VPScheduler",
-            "Veo3VideoGenerationNode",
-            "VeoVideoGenerationNode",
             "VideoLinearCFGGuidance",
             "VideoTriangleCFGGuidance",
             "VoxelToMesh",
@@ -22809,6 +22814,24 @@
             "title_aux": "ComfyUI PixelArt Detector"
         }
     ],
+    "https://github.com/dimtoneff/ComfyUI-VL-Nodes": [
+        [
+            "KeyeModelLoader",
+            "KeyeNode",
+            "LFM2TransformerImageToText",
+            "LFM2TransformerModelLoader",
+            "MiMoFreeMemoryAPI",
+            "MiMoImageToText",
+            "MiMoModelLoader",
+            "Ovis25ImageToText",
+            "Ovis25ModelLoader",
+            "OvisU1ImageCaption",
+            "OvisU1ModelLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-VL-Nodes"
+        }
+    ],
     "https://github.com/diodiogod/TTS-Audio-Suite": [
         [
             "AudioAnalyzerNode",
@@ -23461,6 +23484,7 @@
     ],
     "https://github.com/eric183/ComfyUI-Only": [
         [
+            "ArchiveImageLoader",
             "LatentLoaderAdvanced",
             "WorkflowImageFileLoader",
             "WorkflowJSONParser"
@@ -27938,6 +27962,24 @@
             "title_aux": "ComfyUI-JaRue"
         }
     ],
+    "https://github.com/jtrue/ComfyUI-WordEmbeddings": [
+        [
+            "WordEmbeddingsEquation",
+            "WordEmbeddingsExplorer",
+            "WordEmbeddingsInterpolator",
+            "WordEmbeddingsLoader",
+            "WordEmbeddingsLocalModelLoader",
+            "WordEmbeddingsTokenAxis",
+            "WordEmbeddingsTokenAxis2D",
+            "WordEmbeddingsTokenAxis3D",
+            "WordEmbeddingsTokenCentrality",
+            "WordEmbeddingsTokenNeighbors"
+        ],
+        {
+            "nodename_pattern": "_jru$",
+            "title_aux": "ComfyUI-WordEmbeddings"
+        }
+    ],
     "https://github.com/jtydhr88/ComfyUI-Hunyuan3D-1-wrapper": [
         [
             "Hunyuan3D V1 - Image Loader",
@@ -29475,6 +29517,7 @@
             "WanVideoReCamMasterDefaultCamera",
             "WanVideoReCamMasterGenerateOrbitCamera",
             "WanVideoRealisDanceLatents",
+            "WanVideoRoPEFunction",
             "WanVideoSLG",
             "WanVideoSampler",
             "WanVideoScheduler",
@@ -29914,6 +29957,7 @@
             "Leon_Midjourney_Upload_API_Node",
             "Leon_Model_Selector_Node",
             "Leon_Qwen_Image_API_Node",
+            "Leon_Qwen_Image_Edit_API_Node",
             "Leon_Recraft_Image_API_Node",
             "Leon_StableDiffusion_35_API_Node",
             "Leon_StableDiffusion_3_Ultra_API_Node",
@@ -31900,9 +31944,8 @@
     "https://github.com/lucasgattas/comfyui-egregora-tiled": [
         [
             "EgregoraImageTileSplit",
-            "EgregoraLatentTileSplit",
-            "EgregoraTiledRegionalPrompt",
-            "EgregoraVAEDecodeFromTiles"
+            "EgregoraTiledDiffusionModel",
+            "EgregoraTiledRegionalPrompt"
         ],
         {
             "title_aux": "comfyui-egregora-tiled"
@@ -32141,6 +32184,14 @@
         ],
         {
             "title_aux": "ComfyUI-Mango-Random"
+        }
+    ],
+    "https://github.com/mangobyed/ComfyUI_Detection_List": [
+        [
+            "YOLOv8ObjectDetectionNode"
+        ],
+        {
+            "title_aux": "ComfyUI YOLOv8 Object Detection Node"
         }
     ],
     "https://github.com/manifestations/comfyui-globetrotter": [
@@ -34394,6 +34445,42 @@
             "title_aux": "ComfyUI-Image-Effects"
         }
     ],
+    "https://github.com/orion4d/ComfyUI_DAO_master": [
+        [
+            "ConvertIMGtoSVG",
+            "ConvertSVGtoIMG",
+            "DAO Blur",
+            "DAO Hex Color Picker",
+            "DAO Move",
+            "DAO RVB Color Picker",
+            "DAO Text Maker",
+            "DXF Add Circle",
+            "DXF Add Ellipse",
+            "DXF Add Line",
+            "DXF Add Polygon",
+            "DXF Add Rectangle",
+            "DXF Add Rounded Rectangle",
+            "DXF Add Star",
+            "DXF Add Triangle",
+            "DXF Import",
+            "DXF New",
+            "DXF Preview",
+            "DXF Save",
+            "DXF Stats",
+            "DXF Transform",
+            "DXF to SVG",
+            "Folder File Picker",
+            "SVG Boolean",
+            "SVG Load",
+            "SVG Passthrough",
+            "SVG Preview",
+            "SVG Save",
+            "SVG Style"
+        ],
+        {
+            "title_aux": "ComfyUI_DAO_master"
+        }
+    ],
     "https://github.com/orion4d/ComfyUI_colormaster": [
         [
             "AnnotateHexLines",
@@ -36633,8 +36720,11 @@
             "ControlNet Selector",
             "ControlNetOptionalLoader",
             "DiffusersSelector",
+            "ModelSimilarityNode",
             "MultiInputVariableRewrite",
-            "SaveImageJPGNoMeta"
+            "SaveImageJPGNoMeta",
+            "TextRegexOperations",
+            "VideoSegmentCalculator"
         ],
         {
             "title_aux": "Suplex Misc ComfyUI Nodes"
@@ -37217,6 +37307,7 @@
     ],
     "https://github.com/silveroxides/ComfyUI_FDGuidance": [
         [
+            "FDG_APG_Patcher",
             "FrequencyDecoupledGuidance"
         ],
         {
