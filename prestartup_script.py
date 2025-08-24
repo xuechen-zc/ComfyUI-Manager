@@ -224,18 +224,12 @@ def finalize_startup():
 
 
 try:
-    if '--port' in sys.argv:
-        port_index = sys.argv.index('--port')
-        if port_index + 1 < len(sys.argv):
-            port = int(sys.argv[port_index + 1])
-            postfix = f"_{port}"
-        else:
-            postfix = ""
-    else:
-        postfix = ""
 
+    from zhishi3d_root_util import get_port_postfix
+    postfix = get_port_postfix()
     # Logger setup
     log_path_base = None
+    log_file_path=None
     if enable_file_logging:
         log_path_base = os.path.join(folder_paths.user_directory, 'comfyui')
 
@@ -248,8 +242,8 @@ try:
                     os.remove(f"{log_path_base}{postfix}.prev2.log")
                 os.rename(f"{log_path_base}{postfix}.prev.log", f"{log_path_base}{postfix}.prev2.log")
             os.rename(f"{log_path_base}{postfix}.log", f"{log_path_base}{postfix}.prev.log")
-
-        log_file = open(f"{log_path_base}{postfix}.log", "w", encoding="utf-8", errors="ignore")
+        log_file_path=f"{log_path_base}{postfix}.log"
+        log_file = open(log_file_path, "w", encoding="utf-8", errors="ignore")
 
     log_lock = threading.Lock()
 
@@ -480,13 +474,9 @@ print("** ComfyUI Path:", comfy_path)
 print("** ComfyUI Base Folder Path:", comfy_base_path)
 print("** User directory:", folder_paths.user_directory)
 print("** Temp directory:", folder_paths.temp_directory)
+print("** Output directory:", folder_paths.output_directory)
 print("** ComfyUI-Manager config path:", manager_config_path)
-
-
-if log_path_base is not None:
-    print("** Log path:", os.path.abspath(f'{log_path_base}.log'))
-else:
-    print("** Log path: file logging is disabled")
+print("** Log file path:", log_file_path)
 
 
 def read_downgrade_blacklist():
