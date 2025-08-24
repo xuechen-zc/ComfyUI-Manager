@@ -479,6 +479,7 @@ print("** Python executable:", sys.executable)
 print("** ComfyUI Path:", comfy_path)
 print("** ComfyUI Base Folder Path:", comfy_base_path)
 print("** User directory:", folder_paths.user_directory)
+print("** Temp directory:", folder_paths.temp_directory)
 print("** ComfyUI-Manager config path:", manager_config_path)
 
 
