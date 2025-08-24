@@ -222,16 +222,16 @@ def finalize_startup():
 
     cm_global.error_dict = res
 
+log_file_path=None
 
 try:
-
-    from zhishi3d_root_util import get_port_postfix
-    postfix = get_port_postfix()
+    from zhishi3d_root_util import get_comfyui_port
+    postfix=get_comfyui_port()
     # Logger setup
     log_path_base = None
-    log_file_path=None
+
     if enable_file_logging:
-        log_path_base = os.path.join(folder_paths.user_directory, 'comfyui')
+        log_path_base = os.path.join(folder_paths.temp_directory, 'log')
 
         if not os.path.exists(folder_paths.user_directory):
             os.makedirs(folder_paths.user_directory)
