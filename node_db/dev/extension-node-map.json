@@ -1741,7 +1741,8 @@
     ],
     "https://github.com/Firetheft/ComfyUI_Local_Image_Gallery": [
         [
-            "LocalImageGalleryNode"
+            "LocalImageGalleryNode",
+            "SelectOriginalImageNode"
         ],
         {
             "title_aux": "ComfyUI Local Media Manager [UNSAFE]"
@@ -1810,6 +1811,15 @@
         ],
         {
             "title_aux": "GH Tools for ComfyUI"
+        }
+    ],
+    "https://github.com/GuardSkill/ComfyUI-AffineImage": [
+        [
+            "CanvasFourPointSelector",
+            "PerspectiveScreenMapper"
+        ],
+        {
+            "title_aux": "ComfyUI Affine Transform Mapper [WIP]"
         }
     ],
     "https://github.com/GuusF/Comfyui_CrazyMaths": [
@@ -2244,6 +2254,7 @@
             "Pyrite_AdvancedUpscaler",
             "Pyrite_GGUF_Loader",
             "Pyrite_SimpleUpscaler",
+            "Pyrite_YOLO_Annotation_Exporter",
             "pyrite_image_caption"
         ],
         {
@@ -3255,15 +3266,6 @@
         ],
         {
             "title_aux": "HiDreamSampler for ComfyUI [WIP]"
-        }
-    ],
-    "https://github.com/SatadalAI/SATA_UtilityNode": [
-        [
-            "Prompt_Machine",
-            "Upscale_Machine"
-        ],
-        {
-            "title_aux": "Combined Upscale Node for ComfyUI [WIP]"
         }
     ],
     "https://github.com/SaulQcy/comfy_saul_plugin": [
@@ -5009,6 +5011,17 @@
             "title_aux": "ComfyUI Signal Processing [WIP]"
         }
     ],
+    "https://github.com/casterpollux/ComfyUI-USO": [
+        [
+            "USOImageEncoder",
+            "USOLatentToImage",
+            "USOModelLoader",
+            "USOSampler"
+        ],
+        {
+            "title_aux": "ComfyUI USO Custom Node [WIP]"
+        }
+    ],
     "https://github.com/casterpollux/MiniMax-bmo": [
         [
             "MinimaxRemoverBMO"
@@ -5072,6 +5085,8 @@
     ],
     "https://github.com/chaserhkj/ComfyUI-Chaser-nodes": [
         [
+            "EvalFloatExpr",
+            "EvalIntExpr",
             "LoadImageFromWebDAV",
             "UploadImagesToWebDAV",
             "UploadWebMToWebDAV"
@@ -8144,6 +8159,14 @@
             "title_aux": "comfyui_minicpm_vision"
         }
     ],
+    "https://github.com/maoper11/comfyui_inteliweb_nodes": [
+        [
+            "InteliwebSystemCheck"
+        ],
+        {
+            "title_aux": "ComfyUI_Inteliweb_nodes"
+        }
+    ],
     "https://github.com/marcueberall/ComfyUI-BuildPath": [
         [
             "Build Path Adv"
@@ -8632,6 +8655,14 @@
         ],
         {
             "title_aux": "ComfyUI_Cluster [WIP]"
+        }
+    ],
+    "https://github.com/numq/comfyui-camera-capture-node": [
+        [
+            "CameraCapture"
+        ],
+        {
+            "title_aux": "comfyui-camera-capture-node"
         }
     ],
     "https://github.com/odedgranot/comfyui-ffmpeg-node": [
