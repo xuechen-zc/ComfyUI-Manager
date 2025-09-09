@@ -1,5 +1,65 @@
 {
-    "custom_nodes": [        
+    "custom_nodes": [
+        {
+            "author": "z604159435g",
+            "title": "comfyui_random_prompt_plugin [WIP]",
+            "reference": "https://github.com/z604159435g/comfyui_random_prompt_plugin",
+            "files": [
+                "https://github.com/z604159435g/comfyui_random_prompt_plugin"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI natural language prompt plugin specifically designed for generating realistic photos of Caucasian women. Completely restructured to produce smooth natural language paragraphs instead of CLIP-style formatting.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "edisonchan",
+            "title": "ComfyUI-Sysinfo",
+            "reference": "https://github.com/edisonchan/ComfyUI-Sysinfo",
+            "files": [
+                "https://github.com/edisonchan/ComfyUI-Sysinfo"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node for checking system CUDA information and the PyTorch version."
+        },
+        {
+            "author": "Goldlionren",
+            "title": "comfyui-spawner-schedulers",
+            "reference": "https://github.com/spawner1145/comfyui-spawner-schedulers",
+            "files": [
+                "https://github.com/spawner1145/comfyui-spawner-schedulers"
+            ],
+            "install_type": "git-clone",
+            "description": "This plugin provides additional scheduler options for ComfyUI. Currently, it includes a smooth scheduler designed to optimize the quality and consistency of generated images."
+        },
+        {
+            "author": "nicolabergamaschi",
+            "title": "ComfyUI_XLweb [UNSAFE]",
+            "reference": "https://github.com/853587221/ComfyUI_XLweb",
+            "files": [
+                "https://github.com/853587221/ComfyUI_XLweb"
+            ],
+            "install_type": "git-clone",
+            "description": "An elegant web frontend for ComfyUI that simplifies complex node workflows.[w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
+        },
+        {
+            "author": "nicolabergamaschi",
+            "title": "ComfyUI-Dynamic-Lora-Loader",
+            "reference": "https://github.com/BARKEM-JC/ComfyUI-Dynamic-Lora-Loader",
+            "files": [
+                "https://github.com/BARKEM-JC/ComfyUI-Dynamic-Lora-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple dynamic lora loader, supports hundreds of loras at once by loading on demand and automatically adjusting weights + prompt injection."
+        },
+        {
+            "author": "kuailefengnan2024",
+            "title": "Comfyui_Layer",
+            "reference": "https://github.com/kuailefengnan2024/Comfyui_Layer",
+            "files": [
+                "https://github.com/kuailefengnan2024/Comfyui_Layer"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Vision API Node"
+        },
         {
             "author": "tony-zn",
             "title": "comfyui-zn-pycode [UNSAFE]",
@@ -781,16 +841,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: WanMoeKSampler, WanMoeKSamplerAdvanced"
-        },
-        {
-            "author": "jtydhr88",
-            "title": "ComfyUI-StableStudio [WIP]",
-            "reference": "https://github.com/jtydhr88/ComfyUI-StableStudio",
-            "files": [
-                "https://github.com/jtydhr88/ComfyUI-StableStudio"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a ComfyUI plugin that provides a user interface of StableStudio, originally developed by Stability-AI [a/StableStudio](https://github.com/Stability-AI/StableStudio)"
         },
         {
             "author": "Charonartist",
