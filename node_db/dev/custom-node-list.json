@@ -1,6 +1,116 @@
 {
     "custom_nodes": [
         {
+            "author": "synchronicity-labs",
+            "title": "ComfyUI Sync Lipsync Node",
+            "reference": "https://github.com/synchronicity-labs/sync-comfyui",
+            "files": [
+                "https://github.com/synchronicity-labs/sync-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: WanVideo T5 Apply Soft Prefix"
+        },
+        {
+            "author": "flybirdxx",
+            "title": "ComfyUI-SDMatte [WIP]",
+            "reference": "https://github.com/flybirdxx/ComfyUI-SDMatte",
+            "files": [
+                "https://github.com/flybirdxx/ComfyUI-SDMatte"
+            ],
+            "install_type": "git-clone",
+            "description": "[a/SDMatte](https://github.com/vivoCameraResearch/SDMatte) is an interactive image matting method based on Stable Diffusion, developed by the vivo Camera Research team and accepted by ICCV 2025. This method leverages the powerful priors of pre-trained diffusion models and supports multiple visual prompts (points, boxes, masks) for accurately extracting target objects from natural images.\nThis plugin integrates SDMatte into ComfyUI, providing a simple and easy-to-use node interface focused on trimap-guided matting functionality with built-in VRAM optimization strategies.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "NSFW-API",
+            "title": "ComfyUI-WanSoftPrefix",
+            "reference": "https://github.com/NSFW-API/ComfyUI-WanSoftPrefix",
+            "files": [
+                "https://github.com/NSFW-API/ComfyUI-WanSoftPrefix"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Resize Frame, Pad Batch to 4n+1, Trim Padded Batch, Get Image Dimensions, Slot Frame, ..."
+        },
+        {
+            "author": "rishipandey125",
+            "title": "ComfyUI-StyleFrame-Nodes",
+            "reference": "https://github.com/rishipandey125/ComfyUI-StyleFrame-Nodes",
+            "files": [
+                "https://github.com/rishipandey125/ComfyUI-StyleFrame-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Resize Frame, Pad Batch to 4n+1, Trim Padded Batch, Get Image Dimensions, Slot Frame, ..."
+        },
+        {
+            "author": "LSDJesus",
+            "title": "ComfyUI-Luna-Collection [WIP]",
+            "reference": "https://github.com/LSDJesus/ComfyUI-Luna-Collection",
+            "files": [
+                "https://github.com/LSDJesus/ComfyUI-Luna-Collection"
+            ],
+            "install_type": "git-clone",
+            "description": "Collection of finetuned and custom nodes for Pyrite and I\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "nicolabergamascahkimkoohi",
+            "title": "ComfyUI-OSS-Upload [UNSAFE]",
+            "reference": "https://github.com/ahkimkoo/ComfyUI-OSS-Upload",
+            "files": [
+                "https://github.com/ahkimkoo/ComfyUI-OSS-Upload"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI plugin for uploading generated images and videos to Alibaba Cloud OSS (Object Storage Service).[w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
+        },
+        {
+            "author": "threecrowco",
+            "title": "ComfyUI-FlowMatchScheduler [WIP]",
+            "reference": "https://github.com/threecrowco/ComfyUI-FlowMatchScheduler",
+            "files": [
+                "https://github.com/threecrowco/ComfyUI-FlowMatchScheduler"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: FlowMatch → SIGMAS\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "NimbleWing",
+            "title": "ComfyUI-NW",
+            "reference": "https://github.com/NimbleWing/ComfyUI-NW",
+            "files": [
+                "https://github.com/NimbleWing/ComfyUI-NW"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for a frame by frame Diffusion."
+        },
+        {
+            "author": "tfernd",
+            "title": "Auto CPU Offload for ComfyUI [WIP]",
+            "reference": "https://github.com/tfernd/ComfyUI-AutoCPUOffload",
+            "files": [
+                "https://github.com/tfernd/ComfyUI-AutoCPUOffload"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension introduces an 'Auto CPU Offload' node designed to reduce GPU VRAM usage by automatically offloading model components to the CPU. It intelligently manages the movement of model layers between the GPU and CPU, aiming to keep only the necessary parts in VRAM during inference."
+        },
+        {
+            "author": "hujuying",
+            "title": "comfyui_gemini_banana_api [WIP]",
+            "reference": "https://github.com/hujuying/comfyui_gemini_banana_api",
+            "files": [
+                "https://github.com/hujuying/comfyui_gemini_banana_api"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI plugin that supports image editing and generation using the Gemini API, featuring multiple API key rotation and secure storage.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "pft-ChenKu",
+            "title": "ComfyUI_system-dev [WIP]",
+            "reference": "https://github.com/pft-ChenKu/ComfyUI_system-dev",
+            "files": [
+                "https://github.com/pft-ChenKu/ComfyUI_system-dev"
+            ],
+            "install_type": "git-clone",
+            "description": "Collect Vram ram and Time\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "z604159435g",
             "title": "comfyui_random_prompt_plugin [WIP]",
             "reference": "https://github.com/z604159435g/comfyui_random_prompt_plugin",
@@ -109,7 +219,7 @@
                 "https://github.com/5agado/ComfyUI-Sagado-Nodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node"
+            "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node, Video Loader"
         },
         {
             "author": "Juste-Leo2",
@@ -179,7 +289,7 @@
                 "https://github.com/maoper11/comfyui_inteliweb_nodes"
             ],
             "install_type": "git-clone",
-            "description": "System Check (Inteliweb): RAM/VRAM live, Free RAM/VRAM buttons, Flash-Attn check."
+            "description": "System Check (Inteliweb): RAM/VRAM live, Free RAM/VRAM buttons, Py Libs. + Photopea Editor integration (menu contextual)."
         },
         {
             "author": "casterpollux",
