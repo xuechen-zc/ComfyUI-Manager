@@ -746,8 +746,8 @@ async def update_all(request):
     else:
         channel = core.get_config()['channel_url']
 
-    await core.unified_manager.reload(request.rel_url.query["mode"])
-    await core.unified_manager.get_custom_nodes(channel, request.rel_url.query["mode"])
+    # await core.unified_manager.reload(request.rel_url.query["mode"])
+    # await core.unified_manager.get_custom_nodes(channel, request.rel_url.query["mode"])
 
     for k, v in core.unified_manager.active_nodes.items():
         if k == 'comfyui-manager':
