@@ -31752,16 +31752,6 @@
             "description": "A simple custom node to use reflect padding mode in the conv layers of VAEs."
         },
         {
-            "author": "netroxin",
-            "title": "comfyui_netro",
-            "reference": "https://github.com/netroxin/comfyui_netro",
-            "files": [
-                "https://github.com/netroxin/comfyui_netro"
-            ],
-            "install_type": "git-clone",
-            "description": "#Camera Movement Prompt Node for ComfyUI\nThis custom node script for ComfyUI generates descriptive camera movement prompts based on user-selected movement options for Wan2.2"
-        },
-        {
             "author": "alexds9",
             "title": "Save Checkpoint with Metadata",
             "reference": "https://github.com/a-l-e-x-d-s-9/ComfyUI-SaveCheckpointWithMetadata",
@@ -32491,9 +32481,9 @@
         {
             "author": "Olaf Reitmaier Veracierta",
             "title": "Olaf's Nodes",
-            "reference": "https://github.com/FloyoAI/ComfyUI-Seed-API",
+            "reference": "https://github.com/olafrv/comfyui_olafrv",
             "files": [
-                "https://github.com/FloyoAI/ComfyUI-Seed-API"
+                "https://github.com/olafrv/comfyui_olafrv"
             ],
             "install_type": "git-clone",
             "description": "NODES: ORvTextEncoderGoogleEmbeddingGemma3, ORvEmbeddingsHeatmap, ORvEmbeddingsSpectrogram, ORvStringConsoleDebug"
@@ -32708,6 +32698,33 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that implements CoMPaSS for FLUX.1-dev models. CoMPaSS enhances the spatial understanding capabilities of text-to-image diffusion models."
+        },
+        {
+            "author": "snicolast",
+            "title": "ComfyUI-IndexTTS2",
+            "reference": "https://github.com/snicolast/ComfyUI-IndexTTS2",
+            "files": [
+                "https://github.com/snicolast/ComfyUI-IndexTTS2"
+            ],
+            "install_type": "git-clone",
+            "description": "Lightweight ComfyUI wrapper for IndexTTS 2 (voice cloning + emotion control)."
+        },
+        {
+            "author": "snicolast",
+            "title": "ComfyUI-Manufnode",
+            "reference": "https://github.com/efortin/ComfyUI-Ollama-Enhancer",
+            "files": [
+                "https://github.com/efortin/ComfyUI-Ollama-Enhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes integrating Ollama to generate and enhance positive/negative prompts for Stable Diffusion workflows."
+        },
+        {
+            "author": "fr0nky0ng",
+            "title": "ComfyUI-Face-Comparator",
+            "description": "This is a node to detect the similarity between two faces",
+            "install_type": "git-clone",
+            "reference": "https://github.com/fr0nky0ng/ComfyUI-Face-Comparator"
         },
 
 
