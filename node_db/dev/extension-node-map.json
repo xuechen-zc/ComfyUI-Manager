@@ -1177,6 +1177,7 @@
             "VTS Repeat Text As List",
             "VTS Replace Text In List",
             "VTS Sharpen",
+            "VTS To Boolean",
             "VTS To List",
             "VTS To Text",
             "VTS_Load_Pose_Keypoints",
@@ -1532,16 +1533,21 @@
     ],
     "https://github.com/EQXai/ComfyUI_EQX": [
         [
+            "BodyCropMaskEQX",
             "CountFaces_EQX",
             "Extract Filename - EQX",
             "Extract LORA name - EQX",
+            "FaceCropMaskEQX",
             "FaceDetectOut",
             "File Image Selector",
             "Load Prompt From File - EQX",
             "LoadRetinaFace_EQX",
             "LoraStackEQX_random",
             "NSFW Detector EQX",
+            "ResolutionSelectorEQX",
             "SaveImage_EQX",
+            "SaveVideoEQX",
+            "UncropByMaskEQX",
             "WorkFlow Check"
         ],
         {
@@ -3478,6 +3484,38 @@
             "title_aux": "Simlym/comfyui-prompt-helper [WIP]"
         }
     ],
+    "https://github.com/SlackinJack/multigpu_diffusion_comfyui": [
+        [
+            "AsyncDiffADSampler",
+            "AsyncDiffConfig",
+            "AsyncDiffSDSampler",
+            "AsyncDiffSDUpscaleSampler",
+            "AsyncDiffSVDSampler",
+            "CheckpointSelector",
+            "ControlNetSelector",
+            "DistrifuserConfig",
+            "DistrifuserSDSampler",
+            "EncodePromptWithCompel",
+            "GGUFSelector",
+            "HostConfig",
+            "IPAdapterSelector",
+            "LoraSelector",
+            "MotionAdapterLoraSelector",
+            "MotionAdapterSelector",
+            "MotionModuleSelector",
+            "MultiLoraJoiner",
+            "SchedulerSelector",
+            "VAESelector",
+            "xDiTConfig",
+            "xDiTSampler",
+            "xDiTUSPConfig",
+            "xDiTUSPImageSampler",
+            "xDiTUSPVideoSampler"
+        ],
+        {
+            "title_aux": "multigpu_diffusion_comfyui"
+        }
+    ],
     "https://github.com/Slix-M-Lestragg/comfyui-enhanced": [
         [
             "Range Iterator"
@@ -5242,6 +5280,7 @@
             "AliyunDriveCloudUploadNode",
             "AliyunDriveOptimizedUploadNode",
             "SimpleUploadToAliyunDrive",
+            "UploadTo115",
             "UploadToAliyunDrive",
             "UploadToOSSNode"
         ],
@@ -5928,6 +5967,19 @@
         ],
         {
             "title_aux": "ComfyUI Random Keypoints for InstantID [WIP]"
+        }
+    ],
+    "https://github.com/dmitry-guskov/ComfyUI_light_image_ops": [
+        [
+            "LightBatchToList",
+            "LightListToBatch",
+            "LightScaleToSide",
+            "LightWanEmbedsResizeSpatialPacked",
+            "LightWanLatentsResizeNormalizeNoise",
+            "LightWanLatentsResizeToSize"
+        ],
+        {
+            "title_aux": "ComfyUI_light_image_ops"
         }
     ],
     "https://github.com/dogcomplex/ComfyUI-LOKI": [

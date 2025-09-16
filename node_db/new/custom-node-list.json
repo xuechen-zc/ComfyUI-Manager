@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "len-ml",
+            "title": "comfyui_qwen_image_edit_adv",
+            "reference": "https://github.com/lenML/comfyui_qwen_image_edit_adv",
+            "files": [
+                "https://github.com/lenML/comfyui_qwen_image_edit_adv"
+            ],
+            "install_type": "git-clone",
+            "description": "Improved qwen image editing accuracy"
+        },
+        {
+            "author": "swfxliyiyu",
+            "title": "ComfyUI-FastVideo",
+            "reference": "https://github.com/swfxliyiyu/ComfyUI-FastVideo",
+            "files": [
+                "https://github.com/swfxliyiyu/ComfyUI-FastVideo"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node suite for ComfyUI that provides accelerated video generation using [a/FastVideo](https://github.com/hao-ai-labs/FastVideo). See the blog post about FastVideo V1 to learn more."
+        },
+        {
             "author": "dzy1128",
             "title": "Seedream Image Generate ComfyUI Node",
             "reference": "https://github.com/dzy1128/Seedream-Image-Generate-ComfyUI",
@@ -11,6 +31,16 @@
             "description": "A ComfyUI custom node based on the Volcano Engine Doubao large model Seedream API, designed for high-quality image generation."
         },
         {
+            "author": "darkamenosa",
+            "title": "Enhanced Image Composite Masked",
+            "reference": "https://github.com/darkamenosa/comfy_inpaint_blend",
+            "files": [
+                "https://github.com/darkamenosa/comfy_inpaint_blend"
+            ],
+            "install_type": "git-clone",
+            "description": "Seamless inpainting for image-space models like Google Nano Banana and ByteDance Seedream 4. Fixes color mismatches using Poisson blending."
+        },
+        {
             "author": "nakagawadev",
             "title": "comfyui_nakagawa",
             "reference": "https://github.com/nakagawadev/comfyui_nakagawa",
@@ -19,6 +49,16 @@
             ],
             "install_type": "git-clone",
             "description": "A collection of custom nodes for ComfyUI that send video data through websockets instead of saving to disk."
+        },
+        {
+            "author": "Ian2073",
+            "title": "ComfyUI-MyLLMNode",
+            "reference": "https://github.com/Ian2073/ComfyUI-MyLLMnode",
+            "files": [
+                "https://github.com/Ian2073/ComfyUI-MyLLMnode"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node for running LLMs via HuggingFace pipeline. Supports both local paths and HuggingFace model names."
         },
         {
             "author": "S4MUEL404",
@@ -655,68 +695,6 @@
             ],
             "install_type": "git-clone",
             "description": "A simple ComfyUI plugin that Its purpose and function is to replicate some of the editing effects of capcut,jianying and pr."
-        },
-        {
-            "author": "Shellishack",
-            "title": "ComfyUI Remote Media Loaders",
-            "reference": "https://github.com/Shellishack/comfyui-remote-media-loaders",
-            "files": [
-                "https://github.com/Shellishack/comfyui-remote-media-loaders"
-            ],
-            "install_type": "git-clone",
-            "description": "Load media (image/video/audio) from remote URL"
-        },
-        {
-            "author": "S4MUEL404",
-            "title": "ComfyUI Prepack",
-            "id": "comfyui-prepack",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-Prepack",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-Prepack"
-            ],
-            "install_type": "git-clone",
-            "description": "A small, practical bundle of ComfyUI nodes that streamlines common workflows."
-        },
-        {
-            "author": "Frief84",
-            "title": "ComfyUI-LoRAWeightAxisXY",
-            "reference": "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY",
-            "files": [
-                "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds `XY Input: LoRA Weight (simple)` for Efficiency Nodes. Outputs XY subtype 'LoRA' (name, weight, weight) with a linear sweep; works with `XY Input: Checkpoint`.",
-            "tags": ["xy-plot", "lora", "efficiency-nodes", "utility"]
-        },
-        {
-            "author": "penposs",
-            "title": "ComfyUI-Banana-Node",
-            "reference": "https://github.com/penposs/ComfyUI-Banana-Node",
-            "files": [
-                "https://github.com/penposs/ComfyUI-Banana-Node"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that generates images using Google’s Gemini 2.5 Flash Image Preview API."
-        },
-        {
-            "author": "PenguinTeo",
-            "title": "GeminiBanana for ComfyUI",
-            "reference": "https://github.com/PenguinTeo/Comfyui-GeminiBanana",
-            "files": [
-                "https://github.com/PenguinTeo/Comfyui-GeminiBanana"
-            ],
-            "install_type": "git-clone",
-            "description": "GeminiBanana is a custom node for ComfyUI based on the Gemini API. It allows you to call Gemini inside ComfyUI workflows to generate text, parse images, or perform multimodal interactions, greatly enhancing workflow automation and creative capabilities."
-        },
-        {
-            "author": "grovergol",
-            "title": "ComfyUI Grover Nodes",
-            "reference": "https://github.com/grovergol/comfyui-grover-nodes",
-            "files": [
-                "https://github.com/grovergol/comfyui-grover-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node that allows opening file paths in the default system file explorer."
         }
     ]
 }
