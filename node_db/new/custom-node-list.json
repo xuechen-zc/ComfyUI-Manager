@@ -1,6 +1,196 @@
 {
     "custom_nodes": [
         {
+            "author": "3dgopnik",
+            "title": "comfyui-smart-lora-downloader - Automatically Fetch Missing LoRAs",
+            "reference": "https://github.com/3dgopnik/comfyui-arena-suite",
+            "files": [
+                "https://github.com/3dgopnik/comfyui-arena-suite"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes in a single package: Arena legacy + AutoCache + Updater"
+        },
+        {
+            "author": "wildminder",
+            "title": "ComfyUI-VoxCPM",
+            "reference": "https://github.com/wildminder/ComfyUI-VoxCPM",
+            "files": [
+                "https://github.com/wildminder/ComfyUI-VoxCPM"
+            ],
+            "install_type": "git-clone",
+            "description": "VoxCPM TTS. Context-aware, expressive speech generation and true-to-life voice cloning"
+        },
+        {
+            "author": "SiggEye",
+            "title": "FaceCanon — Consistent Faces at Any Resolution",
+            "reference": "https://github.com/SiggEye/FaceCanon",
+            "files": [
+                "https://github.com/SiggEye/FaceCanon"
+            ],
+            "install_type": "git-clone",
+            "description": "FaceCanon scales a detected face to a canonical pixel size, lets you run your favorite face detailer at that sweet spot, then maps the result back into the original image with seamless blending. The payoff is consistent face style no matter the input resolution or framing."
+        },
+        {
+            "author": "mcrataobrabo",
+            "title": "comfyui-smart-lora-downloader - Automatically Fetch Missing LoRAs",
+            "reference": "https://github.com/mcrataobrabo/comfyui-smart-lora-downloader",
+            "files": [
+                "https://github.com/mcrataobrabo/comfyui-smart-lora-downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically detect and download missing LoRAs for ComfyUI workflows"
+        },
+        {
+            "author": "ahkimkoo",
+            "title": "ComfyUI Audio Segment Plugin",
+            "reference": "https://github.com/ahkimkoo/Comfyui-AudioSegment",
+            "files": [
+                "https://github.com/ahkimkoo/Comfyui-AudioSegment"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node suite for ComfyUI designed for advanced audio processing"
+        },
+        {
+            "author": "jasonjgardner",
+            "title": "comfyui-pixel-art-scalers",
+            "reference": "https://github.com/jasonjgardner/comfyui-pixel-art-scalers",
+            "files": [
+                "https://github.com/jasonjgardner/comfyui-pixel-art-scalers"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for scaling pixel art using various algorithms"
+        },
+        {
+            "author": "bmad4ever",
+            "title": "comfyui-panels",
+            "reference": "https://github.com/bmad4ever/comfyui_panels",
+            "files": [
+                "https://github.com/bmad4ever/comfyui_panels"
+            ],
+            "install_type": "git-clone",
+            "description": "Comics/Manga like panel layouts."
+        },
+        {
+            "author": "Noma-Machiko",
+            "title": "ComfyUI-ToDevice",
+            "reference": "https://github.com/Noma-Machiko/ComfyUI-ToDevice",
+            "files": [
+                "https://github.com/Noma-Machiko/ComfyUI-ToDevice"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple collection of device conversion nodes for ComfyUI. These nodes move an image node running on the GPU over to the CPU. They also support moving from CPU to GPU, but in that case, please remove the CPU option from the ComfyUI startup options."
+        },
+        {
+            "author": "AdamShuo",
+            "title": "ComfyUI Switch Any Node",
+            "reference": "https://github.com/AdamShuo/ComfyUI_Switch",
+            "files": [
+                "https://github.com/AdamShuo/ComfyUI_Switch"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that provides a dynamic 'Switch' for routing purposes. It allows you to define a list of named labels and select one, outputting the corresponding index and label name. This is useful for controlling the flow of your workflow based on a selection."
+        },
+        {
+            "author": "Sean-Bradley",
+            "title": "ComfyUI Virtual Webcam",
+            "reference": "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam",
+            "files": [
+                "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam"
+            ],
+            "install_type": "git-clone",
+            "description": "A Virtual Camera Output For ComfyUI. On Windows, it will use the OBS Virtual Camera driver. So make sure you have OBS installed. Then in your other webcam capable applications, such as Google Meet, Teams, Zoom and even OBS itself, you can connect to the OBS Virtual Camera option and see what you are outputting from ComfyUI."
+        },
+        {
+            "author": "LukeCoulson1",
+            "title": "ComfyUI LoRA Combine Node",
+            "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
+            "files": [
+                "https://github.com/LukeCoulson1/Comfyui_LoraCombine"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that allows you to combine two LoRAs with adjustable strengths and multiple merging methods."
+        },
+        {
+            "author": "VraethrDalkr",
+            "title": "ComfyUI-TripleKSampler",
+            "reference": "https://github.com/VraethrDalkr/ComfyUI-TripleKSampler",
+            "files": [
+                "https://github.com/VraethrDalkr/ComfyUI-TripleKSampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Triple-stage KSampler for Wan2.2 split models with Lightning LoRA"
+        },
+        {
+            "author": "Firetheft",
+            "title": "ComfyUI_Pixabay_Gallery",
+            "reference": "https://github.com/Firetheft/ComfyUI_Pixabay_Gallery",
+            "files": [
+                "https://github.com/Firetheft/ComfyUI_Pixabay_Gallery"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful node for browsing and importing media from Pixabay directly within ComfyUI."
+        },
+        {
+            "author": "comrender",
+            "title": "ComfyUI-NanoSeed",
+            "reference": "https://github.com/comrender/ComfyUI-NanoSeed",
+            "files": [
+                "https://github.com/comrender/ComfyUI-NanoSeed"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node for seamless image editing using fal.ai's NanoBanana and Seedream (v4) models. Edit images with AI-powered prompts, supporting multi-image batches, custom resolutions, and easy fal.ai API key integration directly in the node interface. "
+        },
+        {
+            "author": "APZmedia",
+            "title": "ComfyUI APZmedia PSD Tools",
+            "reference": "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools",
+            "files": [
+                "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension provides PSD layer saving functionalities with mask support for ComfyUI."
+        },
+        {
+            "author": "fr0nky0ng",
+            "title": "ComfyUI-frankAI-banana",
+            "reference": "https://github.com/fr0nky0ng/ComfyUI-frankAI-banana",
+            "files": [
+                "https://github.com/fr0nky0ng/ComfyUI-frankAI-banana"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of ComfyUI nodes for calling the Nano-Banana API , while also supporting the Google API and frankAI API."
+        },
+        {
+            "author": "DecartAI",
+            "title": "Lucy-Edit-ComfyUI",
+            "reference": "https://github.com/DecartAI/Lucy-Edit-ComfyUI",
+            "files": [
+                "https://github.com/DecartAI/Lucy-Edit-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Lucy Edit is a video editing model that performs instruction-guided edits on videos using free-text prompts — it supports a variety of edits, such as clothing & accessory changes, character changes, object insertions, and scene replacements while preserving the motion and composition perfectly."
+        },
+        {
+            "author": "wallen0322",
+            "title": "ComfyUI-QI-QwenEditSafe",
+            "reference": "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe",
+            "files": [
+                "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: QI • TextEncodeQwenImageEdit, QI • VAE Decode, QI • RefEdit Encode — by wallen0322"
+        },
+        {
+            "author": "Yuxi Liu",
+            "title": "comfyui-ddu",
+            "reference": "https://github.com/YL-Lyx/Comfyui-ddu-toolchain",
+            "files": [
+                "https://github.com/YL-Lyx/Comfyui-ddu-toolchain"
+            ],
+            "install_type": "git-clone",
+            "description": "ai-driven toolchain for digital design and fabrication "
+        },
+        {
             "author": "Junst",
             "title": "ComfyUI-Concept-Diffusion",
             "reference": "https://github.com/Junst/ComfyUI-Concept-Diffusion",
@@ -623,77 +813,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI node pack for encrypting and hiding text or images.\nSecurity: AES-256-GCM (authenticated) with scrypt key derivation.\nSteganography: LSB (PNG/TIFF) and DCT/JPEG (more robust to recompression)."
-        },
-        {
-            "author": "leylahkrell",
-            "title": "ComfyUI Violet Tools",
-            "reference": "https://github.com/leylahkrell/ComfyUI-Violet-Tools",
-            "files": [
-                "https://github.com/leylahkrell/ComfyUI-Violet-Tools"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of aesthetic-focused custom nodes for ComfyUI that enhance AI image generation with sophisticated style and prompt management capabilities. Includes 7 nodes: Aesthetic Alchemist (style blending with 20+ curated aesthetics), Quality Queen (quality prompts), Glamour Goddess (hair/makeup), Body Bard (body features), Pose Priestess (positioning), Encoding Enchantress (text processing), and Negativity Nullifier (negative prompts). Features weighted blending, randomization, and modular YAML-based configuration."
-        },
-        {
-            "author": "SnJake",
-            "title": "JPG & Noise Remover for ComfyUI",
-            "reference": "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner",
-            "files": [
-                "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a custom node for ComfyUI designed to remove JPEG compression artifacts and digital noise from images. It is powered by a lightweight UNetRestorer model that efficiently restores image quality."
-        },
-        {
-            "author": "SatadalAI",
-            "title": "SATA UtilityNode Node for ComfyUI",
-            "id": "SATA UtilityNode",
-            "reference": "https://github.com/SatadalAI/SATA_UtilityNode",
-            "files": [
-                "https://github.com/SatadalAI/SATA_UtilityNode"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of utility nodes including image upscale,touchpad support and CSV-driven prompt machine for ComfyUI."
-        },
-        {
-            "author": "ShmuelRonen",
-            "title": "ComfyUI Flux Pro Integrative - Enhanced Flux API Node",
-            "reference": "https://github.com/ShmuelRonen/flux_pro_integrative",
-            "files": [
-                "https://github.com/ShmuelRonen/flux_pro_integrative"
-            ],
-            "install_type": "git-clone",
-            "description": "A completely rewritten and enhanced custom node for ComfyUI that integrates with Black Forest Labs FLUX API, providing seamless access to FLUX's image generation and finetuning capabilities with improved reliability and user experience."
-        },
-        {
-            "author": "CoreyCorza",
-            "title": "ComfyUI-CRZnodes",
-            "reference": "https://github.com/CoreyCorza/ComfyUI-CRZnodes",
-            "files": [
-                "https://github.com/CoreyCorza/ComfyUI-CRZnodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Dashboard Nodes for Comfy"
-        },
-        {
-            "author": "wizdroid",
-            "title": "Wizdroid ComfyUI Outfit Selection",
-            "reference": "https://github.com/wizdroid/wizdroid-fashionista",
-            "files": [
-                "https://github.com/wizdroid/wizdroid-fashionista"
-            ],
-            "install_type": "git-clone",
-            "description": "A comprehensive outfit generation system for ComfyUI with AI-powered prompt enhancement and dynamic outfit composition."
-        },
-        {
-            "author": "Vantage with AI",
-            "title": "Vantage-HunyuanFoley",
-            "reference": "https://github.com/vantagewithai/Vantage-HunyuanFoley",
-            "files": [
-                "https://github.com/vantagewithai/Vantage-HunyuanFoley"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model."
         }
     ]
 }

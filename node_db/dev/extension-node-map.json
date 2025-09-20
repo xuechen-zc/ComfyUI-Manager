@@ -768,7 +768,6 @@
     ],
     "https://github.com/AlexYez/comfyui-timesaver": [
         [
-            "Gemma3nNode",
             "TS Cube to Equirectangular",
             "TS Equirectangular to Cube",
             "TS Files Downloader",
@@ -783,9 +782,12 @@
             "TS_Free_Video_Memory",
             "TS_ImageResize",
             "TS_MarianTranslator",
+            "TS_ModelConverter",
+            "TS_ModelConverterAdvanced",
+            "TS_Qwen2.5_VL",
             "TS_Qwen3",
-            "TS_Qwen3_Offline",
-            "TS_Qwen_GGUF",
+            "TS_QwenCanvas",
+            "TS_QwenSafeResize",
             "TS_VideoDepthNode",
             "TS_Video_Upscale_With_Model"
         ],
@@ -1356,6 +1358,17 @@
             "title_aux": "ComfyUI-DataVoid-nodes [WIP]"
         }
     ],
+    "https://github.com/DavidJBarnes/comfyui-djb-utils": [
+        [
+            "DirectImageFilenameInput",
+            "ResolutionDetectorFromFilename",
+            "WAN21ModelTracker",
+            "WorkingFilenameExtractor"
+        ],
+        {
+            "title_aux": "comfyui-djb-utils"
+        }
+    ],
     "https://github.com/DeTK/ComfyUI-Switch": [
         [
             "NodeSwitch"
@@ -1543,6 +1556,8 @@
     "https://github.com/EQXai/ComfyUI_EQX": [
         [
             "AspectRatioCropEQX",
+            "BatchImageTrimmer",
+            "BatchImageTrimmerMulti",
             "BodyCropMaskEQX",
             "CountFaces_EQX",
             "Extract Filename - EQX",
@@ -1550,6 +1565,7 @@
             "FaceCropMaskEQX",
             "FaceDetectOut",
             "File Image Selector",
+            "ImageDuplicateRemover",
             "Load Prompt From File - EQX",
             "LoadRetinaFace_EQX",
             "LoraStackEQX_random",
@@ -1558,6 +1574,8 @@
             "SaveImage_EQX",
             "SaveVideoEQX",
             "UncropByMaskEQX",
+            "VideoFragmentsNode",
+            "VideoFragmentsSplitter",
             "WorkFlow Check"
         ],
         {
@@ -1790,7 +1808,9 @@
     "https://github.com/Firetheft/ComfyUI_Local_Image_Gallery": [
         [
             "LocalImageGalleryNode",
-            "SelectOriginalImageNode"
+            "SelectOriginalAudioNode",
+            "SelectOriginalImageNode",
+            "SelectOriginalVideoNode"
         ],
         {
             "title_aux": "ComfyUI Local Media Manager [UNSAFE]"
@@ -3388,6 +3408,16 @@
             "title_aux": "HiDreamSampler for ComfyUI [WIP]"
         }
     ],
+    "https://github.com/Santat2023/ComfyUiRagNodes": [
+        [
+            "MyNodesForDB",
+            "MyNodesForLLM",
+            "MyNodesForRAG"
+        ],
+        {
+            "title_aux": "ComfyUiRagNodes"
+        }
+    ],
     "https://github.com/Scaryplasmon/ComfTrellis": [
         [
             "LoadTrellisModel",
@@ -3496,6 +3526,7 @@
     ],
     "https://github.com/SlackinJack/multigpu_diffusion_comfyui": [
         [
+            "AdvancedSchedulerSelector",
             "AsyncDiffADSampler",
             "AsyncDiffConfig",
             "AsyncDiffSDSampler",
@@ -5897,6 +5928,16 @@
             "title_aux": "DCNodess [WIP]"
         }
     ],
+    "https://github.com/dcduanchao/comfyui_video_http": [
+        [
+            "Audio Upload Node",
+            "Image Upload Node",
+            "Video Upload Node"
+        ],
+        {
+            "title_aux": "comfyui_video_http"
+        }
+    ],
     "https://github.com/dead-matrix/ComfyUI-RMBG-Custom": [
         [
             "RMBG_Custom"
@@ -6979,6 +7020,15 @@
         ],
         {
             "title_aux": "comfyui-hnznodes"
+        }
+    ],
+    "https://github.com/husw725/comfyui_alta_nodes": [
+        [
+            "Alta:LoadImagesPath",
+            "Alta:SaveImagePlus"
+        ],
+        {
+            "title_aux": "comfyui_alta_nodes"
         }
     ],
     "https://github.com/hy134300/comfyui-hb-node": [
@@ -8135,6 +8185,36 @@
             "title_aux": "SK-Nodes"
         }
     ],
+    "https://github.com/lu64k/ks_nodes": [
+        [
+            "KS Json Count",
+            "KS Json To String",
+            "KS JsonKeyExtractor",
+            "KS JsonKeyReplacer",
+            "KS JsonlFolderMatchReader",
+            "KS JsonlReader",
+            "KS Load Images From Folder KS",
+            "KS Random File Name",
+            "KS Save Text",
+            "KS Text_String",
+            "KS Word Frequency Statistics",
+            "KS get time int",
+            "KS json array constrains filter",
+            "KS json extract key and value",
+            "KS json float range filter",
+            "KS json key random",
+            "KS json key replace",
+            "KS json value eliminator",
+            "KS load text",
+            "KS_any_payload_image",
+            "KS_image_metadata_node",
+            "KS_make_json_node",
+            "KS_merge_json_node"
+        ],
+        {
+            "title_aux": "ks_nodes"
+        }
+    ],
     "https://github.com/lucafoscili/lf-nodes": [
         [
             "LF_Blend",
@@ -8874,6 +8954,16 @@
         ],
         {
             "title_aux": "Unified List Selector for ComfyUI [UNSAFE]"
+        }
+    ],
+    "https://github.com/orpheus-gaze/comfyui-sundryutils": [
+        [
+            "\u2728 Apply HaldClut",
+            "\u2728 Return DateString",
+            "\u2728 Sharpen, RealGrain & Autocontrast"
+        ],
+        {
+            "title_aux": "comfyui-sundryutils"
         }
     ],
     "https://github.com/osuiso-depot/comfyui-keshigom_custom": [
@@ -10764,49 +10854,6 @@
         ],
         {
             "title_aux": "q_tools"
-        }
-    ],
-    "https://github.com/xmarked-ai/ComfyUI_misc": [
-        [
-            "BLIPMatcherX",
-            "BlendLatentsX",
-            "ColorCorrectionX",
-            "ColorSpaceConversionX",
-            "ColorTransferNodeX",
-            "CommonSourcesX",
-            "ConstantColorX",
-            "ConvexHullByMaskX",
-            "CropBorderX",
-            "DepthDisplaceX",
-            "EmptyLatentX",
-            "ExpressionsX",
-            "FourCornerPinMaskX",
-            "GaussianBlurX",
-            "GaussianMaskBlurX",
-            "IfConditionX",
-            "ImageCompositionX",
-            "ImageResizeX",
-            "ImageTileSquare",
-            "ImageUntileSquare",
-            "KSamplerComboX",
-            "LoopCloseX",
-            "LoopOpenX",
-            "LoraBatchSamplerX",
-            "RegionTesterNodeX",
-            "RegionalPromptSamplerX",
-            "RelightX",
-            "RemoveBackgroundX",
-            "SamplersTestX",
-            "SaveImageX",
-            "SelectiveDepthLoraBlocksX",
-            "SimpleBlockerX",
-            "SplineImageMask",
-            "TextConcatX",
-            "TextX",
-            "WhiteBalanceX"
-        ],
-        {
-            "title_aux": "ComfyUI_misc"
         }
     ],
     "https://github.com/xqqe/honey_nodes": [
