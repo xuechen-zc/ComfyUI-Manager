@@ -148,7 +148,9 @@
     ],
     "https://github.com/1H-hobit/ComfyUI_InternVL3": [
         [
+            "BBOXES_XYXY_Converter",
             "DynamicPreprocess",
+            "Florence2toCoordinates_hb",
             "InternVLHFInference",
             "InternVLModelLoader",
             "hb_Number_Counter"
@@ -283,6 +285,7 @@
     ],
     "https://github.com/5agado/ComfyUI-Sagado-Nodes": [
         [
+            "Film Grain",
             "Get Num Frames",
             "Get Resolution",
             "Image Loader",
@@ -343,7 +346,9 @@
     ],
     "https://github.com/7BEII/Comfyui_PDuse": [
         [
+            "CustomAddLabel",
             "Empty_Line",
+            "ImageBlendAndWhite",
             "ImageBlendText",
             "ImageBlendV1",
             "ImageRatioCrop",
@@ -378,6 +383,8 @@
             "PD_RemoveWhiteBorder",
             "PD_ShowText",
             "PD_Text Overlay Node",
+            "PD_del_word",
+            "PD_empty_word",
             "PD_imagesave_path",
             "PD_random_prompt",
             "PDimage_corp_v1",
@@ -1179,6 +1186,7 @@
             "VTS Images Crop From Masks",
             "VTS Images Scale",
             "VTS Images Scale To Min",
+            "VTS Looping K Sampler",
             "VTS Math",
             "VTS Merge Delimited Text",
             "VTS Merge Text",
@@ -1191,6 +1199,7 @@
             "VTS To Boolean",
             "VTS To List",
             "VTS To Text",
+            "VTS To Text List",
             "VTS_Load_Pose_Keypoints",
             "Vts Text To Batch Prompt"
         ],
@@ -1650,8 +1659,11 @@
             "PromptHelper_ConcatString",
             "PromptHelper_EncodeMultiStringCombine",
             "PromptHelper_FormatString",
+            "PromptHelper_LoadImageBatchFromDir",
+            "PromptHelper_LoadImageListFromDir",
             "PromptHelper_LoadPreset",
             "PromptHelper_LoadPresetAdvanced",
+            "PromptHelper_SaveImageToDir",
             "PromptHelper_String",
             "PromptHelper_StringMultiLine",
             "PromptHelper_WeightedPrompt"
@@ -2365,33 +2377,42 @@
     ],
     "https://github.com/LSDJesus/ComfyUI-Luna-Collection": [
         [
+            "LunaAdvancedUpscaler",
+            "LunaCacheManager",
             "LunaCheckpointLoader",
+            "LunaEmbeddingCache",
             "LunaEmbeddingManager",
             "LunaEmbeddingManagerRandom",
+            "LunaListPreprocessedPrompts",
             "LunaLoRAStacker",
             "LunaLoRAStackerRandom",
+            "LunaLoadParameters",
+            "LunaLoadPreprocessedPrompt",
+            "LunaMediaPipeDetailer",
+            "LunaModifyPreprocessedPrompt",
+            "LunaMultiSaver",
+            "LunaOptimizedPreprocessedLoader",
+            "LunaParametersBridge",
+            "LunaPerformanceCondition",
+            "LunaPerformanceDisplay",
+            "LunaPerformanceLogger",
+            "LunaPerformanceMonitor",
+            "LunaPerformanceStatsConcat",
+            "LunaPromptPreprocessor",
+            "LunaSampler",
+            "LunaSaveNegativePrompt",
+            "LunaSelectPromptFolder",
+            "LunaSimpleUpscaler",
+            "LunaSinglePromptProcessor",
+            "LunaTextProcessor",
+            "LunaUnifiedPromptProcessor",
+            "LunaWildcardPromptGenerator",
             "Luna_Advanced_Upscaler",
+            "Luna_Detailer",
             "Luna_MediaPipe_Detailer",
             "Luna_MediaPipe_Segs",
             "Luna_SimpleUpscaler",
-            "Luna_YOLO_Annotation_Exporter",
-            "luna_image_caption"
-        ],
-        {
-            "title_aux": "ComfyUI-Luna-Collection [WIP]"
-        }
-    ],
-    "https://github.com/LSDJesus/ComfyUI-Pyrite-Core": [
-        [
-            "LunaCheckpointLoader",
-            "LunaEmbeddingManager",
-            "LunaEmbeddingManagerRandom",
-            "LunaLoRAStacker",
-            "LunaLoRAStackerRandom",
-            "Luna_Advanced_Upscaler",
-            "Luna_MediaPipe_Detailer",
-            "Luna_MediaPipe_Segs",
-            "Luna_SimpleUpscaler",
+            "Luna_UltimateSDUpscale",
             "Luna_YOLO_Annotation_Exporter",
             "luna_image_caption"
         ],
@@ -2772,6 +2793,8 @@
             "DJZ-LoadLatentV2",
             "DJZDatamosh",
             "DJZDatamoshV2",
+            "DJZImageScaleToTotalPixels",
+            "DJZ_ParallaxV1",
             "DatasetWordcloud",
             "DeadPixelEffect",
             "DepthBasedPixelization",
@@ -2830,6 +2853,7 @@
             "ScreensaverGeneratorV3",
             "SequentialNumberGenerator",
             "StringChaos",
+            "StringMatch",
             "StringWeights",
             "Technicolor3Strip_v1",
             "Technicolor3Strip_v2",
@@ -4343,6 +4367,25 @@
             "title_aux": "ComfyUI Model Bending [UNSAFE]"
         }
     ],
+    "https://github.com/adigayung/comfyui_PlutoNode": [
+        [
+            "CompositeImageNode",
+            "FloatArithmeticNode",
+            "FloatToIntNode",
+            "IntArithmeticNode",
+            "PlutoAutoCropFaces",
+            "PlutoAutoSaveImage",
+            "PlutoEmptyLatentByInput",
+            "PlutoGetSizeFromImage",
+            "PreviewImageXX",
+            "TextAppendNode",
+            "TextReplaceNode",
+            "TextToImageNode"
+        ],
+        {
+            "title_aux": "comfyui_PlutoNode"
+        }
+    ],
     "https://github.com/adithis197/ComfyUI-Caption_to_audio": [
         [
             "TextToMusicGenAudio"
@@ -5268,6 +5311,7 @@
             "SetData",
             "TemplateFileLoader",
             "UploadImagesToWebDAV",
+            "UploadMP4ToWebDAV",
             "UploadWebMToWebDAV",
             "YAMLData",
             "YAMLFileLoader"
@@ -5785,6 +5829,7 @@
             "TestWhileLoopOpen",
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
+            "TextEncodeQwenImageEditPlus",
             "ThresholdMask",
             "TomePatchModel",
             "TorchCompileModel",
@@ -5930,8 +5975,7 @@
     ],
     "https://github.com/dcduanchao/comfyui_video_http": [
         [
-            "Audio Upload Node",
-            "Image Upload Node",
+            "Translator Node",
             "Video Upload Node"
         ],
         {
@@ -7024,8 +7068,23 @@
     ],
     "https://github.com/husw725/comfyui_alta_nodes": [
         [
+            "Alta:EditableImage",
+            "Alta:GetImageAndPath",
+            "Alta:GetImageByIndex",
+            "Alta:GetStringByIndex",
+            "Alta:GptImageMerge",
+            "Alta:JiMengImage2Video",
+            "Alta:JiMengImage2VideoQuery",
+            "Alta:JimengText2Image",
+            "Alta:LoadImage",
+            "Alta:LoadImageFromPath",
+            "Alta:LoadImageWithPath",
             "Alta:LoadImagesPath",
-            "Alta:SaveImagePlus"
+            "Alta:LoadVideoPath",
+            "Alta:LoadVideosFromFolder",
+            "Alta:SaveImage",
+            "Alta:SaveImagePlus",
+            "Alta:VideoCombine"
         ],
         {
             "title_aux": "comfyui_alta_nodes"
@@ -7953,6 +8012,17 @@
             "title_aux": "ComfyUI_Scoring-Nodes"
         }
     ],
+    "https://github.com/lfelipegg/lfgg_custom_nodes": [
+        [
+            "LFGG - Resolution Tools",
+            "LFGG KSampler (advanced) - Config",
+            "LFGG KSampler - Config",
+            "ModelMergeCombos"
+        ],
+        {
+            "title_aux": "lfgg_custom_nodes"
+        }
+    ],
     "https://github.com/lggcfx2020/ComfyUI-LGGCFX-Tools": [
         [
             "LGGCFX_audio",
@@ -7973,6 +8043,18 @@
         ],
         {
             "title_aux": "ComfyUI-img-tiler"
+        }
+    ],
+    "https://github.com/lihaoyun6/ComfyUI-lhyNodes": [
+        [
+            "CSVRandomPicker",
+            "CSVRandomPickerAdv",
+            "MaskToSAMCoords",
+            "StrFormat",
+            "StrFormatAdv"
+        ],
+        {
+            "title_aux": "ComfyUI-lhyNodes"
         }
     ],
     "https://github.com/linhusyung/comfyui-Build-and-train-your-network": [
@@ -8162,27 +8244,6 @@
         ],
         {
             "title_aux": "ComfyUI-Workflow-Component [WIP]"
-        }
-    ],
-    "https://github.com/lu64k/SK-Nodes": [
-        [
-            "Ask LLM",
-            "Color Transfer",
-            "Image Tracing Node",
-            "Load LLM",
-            "Load_Nemotron",
-            "Natural Saturation",
-            "OpenAI DAlle Node",
-            "OpenAI Text Node",
-            "SK Random File Name",
-            "SK Save Text",
-            "SK Text_String",
-            "SK load text",
-            "Tone Layer Quantize",
-            "grey_scale blend"
-        ],
-        {
-            "title_aux": "SK-Nodes"
         }
     ],
     "https://github.com/lu64k/ks_nodes": [
@@ -8881,6 +8942,11 @@
             "InoNotBoolean",
             "InoParseFilePath",
             "InoRandomCharacterPrompt",
+            "InoS3DownloadFile",
+            "InoS3DownloadImage",
+            "InoS3UploadFile",
+            "InoS3UploadImage",
+            "InoS3UploadVideo",
             "InoShowLoraConfig",
             "InoShowModelConfig",
             "InoStringToCombo",
@@ -8954,6 +9020,28 @@
         ],
         {
             "title_aux": "Unified List Selector for ComfyUI [UNSAFE]"
+        }
+    ],
+    "https://github.com/orion4d/Orion4D_MasterPrompt": [
+        [
+            "list_selector_pro",
+            "mp_file_txt_pro",
+            "mp_folder_merge_lines",
+            "mp_format",
+            "mp_json_format",
+            "mp_json_kv_lines",
+            "mp_json_merge",
+            "mp_json_pick",
+            "mp_list_editor",
+            "mp_replace",
+            "mp_super_show_text",
+            "mp_wrap",
+            "multi_list_mixer",
+            "text_field_mixer",
+            "text_prompt_mixer"
+        ],
+        {
+            "title_aux": "Orion4D MasterPrompt Suite for ComfyUI [UNSAFE]"
         }
     ],
     "https://github.com/orpheus-gaze/comfyui-sundryutils": [
