@@ -1,6 +1,136 @@
 {
     "custom_nodes": [
         {
+            "author": "ziwang-com",
+            "title": "comfyui-deepseek-r1 [REMOVED]",
+            "reference": "https://github.com/ziwang-com/comfyui-deepseek-r1",
+            "files": [
+                "https://github.com/ziwang-com/comfyui-deepseek-r1"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfyui-deepseek-r1 Node Plugin"
+        },
+        {
+            "author": "leeguandong",
+            "title": "ComfyUI nodes to use Xverse [REMOVED]",
+            "reference": "https://github.com/leeguandong/ComfyUI_Xverse",
+            "files": [
+                "https://github.com/leeguandong/ComfyUI_Xverse"
+            ],
+            "install_type": "git-clone",
+            "description": "The ComfyUI version of [a/XVerse](https://github.com/bytedance/XVerse)"
+        },
+        {
+            "author": "Dehypnotic",
+            "title": "Dehypnotic Save nodes [REMOVED]",
+            "reference": "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes",
+            "files": [
+                "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Save toolkit for audio, image, and video: MP3 audio export with VBR/CBR options, multi-format image saving with workflow/thumbnail metadata, and video + frame encoding (MP4/MKV/WEBM/MOV) — all sharing whitelist-safe paths and rich placeholder templating."
+        },
+        {
+            "author": "znuost10",
+            "title": "comfyui-multi-float-output [REMOVED]",
+            "reference": "https://github.com/znuost10/comfyui-multi-float-output",
+            "files": [
+                "https://github.com/znuost10/comfyui-multi-float-output"
+            ],
+            "install_type": "git-clone",
+            "description": "System monitoring API endpoints for ComfyUI by otoy SKW"
+        },
+        {
+            "author": "rakki194",
+            "title": "ComfyUI_WolfSigmas [UNSAFE/REMOVED]",
+            "reference": "https://github.com/rakki194/ComfyUI_WolfSigmas",
+            "files": [
+                "https://github.com/rakki194/ComfyUI_WolfSigmas"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom nodepack for ComfyUI provides a suite of tools for generating and manipulating sigma schedules for diffusion models. These nodes are particularly useful for fine-tuning the sampling process, experimenting with different step counts, and adapting schedules for specific models.[w/Security Warning: Remote Code Execution]"
+        },
+        {
+            "author": "Maff3u",
+            "title": "MattiaNodes - Points Editor On Cropped [REMOVED]",
+            "reference": "https://github.com/Maff3u/MattiaNodes",
+            "files": [
+                "https://github.com/Maff3u/MattiaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A standalone ComfyUI custom node for interactive coordinate editing with crop factor correction.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "rakki194",
+            "title": "ComfyUI-ImageCompare [REMOVED]",
+            "reference": "https://github.com/rakki194/ComfyUI-ImageCompare",
+            "files": [
+                "https://github.com/rakki194/ComfyUI-ImageCompare"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple custom node for ComfyUI that allows you to compare two images (or batches of images) side-by-side within the UI."
+        },
+        {
+            "author": "APZmedia",
+            "title": "NormalMapLightEstimator [REMOVED]",
+            "reference": "https://github.com/APZmedia/Comfyui-LightDirection-estimation",
+            "files": [
+                "https://github.com/APZmedia/Comfyui-LightDirection-estimation"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for estimating light direction and quality from normal maps using luma masking. The system analyzes surface normals to infer lighting information for downstream tasks like adaptive relighting, directional masking, or stylized effects."
+        },
+        {
+            "author": "APZmedia",
+            "title": "ComfyUI APZmedia PSD Tools [REMOVED]",
+            "reference": "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools",
+            "files": [
+                "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension provides PSD layer saving functionalities with mask support for ComfyUI."
+        },
+        {
+            "author": "huixingyun",
+            "title": "ComfyUI-HX-Pimg [REMOVED]",
+            "reference": "https://github.com/huixingyun/ComfyUI-HX-Pimg",
+            "files": [
+                "https://github.com/huixingyun/ComfyUI-HX-Pimg"
+            ],
+            "install_type": "git-clone",
+            "description": "Some custom nodes used for pimg (a comfyui controller deployed in huixingyun)."
+        },
+        {
+            "author": "rvage",
+            "title": "ComfyUI-RvToolsX [REMOVED]",
+            "reference": "https://github.com/r-vage/ComfyUI-RvToolsX",
+            "files": [
+                "https://github.com/r-vage/ComfyUI-RvToolsX"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes and utilities for workflow building, type conversions, checkpoint/pipe loaders and file utilities."
+        },
+        {
+            "author": "usman2003",
+            "title": "ComfyUI-RaceDetect [REMOVED]",
+            "reference": "https://github.com/usman2003/ComfyUI-RaceDetect",
+            "files": [
+                "https://github.com/usman2003/ComfyUI-RaceDetect"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Race Detection V2"
+        },
+        {
+            "author": "lihaoyun6",
+            "title": "ComfyUI-CSV-Random-Picker [REMOVED]",
+            "reference": "https://github.com/lihaoyun6/ComfyUI-CSV-Random-Picker",
+            "files": [
+                "https://github.com/lihaoyun6/ComfyUI-CSV-Random-Picker"
+            ],
+            "install_type": "git-clone",
+            "description": "String random picker for ComfyUI"
+        },
+        {
             "author": "r-vage",
             "title": "ComfyUI-RvTools_v2 [REMOVED]",
             "reference": "https://github.com/r-vage/ComfyUI-RvTools_v2",
