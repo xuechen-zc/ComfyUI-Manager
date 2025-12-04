@@ -24,7 +24,6 @@ import queue
 import manager_downloader
 import manager_migration
 
-print('10------------------------')
 logging.info(f"### Loading: ComfyUI-Manager ({core.version_str})")
 logging.info("[ComfyUI-Manager] network_mode: " + core.get_config()['network_mode'])
 
