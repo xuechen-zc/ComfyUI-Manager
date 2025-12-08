@@ -1,6 +1,29 @@
 {
     "custom_nodes": [
         {
+            "author": "HackAfterDark",
+            "title": "AfterDark Film AR Selector",
+            "id": "ComfyUI-HackAfterDark-Nodes",
+            "reference": "https://github.com/hackafterdark/ComfyUI-HackAfterDark-Nodes",
+            "files": [
+                "https://github.com/hackafterdark/ComfyUI-HackAfterDark-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of utility nodes for ComfyUI, including resolution presets for film and photography aspect ratios.",
+            "tags": ["utility", "presets", "aspect ratio", "film"]
+        },
+        {
+            "author": "Dashuai",
+            "title": "ComfyUI DashuaiTools",
+            "id": "comfyui-dashuai-tools",
+            "reference": "https://github.com/Hasasasa/ComfyUI_DashuaiTools",
+            "files": [
+                "https://github.com/Hasasasa/ComfyUI_DashuaiTools"
+            ],
+            "install_type": "git-clone",
+            "description": "A practical and lightweight collection of custom nodes for ComfyUI, providing utility tools and convenient workflow functions."
+        },
+        {
             "author": "jeankassio",
             "title": "ComfyUI_MusicTools",
             "id": "ComfyUI_MusicTools",
@@ -10,8 +33,19 @@
             ],
             "install_type": "git-clone",
             "description": "Professional audio processing and mastering suite for ComfyUI."
-        },        
-		{
+        },
+        {
+                "author": "ShootTheSound",
+                "title": "Realtime LoRA Trainer",
+                "id": "comfyui-realtime-lora",
+                "reference": "https://github.com/ShootTheSound/comfyUI-Realtime-Lora",
+                "files": [
+                    "https://github.com/ShootTheSound/comfyUI-Realtime-Lora"
+                ],
+                "install_type": "git-clone",
+                "description": "Train LoRAs directly inside ComfyUI. Supports SDXL (via sd-scripts), FLUX, Z-Image Turbo, and Wan 2.2 (via AI-Toolkit)."
+        },
+        {
             "author": "Transhumai",
             "title": "ComfyUI-LegionPower",
             "reference": "https://github.com/Transhumai/ComfyUI-LegionPower",
@@ -683,56 +717,6 @@
             "install_type": "git-clone",
             "description": "Utility tools. Index Multiple is used for expanding multiple values from a list, IsOneOfGroupsActive to identify groups state, RepeatGroupState group enable/disable like rg but without connection etc.",
             "tags": ["utility", "list", "batch"]
-        },
-        {
-            "author": "huygiatrng",
-            "title": "Facefusion_comfyui",
-            "reference": "https://github.com/huygiatrng/Facefusion_comfyui",
-            "files": [
-                "https://github.com/huygiatrng/Facefusion_comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced face swapping for ComfyUI with local ONNX inference - no API required!"
-        },
-        {
-            "author": "Ada123-a",
-            "title": "ComfyUI-Kandinsky",
-            "reference": "https://github.com/Ada123-a/ComfyUI-Kandinsky",
-            "files": [
-                "https://github.com/Ada123-a/ComfyUI-Kandinsky"
-            ],
-            "install_type": "git-clone",
-            "description": "Kandinsky 2/20B ComfyUI support with FP8/GGUF/blockswap support."
-        },
-        {
-            "author": "chchchadzilla",
-            "title": "ComfyUI-ChomfyNodes",
-            "reference": "https://github.com/chchchadzilla/ComfyUI-ChomfyNodes",
-            "files": [
-                "https://github.com/chchchadzilla/ComfyUI-ChomfyNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A professional suite of utility nodes for ComfyUI, featuring forensic logging, massive wildcard control, universal noise injection, and persistent counters."
-        },
-        {
-            "author": "nitingrg",
-            "title": "comfyui-ntools",
-            "reference": "https://github.com/nitingrg/comfyui-ntools",
-            "files": [
-                "https://github.com/nitingrg/comfyui-ntools"
-            ],
-            "install_type": "git-clone",
-            "description": "Essential little utilities that should have been in ComfyUI from day one. (Description by CC)"
-        },
-        {
-            "author": "jav12z",
-            "title": "ComfyUI-ToyShaders",
-            "reference": "https://github.com/jav12z/ComfyUI-ToyShaders",
-            "files": [
-                "https://github.com/jav12z/ComfyUI-ToyShaders"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that allows you to render GLSL shaders (Shadertoy-style) directly inside your workflows. (Description by CC)"
         }
     ]
 }
