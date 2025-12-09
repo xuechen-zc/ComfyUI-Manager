@@ -1756,6 +1756,15 @@
             "title_aux": "ComfyUI-Math [WIP]"
         }
     ],
+    "https://github.com/Enferlain/ComfyUI-extra-schedulers": [
+        [
+            "BetaSchedulerV2C",
+            "BetaSchedulerV2CRaw"
+        ],
+        {
+            "title_aux": "ComfyUI-extra-schedulers [WIP]"
+        }
+    ],
     "https://github.com/Eric7758/ComfyUI-IAT": [
         [
             "Base64ToImageNode by IAT",
@@ -2107,6 +2116,7 @@
     ],
     "https://github.com/IgPoly/ComfyUI-igTools": [
         [
+            "IGT_ImageResizer",
             "IGT_ImageTilesCalc",
             "IGT_SimpleTilesCalc"
         ],
@@ -2379,6 +2389,7 @@
             "ComfyLLamaPromptBuilder",
             "ComfyLLamaSaveText",
             "ComfyLLamaServer",
+            "ComfyLLamaServerConfig",
             "ComfyLLamaTextConcat",
             "ComfyLLamaTextInput",
             "GGUFLoader",
@@ -2524,18 +2535,27 @@
             "LunaLoRAStacker",
             "LunaLoRATriggerInjector",
             "LunaLoRAValidator",
+            "LunaModelRestore",
+            "LunaModelRouter",
             "LunaMultiSaver",
             "LunaOptimizedWeightsManager",
             "LunaPromptCraft",
             "LunaPromptCraftDebug",
+            "LunaSecondaryModelLoader",
             "LunaSmartLoRALinker",
+            "LunaSuperUpscaler",
+            "LunaSuperUpscalerSimple",
             "LunaUNetTunnel",
+            "LunaVLMPromptGenerator",
+            "LunaVisionNode",
             "LunaWildcardBuilder",
             "LunaYAMLInjector",
             "LunaYAMLPathExplorer",
             "LunaYAMLWildcard",
             "LunaYAMLWildcardBatch",
             "LunaYAMLWildcardExplorer",
+            "LunaZImageEncoder",
+            "LunaZImageProcessor",
             "Luna_Advanced_Upscaler",
             "Luna_Detailer",
             "Luna_SimpleUpscaler",
@@ -3269,6 +3289,14 @@
             "title_aux": "ComfyUI-Save_Image"
         }
     ],
+    "https://github.com/NeoTech/comfyui-laserprep": [
+        [
+            "LaserPrep"
+        ],
+        {
+            "title_aux": "comfyui-laserprep"
+        }
+    ],
     "https://github.com/NeuroWaifu/ComfyUI.Node.MediaSuite": [
         [
             "BooleanLogic",
@@ -3489,22 +3517,15 @@
             "BGPSegSegmentation",
             "BrepGeneration",
             "CADAnalysisViewer",
+            "CADBoundingBox",
             "CADCheckOverlappingFaces",
-            "CADConnectedComponents",
-            "CADCountFaces",
-            "CADDepthMapHybrid",
             "CADEdgeAnalysis",
             "CADEdgeDetailAnalyzer",
             "CADEdgeViewer",
-            "CADEstimateGapTolerance",
             "CADExtractFaces",
             "CADFaceAnalysis",
-            "CADFillMaskBiharmonic",
-            "CADFillMaskBiharmonicMask",
             "CADFixDegenerateFaces",
-            "CADGetFaceInfo",
             "CADGetFilename",
-            "CADGetMetadata",
             "CADHealShape",
             "CADMergeVertices",
             "CADProjectFacesXY",
@@ -3514,6 +3535,7 @@
             "CADSave",
             "CADSewFaces",
             "CADSplitComponents",
+            "CADTransform",
             "CAD_Convert_Format",
             "CAD_Load",
             "CAD_Load_From_Folder",
@@ -3526,6 +3548,7 @@
             "CadrilleImageInference",
             "CadrilleInference",
             "CadrilleTextInference",
+            "FloatMath",
             "LoadBGPSegModels",
             "LoadCADRecodeModel",
             "LoadCadrilleModel",
@@ -3536,10 +3559,12 @@
             "LoadSurfaceParams",
             "ML_FeatureDetection",
             "ML_SurfaceRecon",
+            "MaskAnalyzer",
+            "MaskNormalizer",
+            "MasksToRGB",
             "MeshFaceSegmentation",
             "MeshSegmentToPointCloud",
             "MeshToVoxel",
-            "Mesh_Optimize_Gmsh",
             "NeurCADReconInference",
             "NeurCADReconLoadCheckpoint",
             "NeurCADReconTrain",
@@ -3555,6 +3580,7 @@
             "QuadRemesh",
             "SECADNetFinetune",
             "SECADNetInference",
+            "SECADNetLatentToMesh",
             "SaveSurfaceParams"
         ],
         {
@@ -3806,8 +3832,9 @@
             "List Image Path \ud83d\udc24",
             "List Model Path \ud83d\udc24",
             "List Video Path \ud83d\udc24",
-            "Load Image Base64 \ud83d\udc24",
-            "Peaks Weights Generator \ud83d\udc24"
+            "Peaks Weights Generator \ud83d\udc24",
+            "Save Image (JPEG) \ud83d\udc24",
+            "easy loadImageBase64"
         ],
         {
             "title_aux": "Comfy UI Robe Nodes [UNSAFE]"
@@ -4500,6 +4527,14 @@
         ],
         {
             "title_aux": "ComfyUI CK3 Presets"
+        }
+    ],
+    "https://github.com/Toxic1228/Eleven-labs-comfyui-sts": [
+        [
+            "ElevenLabs_SpeechToSpeech"
+        ],
+        {
+            "title_aux": "Eleven-labs-comfyui-sts"
         }
     ],
     "https://github.com/Tr1dae/ComfyUI-CustomNodes-MVM": [
@@ -5299,12 +5334,12 @@
             "title_aux": "ComfyUI-Legendary-Nodes"
         }
     ],
-    "https://github.com/anilsathyan7/ComfyUI-Crystal-Upscaler": [
+    "https://github.com/anilstream/ComfyUI-NanoBananaPro": [
         [
-            "CrystalUpscalerNode"
+            "NanoBananaBasicNode"
         ],
         {
-            "title_aux": "ComfyUI-Crystal-Upscaler"
+            "title_aux": "ComfyUI-NanoBananaPro"
         }
     ],
     "https://github.com/animEEEmpire/ComfyUI-Animemory-Loader": [
@@ -7805,9 +7840,6 @@
     ],
     "https://github.com/grokuku/ComfyUI-Holaf": [
         [
-            "HolafBenchmarkLoader",
-            "HolafBenchmarkPlotter",
-            "HolafBenchmarkRunner",
             "HolafImageComparer",
             "HolafInstagramResize",
             "HolafKSampler",
@@ -7818,8 +7850,6 @@
             "HolafRatioCalculator",
             "HolafResolutionPreset",
             "HolafSaveImage",
-            "HolafSliceCalculator",
-            "HolafTileCalculator",
             "HolafTiledKSampler",
             "UpscaleImageHolaf"
         ],
@@ -8248,6 +8278,7 @@
             "Alta:SpeakerDiarization",
             "Alta:StoreAudioInMemory",
             "Alta:StrToNum(Math)",
+            "Alta:StringPlus(Util)",
             "Alta:Sub(Math)",
             "Alta:SubInt(Math)",
             "Alta:SyncLipsyncNode(path)",
@@ -9016,6 +9047,7 @@
             "DrawViTPose",
             "OnnxDetectionModelLoader",
             "PoseAndFaceDetection",
+            "PoseDetectionOneToAllAnimation",
             "PoseRetargetPromptHelper"
         ],
         {
@@ -9053,6 +9085,15 @@
         ],
         {
             "title_aux": "ComfyUI_was_image"
+        }
+    ],
+    "https://github.com/krakenunbound/kraken-discord-bot": [
+        [
+            "KrakenDiscordBot",
+            "KrakenDiscordBotStatus"
+        ],
+        {
+            "title_aux": "Kraken Discord Bot"
         }
     ],
     "https://github.com/krich-cto/ComfyUI-Flow-Control": [
@@ -9656,7 +9697,9 @@
         [
             "LyraAudioVisualizer",
             "LyraCdnUploader",
+            "LyraCharacterSearch",
             "LyraCollectOpenAIResponse",
+            "LyraConnectivityTest",
             "LyraCustomOpenAIRequest",
             "LyraFilenameBuilder",
             "LyraImageAudioFusion",
@@ -10131,6 +10174,15 @@
             "title_aux": "my-comfy-node"
         }
     ],
+    "https://github.com/nestflow/ComfyUI-WanPlus": [
+        [
+            "WanImageToVideoKeepFrames",
+            "WanImageToVideoMask"
+        ],
+        {
+            "title_aux": "ComfyUI-WanPlus"
+        }
+    ],
     "https://github.com/neverbiasu/ComfyUI-ControlNeXt": [
         [
             "ControlNextPipelineConfig",
@@ -10241,14 +10293,6 @@
         ],
         {
             "title_aux": "comfyui-samenodes"
-        }
-    ],
-    "https://github.com/nohikomiso/ComfyUI-ImageFolderPicker": [
-        [
-            "ImageFolderPicker"
-        ],
-        {
-            "title_aux": "ComfyUI-ImageFolderPicker [UNSAFE]"
         }
     ],
     "https://github.com/nomcycle/ComfyUI_Cluster": [
@@ -11094,14 +11138,6 @@
             "title_aux": "ComfyUI_YoloNasObjectDetection_Tensorrt [WIP]"
         }
     ],
-    "https://github.com/rzasharp79/ComfyUI--SolarFlare": [
-        [
-            "QwenImage"
-        ],
-        {
-            "title_aux": "ComfyUI--SolarFlare"
-        }
-    ],
     "https://github.com/sahibalejandro/comfyui-sahib-nodes": [
         [
             "ChooseResolution"
@@ -11549,30 +11585,32 @@
     "https://github.com/stalkervr/comfyui-custom-path-nodes": [
         [
             "AnyCollector",
-            "AutoAspectRatioAdjustFixer",
-            "BatchImageCrop",
             "ContextPipeIn",
             "ContextPipeOut",
             "ContextPipeReroute",
             "DataFileLoader",
-            "ImageAspectFixer",
+            "ImageAspectRatioFixer",
+            "ImageBatchCrop",
             "ImageGridCropper",
+            "JsonArraySplitter",
             "JsonFieldRemover",
             "JsonFieldReplaceAdvanced",
             "JsonFieldValueExtractor",
+            "JsonPathLoader",
+            "JsonPromptToTextPromptConverter",
+            "JsonToString",
             "ListItemExtractor",
-            "ListToString",
             "LoopAny",
             "PathPipeIn",
             "PathPipeOut",
             "PathPipeReroute",
-            "PromptPartConcatenation",
             "PromptPartJoin",
             "SavePath",
             "StringCollector",
             "StringConcatenation",
-            "TextBlockProcessor",
-            "TextWrapper"
+            "StringListToString",
+            "StringWrapper",
+            "WanVideoMultiPrompt"
         ],
         {
             "title_aux": "comfyui-custom-path-nodes [UNSAFE]"
@@ -11895,6 +11933,14 @@
             "title_aux": "ComfyUI-FlowMatchScheduler [WIP]"
         }
     ],
+    "https://github.com/tiange-tree/BLUEAI_ComfyUI_OpenAI": [
+        [
+            "BLUEAI_OpenAI_Node"
+        ],
+        {
+            "title_aux": "BLUEAI_ComfyUI_OpenAI"
+        }
+    ],
     "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes": [
         [
             "ImageSizer",
@@ -12055,6 +12101,22 @@
         ],
         {
             "title_aux": "comfyui-SetWallpaper"
+        }
+    ],
+    "https://github.com/tuxiansheng-ld/Comfyui-tuxiansheng-nodes": [
+        [
+            "StringToListNode"
+        ],
+        {
+            "title_aux": "Comfyui-tuxiansheng-nodes"
+        }
+    ],
+    "https://github.com/twdockery/ComfyUI_Prompt_Batch_Generator": [
+        [
+            "PromptBatchIterator"
+        ],
+        {
+            "title_aux": "ComfyUI_Prompt_Batch_Generator"
         }
     ],
     "https://github.com/twj515895394/ComfyUI-LowMemVideoSuite": [
@@ -12540,7 +12602,12 @@
             "XishenPromptEditNode",
             "XishenRandomIntegerNode",
             "XishenRemoveEmptyLinesNode",
-            "XishenSmartDisplayNode"
+            "XishenSmartDisplayNode",
+            "\ud83c\udf49Image-\u9897\u7c92\u8d28\u611f",
+            "\ud83c\udf61Qwen-\u5c3a\u5bf8\u9884\u8bbe",
+            "\ud83c\udf65Qwen-\u6253\u5149\u9884\u8bbe",
+            "\ud83c\udf6dImage-\u6cdb\u5149\u6548\u679c",
+            "\ud83c\udf70Qwen-\u955c\u5934\u9884\u8bbe"
         ],
         {
             "title_aux": "comfyui-xishen [WIP]"
