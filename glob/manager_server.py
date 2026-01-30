@@ -1860,8 +1860,6 @@ async def default_cache_update():
     logging.info("[ComfyUI-Manager] All startup tasks have been completed.")
 
 
-threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
-
 if not os.path.exists(core.manager_config_path):
     core.get_config()
     core.write_config()
