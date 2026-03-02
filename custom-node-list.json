@@ -43244,6 +43244,17 @@
             "description": "A comprehensive collection of 18+ utility nodes for ComfyUI including image list operations (split/merge), advanced tiling with seamless blending, brightness/contrast/saturation/RGB adjustments, diagonal watermarking, overlapping image processing, image tile processing and various workflow optimization tools. Perfect for high-resolution image processing, batch workflows, and color grading."
         },
         {
+            "author": "Praveen",
+            "title": "ComfyUI DeOldify",
+            "id": "deoldify",
+            "reference": "https://github.com/Praveenhalder/ComfyUI-DeOldify",
+            "files": [
+                "https://github.com/Praveenhalder/ComfyUI-DeOldify"
+            ],
+            "install_type": "git-clone",
+            "description": "Fast image and video colorization."
+        },
+        {
             "author": "jluo-github",
             "title": "comfyui-auto-size",
             "reference": "https://github.com/jluo-github/comfyui-auto-size",

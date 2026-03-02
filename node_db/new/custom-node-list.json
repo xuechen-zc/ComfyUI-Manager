@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "Praveen",
+            "title": "ComfyUI DeOldify",
+            "id": "deoldify",
+            "reference": "https://github.com/Praveenhalder/ComfyUI-DeOldify",
+            "files": [
+                "https://github.com/Praveenhalder/ComfyUI-DeOldify"
+            ],
+            "install_type": "git-clone",
+            "description": "Fast image and video colorization."
+        },
+        {
             "author": "0xBeycan",
             "title": "ComfyUI-ImageQualityGate",
             "reference": "https://github.com/0xBeycan/ComfyUI-ImageQualityGate",
