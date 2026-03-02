@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "nic-schi",
+            "title": "Open Images for ComfyUI",
+            "id": "openimage",
+            "reference": "https://github.com/nic-schi/ComfyUI-OpenImage",
+            "files": [
+                  "https://github.com/nic-schi/ComfyUI-OpenImage"
+            ],
+            "install_type": "git-clone",
+            "description": "Lets you open a generated Image in a specified application after generation."
+        },
+        {
             "author": "Praveen",
             "title": "ComfyUI DeOldify",
             "id": "deoldify",

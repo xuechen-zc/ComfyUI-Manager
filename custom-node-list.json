@@ -43735,6 +43735,17 @@
             "install_type": "git-clone",
             "description": "Single-node image quality gate for LoRA dataset filtering. Analyzes blur, sharpness, noise, clipping, and entropy with three-tier verdict (PASS/SO-SO/FAIL), center-weighted blur detection, and shot-type presets."
         },
+        {
+            "author": "nic-schi",
+            "title": "Open Images for ComfyUI",
+            "id": "openimage",
+            "reference": "https://github.com/nic-schi/ComfyUI-OpenImage",
+            "files": [
+                  "https://github.com/nic-schi/ComfyUI-OpenImage"
+            ],
+            "install_type": "git-clone",
+            "description": "Lets you open a generated Image in a specified application after generation."
+        },
 
 
 
@@ -44129,17 +44140,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "nic-schi",
-            "title": "Open Images for ComfyUI",
-            "id": "openimage",
-            "reference": "https://github.com/nic-schi/ComfyUI-OpenImage",
-            "files": [
-                  "https://github.com/nic-schi/ComfyUI-OpenImage"
-            ],
-            "install_type": "git-clone",
-            "description": "Lets you open a generated Image in a specified application after generation."
         }
     ]
 }
