@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "HuangYuChuh",
+            "title": "ComfyUI-LLMs-Toolkit",
+            "reference": "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit",
+            "files": [
+                "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "A professional-grade toolkit providing lightweight APIs to integrate leading Large Language Models (LLMs) including DeepSeek, Qwen and GPT directly into ComfyUI."
+        },
+        {
             "author": "rohit267",
             "title":"Champdev Custom Nodes",
             "id":"champdev",

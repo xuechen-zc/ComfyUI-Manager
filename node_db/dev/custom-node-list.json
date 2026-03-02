@@ -7836,16 +7836,6 @@
             "description": "Basic nodes for time series analysis in ComfyUI. Currently in early development."
         },
         {
-            "author": "HuangYuChuh",
-            "title": "ComfyUI-LLMs-Toolkit [WIP]",
-            "reference": "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit",
-            "files": [
-                "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit"
-            ],
-            "install_type": "git-clone",
-            "description": "Enhance your ComfyUI workflows with powerful LLMs! This custom node suite integrates DeepSeek, Qwen, and other leading Chinese LLMs directly into your ComfyUI environment. Create innovative AI-powered applications with a range of useful nodes designed to leverage the advanced capabilities of these LLMs for image generation, understanding, and more.\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "comfyuiblog",
             "title": "deepseek_prompt_generator_comfyui [WIP]",
             "reference": "https://github.com/comfyuiblog/deepseek_prompt_generator_comfyui",
