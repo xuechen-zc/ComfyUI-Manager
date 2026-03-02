@@ -12,6 +12,16 @@
             "description":"Champdev Custom Nodes. Currently contains Champdev Save Image, auto delete image after input seconds, overwrite file, save to temp dir."
         },
         {
+            "author": "ChunkyPanda29",
+            "title": "ComfyUI-Pollinations-BYOP",
+            "reference": "https://github.com/ChunkyPanda29/ComfyUI-Pollinations-BYOP",
+            "files": [
+                "https://github.com/ChunkyPanda29/ComfyUI-Pollinations-BYOP"
+            ],
+            "install_type": "git-clone",
+            "description": "Premium Quad-Modal suite (Image, Video, Text, Audio) for Pollinations.ai. Includes native Settings menu integration, BYOP support, and an automated real-time model list updater."
+        },
+        {
             "author": "serious-factory",
             "title": "ComfyUI-MultiTalkPromptSchedule",
             "reference": "https://github.com/serious-factory/ComfyUI-MultiTalkPromptSchedule",
