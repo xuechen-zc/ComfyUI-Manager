@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "rohit267",
+            "title":"Champdev Custom Nodes",
+            "id":"champdev",
+            "reference":"https://github.com/rohit267/champdev-comfyui-nodes",
+            "files": [
+                "https://github.com/rohit267/champdev-comfyui-nodes"
+            ],
+            "install_type":"git-clone",
+            "description":"Champdev Custom Nodes. Currently contains Champdev Save Image, auto delete image after input seconds, overwrite file, save to temp dir."
+        },
+        {
             "author": "serious-factory",
             "title": "ComfyUI-MultiTalkPromptSchedule",
             "reference": "https://github.com/serious-factory/ComfyUI-MultiTalkPromptSchedule",
