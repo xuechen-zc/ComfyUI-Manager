@@ -4752,6 +4752,17 @@
             "title_aux": "painting-by-colors-generator"
         }
     ],
+    "https://github.com/ChunkyPanda29/ComfyUI-Pollinations-BYOP": [
+        [
+            "PollinationsAudioGen",
+            "PollinationsImageGen",
+            "PollinationsTextGen",
+            "PollinationsVideoGen"
+        ],
+        {
+            "title_aux": "ComfyUI-Pollinations-BYOP"
+        }
+    ],
     "https://github.com/ClownsharkBatwing/RES4LYF": [
         [
             "AdvancedNoise",
@@ -9185,6 +9196,7 @@
             "GR Prompty",
             "GR Scroller",
             "GR Sigma Preset Selector",
+            "GR Sigma Preset Selector Advanced",
             "GR Sigma Presets",
             "GR Sigmas",
             "GR Stack Image",
@@ -10326,6 +10338,24 @@
         ],
         {
             "title_aux": "ComfyUI-Pt-Wrapper"
+        }
+    ],
+    "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit": [
+        [
+            "ImagePreprocessor",
+            "JSONBuilderLarge",
+            "JSONBuilderMedium",
+            "JSONBuilderSimple",
+            "JSONCombine",
+            "JSONExtractor",
+            "JSONFixer",
+            "LLMTranslator",
+            "LLM_Loader",
+            "OpenAICompatibleLoader",
+            "StringTemplate"
+        ],
+        {
+            "title_aux": "ComfyUI-LLMs-Toolkit"
         }
     ],
     "https://github.com/Hullabalo/ComfyUI-Loop": [
@@ -14808,29 +14838,6 @@
             "title_aux": "ComfyUI-AnimateAnyone-Evolved"
         }
     ],
-    "https://github.com/MrSamSeen/ComfyUI_SSBeforeAfterNode": [
-        [
-            "SSBeforeAndAfterVideo",
-            "SSBeforeAndAfterVideoWithDepthMap"
-        ],
-        {
-            "title_aux": "ComfyUI_SSBeforeAfterNode"
-        }
-    ],
-    "https://github.com/MrSamSeen/ComfyUI_SSStereoscope": [
-        [
-            "SBS_External_Depthmap_by_SamSeen",
-            "SBS_Image_Uploader",
-            "SBS_V2_External_Depth_by_SamSeen",
-            "SBS_V2_by_SamSeen",
-            "SBS_VR_Panorama_by_SamSeen",
-            "SBS_Video_Combiner",
-            "SBS_Video_Uploader"
-        ],
-        {
-            "title_aux": "SideBySide_Stereoscope"
-        }
-    ],
     "https://github.com/Munkyfoot/ComfyUI-TextOverlay": [
         [
             "Text Overlay"
@@ -17820,6 +17827,29 @@
         ],
         {
             "title_aux": "ComfyUI_Resolution-and-Ratio"
+        }
+    ],
+    "https://github.com/SamSeenX/ComfyUI_SSBeforeAfterNode": [
+        [
+            "SSBeforeAndAfterVideo",
+            "SSBeforeAndAfterVideoWithDepthMap"
+        ],
+        {
+            "title_aux": "ComfyUI_SSBeforeAfterNode"
+        }
+    ],
+    "https://github.com/SamSeenX/ComfyUI_SSStereoscope": [
+        [
+            "SBS_External_Depthmap_by_SamSeen",
+            "SBS_Image_Uploader",
+            "SBS_V2_External_Depth_by_SamSeen",
+            "SBS_V2_by_SamSeen",
+            "SBS_VR_Panorama_by_SamSeen",
+            "SBS_Video_Combiner",
+            "SBS_Video_Uploader"
+        ],
+        {
+            "title_aux": "SideBySide_Stereoscope"
         }
     ],
     "https://github.com/SamTyurenkov/comfyui-vace-preprocessors": [
@@ -22680,6 +22710,7 @@
             "FD_Flux2KleinGenImage",
             "FD_GeminiImage",
             "FD_RemoveWatermark",
+            "FD_SeedreamImage",
             "FD_Upload",
             "FD_imgToText_Doubao"
         ],
@@ -24608,6 +24639,8 @@
             "AnyBooleanSwitch (Swwan)",
             "AnySwitch (Swwan)",
             "BatchSlice",
+            "BoundedImageCrop",
+            "BoundedImageCropWithMask",
             "ColorMatch",
             "CrossFadeImages",
             "CrossFadeImagesMulti",
@@ -24627,6 +24660,7 @@
             "ImageBatchMulti",
             "ImageBatchRepeatInterleaving",
             "ImageBatchTestPattern",
+            "ImageBlendSwwan",
             "ImageConcanate",
             "ImageConcatFromBatch",
             "ImageConcatMulti",
@@ -51368,6 +51402,14 @@
             "title_aux": "pixel-sorting"
         }
     ],
+    "https://github.com/rohit267/champdev-comfyui-nodes": [
+        [
+            "ChamSaveImage"
+        ],
+        {
+            "title_aux": "Champdev Custom Nodes"
+        }
+    ],
     "https://github.com/rohitsainier/ComfyUI-InstagramDownloader": [
         [
             "InstagramDownloader",
@@ -51654,6 +51696,8 @@
     ],
     "https://github.com/ru4ls/ComfyUI_Nano_Banana": [
         [
+            "NanoBanana2AIO",
+            "NanoBanana2MultiTurnChat",
             "NanoBananaAIO",
             "NanoBananaMultiTurnChat"
         ],
