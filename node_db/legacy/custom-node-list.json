@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Lavah000",
+            "title": "ComfyUI Advanced Generation Pack (AGP) [REMOVED]",
+            "reference": "https://github.com/Lavah000/ComfyUI-AdvGenPack",
+            "files": [
+                "https://github.com/Lavah000/ComfyUI-AdvGenPack"
+            ],
+            "install_type": "git-clone",
+            "description": "Production-ready custom nodes for advanced diffusion workflows. Modular implementation grounded in proven techniques from leading ComfyUI repositories."
+        },
+        {
             "author": "itom0717",
             "title": "ComfyUI-Prompt-Selector [REMOVED]",
             "reference": "https://github.com/itom0717/ComfyUI-Prompt-Selector",

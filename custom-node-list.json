@@ -37287,16 +37287,6 @@
             "description": "A ComfyUI extension that helps users relink missing models in workflows"
         },
         {
-            "author": "Lavah000",
-            "title": "ComfyUI Advanced Generation Pack (AGP)",
-            "reference": "https://github.com/Lavah000/ComfyUI-AdvGenPack",
-            "files": [
-                "https://github.com/Lavah000/ComfyUI-AdvGenPack"
-            ],
-            "install_type": "git-clone",
-            "description": "Production-ready custom nodes for advanced diffusion workflows. Modular implementation grounded in proven techniques from leading ComfyUI repositories."
-        },
-        {
             "author": "GuardSkill",
             "title": "ComfyUI-VoiceSep",
             "reference": "https://github.com/GuardSkill/ComfyUI-VoiceSep",

@@ -12721,39 +12721,6 @@
             "title_aux": "comfyui-piq"
         }
     ],
-    "https://github.com/Lavah000/ComfyUI-AdvGenPack": [
-        [
-            "AGP_Bloom_Glow_FX",
-            "AGP_Checkpoint_Mask_Generator",
-            "AGP_Checkpoint_Merger_Advanced",
-            "AGP_Checkpoint_Merger_Blockwise",
-            "AGP_Checkpoint_Merger_DARE",
-            "AGP_Chromatic_Aberration",
-            "AGP_Color_Grading_Preset",
-            "AGP_Curves_And_Levels",
-            "AGP_Denoise_Suite",
-            "AGP_Film_Grain_Noise",
-            "AGP_HSV_Shifter",
-            "AGP_Histogram_Equalizer",
-            "AGP_Keyframe_Extractor",
-            "AGP_LUT_3D_Loader",
-            "AGP_LoRA_DARE_Merger",
-            "AGP_LoRA_Multi_Merger",
-            "AGP_LoRA_Strength_Scheduler",
-            "AGP_Motion_Prediction_Sampler",
-            "AGP_Optical_Flow_Interpolator",
-            "AGP_Sharpening_Filter",
-            "AGP_Temporal_Consistency_Enforcer",
-            "AGP_WAN_Boundary_Optimizer",
-            "AGP_WAN_Lightning_Hybrid",
-            "AGP_WAN_Multi_Expert_Sampler",
-            "AGP_WAN_Noise_Mixer_Expert",
-            "AGP_White_Balance_Corrector"
-        ],
-        {
-            "title_aux": "ComfyUI Advanced Generation Pack (AGP)"
-        }
-    ],
     "https://github.com/Layer-norm/comfyui-lama-remover": [
         [
             "LamaRemover",
