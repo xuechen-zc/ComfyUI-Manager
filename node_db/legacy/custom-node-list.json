@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "itom0717",
+            "title": "ComfyUI-Prompt-Selector [REMOVED]",
+            "reference": "https://github.com/itom0717/ComfyUI-Prompt-Selector",
+            "files": [
+                "https://github.com/itom0717/ComfyUI-Prompt-Selector"
+            ],
+            "install_type": "git-clone",
+            "description": "No ComfyUI nodes detected. May not be a ComfyUI custom node repository."
+        },
+        {
             "author": "xela-io",
             "title": "ComfyUI-HairDetailer [REMOVED]",
             "reference": "https://github.com/xela-io/ComfyUI-HairDetailer",

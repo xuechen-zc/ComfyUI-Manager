@@ -2246,24 +2246,6 @@
             "title_aux": "comfyui_google_ai"
         }
     ],
-    "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit": [
-        [
-            "ImagePreprocessor",
-            "JSONBuilderLarge",
-            "JSONBuilderMedium",
-            "JSONBuilderSimple",
-            "JSONCombine",
-            "JSONExtractor",
-            "JSONFixer",
-            "LLMTranslator",
-            "LLM_Loader",
-            "OpenAICompatibleLoader",
-            "StringTemplate"
-        ],
-        {
-            "title_aux": "ComfyUI-LLMs-Toolkit [WIP]"
-        }
-    ],
     "https://github.com/IAFFeng/Comfyui_XF_Custom_Actual-Node": [
         [
             "GeminiMattingNode"
@@ -11576,6 +11558,7 @@
             "A1111PromptSplitter",
             "BatchImageProcessor",
             "CivitaiBulkDownloader",
+            "EmbeddingWildcardGenerator",
             "ExtractPromptFromImage",
             "FloatToString",
             "FloatToStringWithPrefix",
@@ -12195,6 +12178,7 @@
             "Nunchaku PuLID Loader [Eclipse]",
             "Pipe 12CH Any [Eclipse]",
             "Pipe IO Sampler Settings [Eclipse]",
+            "Pipe IO Sampler Settings v2 [Eclipse]",
             "Pipe Out Checkpoint Loader [Eclipse]",
             "Pipe Out Load Directory Settings [Eclipse]",
             "Pipe Out Load Image (Metadata Pipe) [Eclipse]",
@@ -12214,6 +12198,7 @@
             "Sampler Selection [Eclipse]",
             "Sampler Settings NI [Eclipse]",
             "Sampler Settings NI+Seed [Eclipse]",
+            "Sampler Settings NI+Seed v2 [Eclipse]",
             "Sampler Settings Small [Eclipse]",
             "Sampler Settings Small+Seed [Eclipse]",
             "Sampler Settings [Eclipse]",

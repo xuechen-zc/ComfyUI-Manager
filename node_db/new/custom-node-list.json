@@ -1,6 +1,68 @@
 {
     "custom_nodes": [
         {
+            "author": "Manycore Tech",
+            "title": "ComfyUI-Lux3D",
+            "id": "ComfyUI-Lux3D",
+            "reference": "https://github.com/manycore-research/ComfyUI-Lux3D",
+            "files": [
+                "https://github.com/manycore-research/ComfyUI-Lux3D"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension providing nodes for generating 3D models from images and rendering/visualizing 3D assets within your workflow."
+        },
+        {
+            "author": "SeanBRVFX",
+            "title": "ComfyUI-CorridorKey",
+            "reference": "https://github.com/SeanBRVFX/ComfyUI-CorridorKey",
+            "files": [
+                "https://github.com/SeanBRVFX/ComfyUI-CorridorKey"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for CorridorKey-style edge-aware coarse mask refinement."
+        },
+        {
+            "author": "boobkake22",
+            "title": "ComfyUI-SimpleSwitch",
+            "reference": "https://github.com/boobkake22/ComfyUI-SimpleSwitch",
+            "files": [
+                "https://github.com/boobkake22/ComfyUI-SimpleSwitch"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for first-non-empty wildcard switching across 6 inputs."
+        },
+        {
+            "author": "boobkake22",
+            "title": "ComfyUI-WanResolutions",
+            "reference": "https://github.com/boobkake22/ComfyUI-WanResolutions",
+            "files": [
+                "https://github.com/boobkake22/ComfyUI-WanResolutions"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for selecting WAN resolution presets by aspect ratio."
+        },
+        {
+            "author": "capitan01R",
+            "title": "Comfyui-ZiT-Lora-loader",
+            "reference": "https://github.com/capitan01R/Comfyui-ZiT-Lora-loader",
+            "files": [
+                "https://github.com/capitan01R/Comfyui-ZiT-Lora-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Architecture-aware LoRA loader for Z-Image Turbo (Lumina2) in ComfyUI. Fixes silent key mismatches by auto-fusing separate Q/K/V into Z-Image's fused QKV format and remapping output projections."
+        },
+        {
+            "author": "wobba",
+            "title": "ComfyUI-ChatterBox-Turbo",
+            "reference": "https://github.com/wobba/ComfyUI-ChatterBox-Turbo",
+            "files": [
+                "https://github.com/wobba/ComfyUI-ChatterBox-Turbo"
+            ],
+            "install_type": "git-clone",
+            "description": "ChatterBox Turbo TTS node for ComfyUI — fast 350M-param text-to-speech with emotion tags"
+        },
+        
+        {
             "author": "Dangocan",
             "title": "ComfyUI GLM-OCR",
             "id": "comfyui-glm-ocr",

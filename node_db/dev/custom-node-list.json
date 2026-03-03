@@ -82,16 +82,6 @@
             "description": "Collection of ComfyUI nodes for image processing, model management, and prompt generation including BiRefNet, Florence2Tagger, and image manipulation tools. (Description by CC)"
         },
         {
-            "author": "itom0717",
-            "title": "ComfyUI-Prompt-Selector",
-            "reference": "https://github.com/itom0717/ComfyUI-Prompt-Selector",
-            "files": [
-                "https://github.com/itom0717/ComfyUI-Prompt-Selector"
-            ],
-            "install_type": "git-clone",
-            "description": "No ComfyUI nodes detected. May not be a ComfyUI custom node repository."
-        },
-        {
             "author": "Echoflare",
             "title": "ComfyUI-Reverse-Proxy-Fix",
             "reference": "https://github.com/Echoflare/ComfyUI-Reverse-Proxy-Fix",

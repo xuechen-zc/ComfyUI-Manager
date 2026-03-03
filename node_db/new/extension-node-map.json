@@ -46,6 +46,14 @@
             "title_aux": "0x-jerry/Rembg Background Removal Node for ComfyUI"
         }
     ],
+    "https://github.com/0xBeycan/ComfyUI-ImageQualityGate": [
+        [
+            "ImageQualityGate"
+        ],
+        {
+            "title_aux": "ComfyUI-ImageQualityGate"
+        }
+    ],
     "https://github.com/0xRavenBlack/ComfyUI-OOP": [
         [
             "OOPAnimalNode",
@@ -5910,6 +5918,15 @@
             "nickname": "Danand",
             "title": "Comfy Couple",
             "title_aux": "Comfy Couple"
+        }
+    ],
+    "https://github.com/Dangocan/comfyui_glm_ocr": [
+        [
+            "GLMOCRModelLoader",
+            "GLMOCRRun"
+        ],
+        {
+            "title_aux": "ComfyUI GLM-OCR"
         }
     ],
     "https://github.com/DanielHabib/ComfyUI-Voxels": [
@@ -14143,7 +14160,8 @@
     ],
     "https://github.com/Meisoftcoltd/ComfyUI-Demucs-AudioSeparator": [
         [
-            "DemucsAudioSeparator"
+            "DemucsAudioSeparator",
+            "LoadAudioDirectory"
         ],
         {
             "title_aux": "ComfyUI-Demucs-AudioSeparator"
@@ -16608,6 +16626,15 @@
             "title_aux": "ComfyUI-Sharp"
         }
     ],
+    "https://github.com/Praveenhalder/ComfyUI-DeOldify": [
+        [
+            "DeOldifyClearCache",
+            "DeOldifyColorize"
+        ],
+        {
+            "title_aux": "ComfyUI DeOldify"
+        }
+    ],
     "https://github.com/Praveenhalder/praveen-tools": [
         [
             "AdjustBrightnessContrast",
@@ -18210,6 +18237,18 @@
         ],
         {
             "title_aux": "ComfyUI Voice Clone"
+        }
+    ],
+    "https://github.com/SeanBRVFX/ComfyUI-CorridorKey": [
+        [
+            "CorridorKey"
+        ],
+        {
+            "author": "local",
+            "description": "ComfyUI node for CorridorKey inference.",
+            "nickname": "CorridorKey",
+            "title": "ComfyUI-CorridorKey",
+            "title_aux": "ComfyUI-CorridorKey"
         }
     ],
     "https://github.com/SeanScripts/ComfyUI-PixtralLlamaMolmoVision": [
@@ -24703,6 +24742,10 @@
             "MergeImageChannels",
             "PadImageBatchInterleaved",
             "PreviewAnimation",
+            "RGBA_Multi_Save",
+            "RGBA_Safe_Post",
+            "RGBA_Safe_Pre",
+            "RGBA_Save",
             "RemapImageRange",
             "ReplaceImagesInBatch",
             "ReverseImageBatch",
@@ -25635,9 +25678,7 @@
             "ArchAi3D_Load_Diffusion_Model",
             "ArchAi3D_Load_Dual_CLIP",
             "ArchAi3D_Load_Image_URL",
-            "ArchAi3D_Mask_Crop_Rotate",
             "ArchAi3D_Mask_To_Position_Guide",
-            "ArchAi3D_Mask_Uncrop",
             "ArchAi3D_Memory_Cleanup",
             "ArchAi3D_Metric3D_Depth",
             "ArchAi3D_Metric3D_Normal",
@@ -27921,6 +27962,22 @@
             "title_aux": "ComfyUI-Bongsang"
         }
     ],
+    "https://github.com/boobkake22/ComfyUI-SimpleSwitch": [
+        [
+            "SimpleSwitch"
+        ],
+        {
+            "title_aux": "ComfyUI-SimpleSwitch"
+        }
+    ],
+    "https://github.com/boobkake22/ComfyUI-WanResolutions": [
+        [
+            "WanResolution"
+        ],
+        {
+            "title_aux": "ComfyUI-WanResolutions"
+        }
+    ],
     "https://github.com/boredcoderyt/ComfyUI-Fibo-Edit": [
         [
             "FiboEdit",
@@ -28560,6 +28617,14 @@
         ],
         {
             "title_aux": "ComfyUI-ZImageTurbo-FlowSampler"
+        }
+    ],
+    "https://github.com/capitan01R/Comfyui-ZiT-Lora-loader": [
+        [
+            "ZImageTurboLoraLoader"
+        ],
+        {
+            "title_aux": "Comfyui-ZiT-Lora-loader"
         }
     ],
     "https://github.com/cardenluo/ComfyUI-Apt_Preset": [
@@ -33743,7 +33808,8 @@
     ],
     "https://github.com/dzy1128/Seedream-Image-Generate-ComfyUI": [
         [
-            "SeedreamImageGenerate"
+            "SeedreamImageGenerate",
+            "SeedreamImageGenerateWithWebSearch"
         ],
         {
             "title_aux": "Seedream Image Generate ComfyUI Node"
@@ -37593,7 +37659,7 @@
             "WWAA_GBCamera",
             "WWAA_GridLayoutNode",
             "WWAA_ImageDimensionCalculator",
-            "WWAA_ImageEdgeDetector",
+            "WWAA_ImageDimensionSize",
             "WWAA_ImageLoader",
             "WWAA_ImageSwitcher",
             "WWAA_ImageToTextFile",
@@ -47539,6 +47605,16 @@
             "title_aux": "ImageSimilarity"
         }
     ],
+    "https://github.com/nic-schi/ComfyUI-OpenImage": [
+        [
+            "DisplayJSONNode",
+            "OpenImageNode",
+            "ProgramChooserNode"
+        ],
+        {
+            "title_aux": "Open Images for ComfyUI"
+        }
+    ],
     "https://github.com/nicehero/comfyui-SegGPT": [
         [
             "SegGPT"
@@ -51404,7 +51480,8 @@
     ],
     "https://github.com/rohit267/champdev-comfyui-nodes": [
         [
-            "ChamSaveImage"
+            "ChamSaveImage",
+            "ChamSaveVideo"
         ],
         {
             "title_aux": "Champdev Custom Nodes"
@@ -58242,6 +58319,15 @@
         ],
         {
             "title_aux": "comfyui-some-image-processing-stuff"
+        }
+    ],
+    "https://github.com/wobba/ComfyUI-ChatterBox-Turbo": [
+        [
+            "ChatterboxTurboDialogue",
+            "ChatterboxTurboGenerate"
+        ],
+        {
+            "title_aux": "ComfyUI-ChatterBox-Turbo"
         }
     ],
     "https://github.com/woct0rdho/ComfyUI-RadialAttn": [
