@@ -43818,6 +43818,18 @@
             "install_type": "git-clone",
             "description": "A ComfyUI extension providing nodes for generating 3D models from images and rendering/visualizing 3D assets within your workflow."
         },
+        {
+            "author": "DailyMok",
+            "title": "dAIly Prompt & Token Utils",
+            "id": "daily-prompt-token-utils",
+            "reference": "https://github.com/DailyMok/ComfyUI-dAIly",
+            "files": [
+                "https://github.com/DailyMok/ComfyUI-dAIly"
+            ],
+            "install_type": "git-clone",
+            "description": "Smart real-time token counter for CLIP-L, T5-XXL (Flux), Qwen + seed-controlled prompt mixer from custom CSV wildcards. Supports field overrides, flat/paragraph modes, thread-safe caching.",
+            "tags": ["prompt", "token", "csv", "wildcard", "utils", "text"]
+        },
 
 
 

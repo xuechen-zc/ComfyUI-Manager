@@ -5899,6 +5899,15 @@
             "title_aux": "ComfyUI-Gemini-Prompt-Studio"
         }
     ],
+    "https://github.com/DailyMok/ComfyUI-dAIly": [
+        [
+            "PromptMixerdAIly",
+            "TokenCounterdAIly"
+        ],
+        {
+            "title_aux": "dAIly Prompt & Token Utils"
+        }
+    ],
     "https://github.com/DanPli/ComfyUI-Flux2LatentPresets": [
         [
             "Flux2EmptyLatentPresets"
@@ -45555,6 +45564,15 @@
         ],
         {
             "title_aux": "ComfyUI Globetrotter Nodes"
+        }
+    ],
+    "https://github.com/manycore-research/ComfyUI-Lux3D": [
+        [
+            "Lux3D",
+            "LuxRealEngine"
+        ],
+        {
+            "title_aux": "ComfyUI-Lux3D"
         }
     ],
     "https://github.com/mape/ComfyUI-mape-Helpers": [
