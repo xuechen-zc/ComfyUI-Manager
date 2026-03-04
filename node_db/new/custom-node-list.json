@@ -11,7 +11,18 @@
             "install_type": "git-clone",
             "description": "Lightweight and fast, text to and from file tools for ComfyUI, has some JSON capabilities as well, great for storing, reading, organizing, batching text and batch text operations."
         },
-        
+        {
+            "author": "fabwaseem",
+            "title": "Civitai Gallery Explorer",
+            "id": "civitai-gallery-explorer",
+            "reference": "https://github.com/fabwaseem/ComfyUI-Civitai-Gallery-Explorer",
+            "files": [
+                "https://github.com/fabwaseem/ComfyUI-Civitai-Gallery-Explorer"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a powerful custom node for ComfyUI that brings the full Civitai browsing experience directly into your workflow."
+        },
+
         {
             "author": "FugitiveExpert01",
             "title": "ComfyUI-FEnodes",

@@ -44139,6 +44139,17 @@
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that patches the attention mechanism to use Flash Attention 2 on AMD, similar to how Patch Sage Attention KJ works in KJNodes."
         },
+        {
+            "author": "fabwaseem",
+            "title": "Civitai Gallery Explorer",
+            "id": "civitai-gallery-explorer",
+            "reference": "https://github.com/fabwaseem/ComfyUI-Civitai-Gallery-Explorer",
+            "files": [
+                "https://github.com/fabwaseem/ComfyUI-Civitai-Gallery-Explorer"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a powerful custom node for ComfyUI that brings the full Civitai browsing experience directly into your workflow."
+        },
 
 
 
@@ -44533,17 +44544,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "fabwaseem",
-            "title": "Civitai Gallery Explorer",
-            "id": "civitai-gallery-explorer",
-            "reference": "https://github.com/fabwaseem/ComfyUI-Civitai-Gallery-Explorer",
-            "files": [
-                "https://github.com/fabwaseem/ComfyUI-Civitai-Gallery-Explorer"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a powerful custom node for ComfyUI that brings the full Civitai browsing experience directly into your workflow."
         }
     ]
 }
