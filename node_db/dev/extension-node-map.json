@@ -5253,6 +5253,7 @@
             "MaskCleanupNode",
             "MaskExpandBorder",
             "MaskExpandBorderAdvanced",
+            "MaskFromContour",
             "MaskFromContoursOpenCV",
             "MaskMattingNode",
             "MaskMorphNode",
@@ -11288,6 +11289,20 @@
             "title_aux": "comfy-url-fetcher [WIP]"
         }
     ],
+    "https://github.com/mozhaa/ComfyUI-Latent-Transform": [
+        [
+            "LT: Add",
+            "LT: Blend",
+            "LT: Blur",
+            "LT: Gaussian Noise",
+            "LT: Multiply",
+            "LT: Sharpen",
+            "LT: Wave"
+        ],
+        {
+            "title_aux": "ComfyUI-Latent-Transform"
+        }
+    ],
     "https://github.com/mr-krak3n/ComfyUI-Qwen": [
         [
             "Qwen2_Chat_Zho",
@@ -12941,6 +12956,7 @@
             "ImageBlendByMask",
             "Image_Color_Noise",
             "InstructPromptPresets",
+            "IntegerRangeRandom",
             "JoinerPadding",
             "LlTokenizerOptions",
             "ModifyMask",
@@ -13956,6 +13972,24 @@
         ],
         {
             "title_aux": "ComfyUI-Dist [WIP]"
+        }
+    ],
+    "https://github.com/unobtuse/comfyui-topaz-ai-upscale": [
+        [
+            "TopazPhotoAISettings",
+            "TopazPhotoAIUpscale"
+        ],
+        {
+            "title_aux": "comfyui-topaz-ai-upscale"
+        }
+    ],
+    "https://github.com/unobtuse/comfyui-topaz-gigapixel": [
+        [
+            "TopazGigapixelSettings",
+            "TopazGigapixelUpscale"
+        ],
+        {
+            "title_aux": "comfyui-topaz-gigapixel"
         }
     ],
     "https://github.com/unphased/code-nodes": [
