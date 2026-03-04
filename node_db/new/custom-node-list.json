@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "chanjing-ai",
+            "title": "chanjingAI-ComfyUI",
+            "reference": "https://github.com/chanjing-ai/chanjingAI-ComfyUI",
+            "files": [
+                "https://github.com/chanjing-ai/chanjingAI-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Cicada AI Nodes for ComfyUI."
+        },
+        {
             "author": "JasonHoku",
             "title": "Lite Text to File Tools",
             "id": "lite-text-to-file-tools",
