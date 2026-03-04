@@ -328,13 +328,14 @@
         },
         {
             "author": "abc-lee",
-            "title": "ComfyUI-InpaintRegionEditor",
+            "title": "ComfyUI Inpaint Region Editor",
+            "id": "comfyui-inpaint-region-editor",
             "reference": "https://github.com/abc-lee/ComfyUI-InpaintRegionEditor",
             "files": [
                 "https://github.com/abc-lee/ComfyUI-InpaintRegionEditor"
             ],
             "install_type": "git-clone",
-            "description": "A ComfyUI custom node for inpainting workflows with integrated Photopea editing and adjustable region selection."
+            "description": "A ComfyUI custom node for inpainting workflows with integrated Photopea editing and adjustable region selection. Features: adjustable reference region, integrated Photopea image editing, professional mask editing with feathering control, auto mask detection, multi-language support."
         },
         {
             "author": "navyxiong",

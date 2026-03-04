@@ -11443,6 +11443,22 @@
             "title_aux": "ComfyUI Ultimate Auto Sampler Config Grid Testing Suite"
         }
     ],
+    "https://github.com/JasonHoku/comfyui-lite-text-to-file-tools": [
+        [
+            "AppendInputToJSONArrayFile",
+            "AppendLineToTextFile",
+            "ClearJSONArrayFile",
+            "LoadFromJSONFile",
+            "LoadFromTextFile",
+            "LoadTextFromJSONArrayByIndex",
+            "LoadTextFromJSONFromKey",
+            "SaveTextIntoJSON",
+            "WriteToTextFile"
+        ],
+        {
+            "title_aux": "Lite Text to File Tools"
+        }
+    ],
     "https://github.com/JayLyu/blender-in-comfyui": [
         [
             "BL_Camera_Creator",
@@ -24043,7 +24059,7 @@
             "author": "InpaintRegionEditor",
             "description": "Enhanced mask editor with Photopea integration and configurable inpaint region",
             "title": "Inpaint Region Editor",
-            "title_aux": "ComfyUI-InpaintRegionEditor"
+            "title_aux": "ComfyUI Inpaint Region Editor"
         }
     ],
     "https://github.com/abdozmantar/ComfyUI-DeepExtract": [
@@ -34728,6 +34744,15 @@
         ],
         {
             "title_aux": "comfyui-promptstore"
+        }
+    ],
+    "https://github.com/fabwaseem/ComfyUI-Civitai-Gallery-Explorer": [
+        [
+            "CivitaiGalleryExplorerNode",
+            "CivitaiLoraLoader"
+        ],
+        {
+            "title_aux": "Civitai Gallery Explorer"
         }
     ],
     "https://github.com/facefusion/facefusion-comfyui": [
