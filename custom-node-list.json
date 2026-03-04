@@ -41571,6 +41571,17 @@
             "description": "ComfyUI Sampler testing & benchmarking tool for testing Stable Diffusion samplers, schedulers, CFG scales, prompts, img2img denoise values, and LoRA combinations. Features infinite-canvas dashboard image grids with virtual scrolling that can handle thousands of images, multi-model comparison, automatic resume on interrupt, and real-time visualization. Test entire checkpoint folders, stack multiple LoRAs, generate random seed variations, and export optimized configs. Includes fullscreen mode, keyboard navigation, smart filtering by parameters, and one-click regeneration workflow. Perfect for sampler output optimization and hyperparameter tuning."
         },
         {
+            "author": "JasonHoku",
+            "title": "Lite Text to File Tools",
+            "id": "lite-text-to-file-tools",
+            "reference": "https://github.com/JasonHoku/comfyui-lite-text-to-file-tools",
+            "files": [
+                "https://github.com/JasonHoku/comfyui-lite-text-to-file-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Lightweight and fast, text to and from file tools for ComfyUI, has some JSON capabilities as well, great for storing, reading, organizing, batching text and batch text operations."
+        },
+        {
             "author": "zwaigani",
             "title": "ComfyUI-VRAM-watcher",
             "id": "comfyui-vram-watcher",
@@ -44522,17 +44533,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "JasonHoku",
-            "title": "Lite Text to File Tools",
-            "id": "lite-text-to-file-tools",
-            "reference": "https://github.com/JasonHoku/comfyui-lite-text-to-file-tools",
-            "files": [
-                "https://github.com/JasonHoku/comfyui-lite-text-to-file-tools"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight and fast, text to and from file tools for ComfyUI, has some JSON capabilities as well, great for storing, reading, organizing, batching text and batch text operations."
         }
     ]
 }
