@@ -11,6 +11,16 @@
             "description": "Cicada AI Nodes for ComfyUI."
         },
         {
+            "author": "UmeAiRT",
+            "title": "UmeAiRT-Toolkit",
+            "reference": "https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Toolkit",
+            "files": [
+                "https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "A Wireless, Nodes 2.0 Ready, and Aesthetic Toolkit for ComfyUI."
+        },
+        {
             "author": "JasonHoku",
             "title": "Lite Text to File Tools",
             "id": "lite-text-to-file-tools",
