@@ -1207,7 +1207,9 @@
             "ConsoleOutput",
             "FilePathSelectorFromDirectory",
             "FrameRateModulator",
+            "LoadTextLineFromFile",
             "MostRecentFileSelector",
+            "MultilineTextSplitter",
             "RaftOpticalFlowNode",
             "StringProcessor",
             "TwoImageConcatenator"
@@ -1260,6 +1262,7 @@
     ],
     "https://github.com/Chang-Jin-Lee/ComfyUI-PromptMixer-AI": [
         [
+            "AutoModelQuality",
             "FavoritePromptMixer",
             "FreeAIPrompt",
             "FreeAIPromptGenerate",
@@ -2344,7 +2347,8 @@
             "MatchContrastImmacTools",
             "ResampleSigmasImmacTools",
             "SkipEveryNthImagesImmacTools",
-            "SpliceSigmasAtImmacTools"
+            "SpliceSigmasAtImmacTools",
+            "SwitchImmacTools"
         ],
         {
             "title_aux": "Immac's Tools"
@@ -4186,6 +4190,7 @@
             "GeminiBanana \ud83c\udf4c",
             "Image Input Switch \ud83d\udc24",
             "Indices Generator \ud83d\udc24",
+            "Latent Input Switch \ud83d\udc24",
             "List Image Path \ud83d\udc24",
             "List Model Path \ud83d\udc24",
             "List Video Path \ud83d\udc24",
@@ -11531,12 +11536,14 @@
             "A1111PromptSplitter",
             "BatchImageProcessor",
             "CivitaiBulkDownloader",
+            "EmbeddingPathResolver",
             "EmbeddingWildcardGenerator",
             "ExtractPromptFromImage",
             "FloatToString",
             "FloatToStringWithPrefix",
             "LoraWildcardGenerator",
-            "RepeatTextLines"
+            "RepeatTextLines",
+            "TextSplit3"
         ],
         {
             "title_aux": "comfyui-samenodes"

@@ -596,6 +596,7 @@
             "AQ_BlendImages",
             "AQ_CLIPSetLastLayer",
             "AQ_ColorMatchImage",
+            "AQ_CoverPrompt",
             "AQ_Gemini",
             "AQ_Gemini_acstep15",
             "AQ_ImageMaskSwitch",
@@ -610,9 +611,13 @@
             "AQ_Random",
             "AQ_SaveImageWebpReturnBase64",
             "AQ_SendImageToAPI",
+            "AQ_StillImageToVideo",
             "AQ_TextEncodeQwenImageEdit",
             "AQ_TextEncodeQwenImageEditPlus",
-            "AQ_multiface_ApplyPulidFlux"
+            "AQ_YouTubeUpload",
+            "AQ_multiface_ApplyPulidFlux",
+            "AQ_openai_compatible",
+            "AQ_parse_json_to_acestep"
         ],
         {
             "title_aux": "AQnodes for ComfyUI"
@@ -2793,16 +2798,6 @@
         ],
         {
             "title_aux": "ComfyUI-RandomTagWeights"
-        }
-    ],
-    "https://github.com/AnastasiyaW/ComfyUI-SmartScreenshotCleaner": [
-        [
-            "HappyIn_AutoBorderCrop",
-            "HappyIn_ImageSwitch",
-            "HappyIn_ScreenshotCleaner"
-        ],
-        {
-            "title_aux": "ComfyUI-SmartScreenshotCleaner"
         }
     ],
     "https://github.com/Andro-Meta/ComfyUI-Ovis2": [
@@ -5469,6 +5464,7 @@
             "PrimereCLIPEncoder",
             "PrimereClearNetworkTagsPrompt",
             "PrimereConceptDataTuple",
+            "PrimereControlledSamplersSteps",
             "PrimereDiTPurifyPrompt",
             "PrimereDynamicParser",
             "PrimereEmbedding",
@@ -28311,7 +28307,10 @@
     ],
     "https://github.com/boobkake22/ComfyUI-SimpleSwitch": [
         [
-            "SimpleSwitch"
+            "SimpleAudioLatentSwitch",
+            "SimpleLatentSwitch",
+            "SimpleSwitch",
+            "SimpleVideoLatentSwitch"
         ],
         {
             "title_aux": "ComfyUI-SimpleSwitch"
@@ -28319,6 +28318,7 @@
     ],
     "https://github.com/boobkake22/ComfyUI-WanResolutions": [
         [
+            "LTXResolutions",
             "WanResolutions"
         ],
         {
@@ -30882,6 +30882,7 @@
     ],
     "https://github.com/chyer/Chye-ComfyUI-Toolset": [
         [
+            "CYHABSwitchNode",
             "CYHARRHalationNode",
             "CYHChromaticAberrationNode",
             "CYHFilmGrainNode",
@@ -30894,7 +30895,6 @@
             "CYHLatentSocialAspectRatio",
             "CYHLatentVideoAspectRatio",
             "CYHPreviewVideo",
-            "CYHResolutionMultiplierNode",
             "CYHTextFileEditorNode",
             "CYHTextFileLoaderNode",
             "PromptEnhancer",
@@ -34423,6 +34423,7 @@
             "Eden_FloatToInt",
             "Eden_GPTPromptEnhancer",
             "Eden_GPTStructuredOutput",
+            "Eden_GradientBorderMask",
             "Eden_IMG_padder",
             "Eden_IMG_unpadder",
             "Eden_ImageMaskComposite",
@@ -34432,6 +34433,8 @@
             "Eden_MaskBoundingBox",
             "Eden_MaskCombiner",
             "Eden_Math",
+            "Eden_OrganicFillAnimation",
+            "Eden_OrganicFillRandom",
             "Eden_RGBA_to_RGB",
             "Eden_RandomFilepathSampler",
             "Eden_RandomNumberSampler",
@@ -35245,17 +35248,24 @@
     ],
     "https://github.com/fchangjun/Baidu_Meux_ComfyTools": [
         [
+            "Mask Fill Holes",
+            "MaskBlur+",
             "MeuxAdvancedImageCrop",
             "MeuxImageLoader",
+            "MeuxMaskBlurPlus",
+            "MeuxMaskFillHoles",
+            "MeuxMaskLoader",
             "MeuxMultiSaveImage",
             "MeuxOutpaintSizePresetSafe",
             "MeuxRMBG",
             "MeuxRealESRGANUpscale",
+            "MeuxSeed",
             "MeuxSimpleLLMNode",
             "MeuxSizePresetSafe",
             "MeuxSmartEmptyLatent",
             "MeuxSmartExactResize",
-            "MeuxTextAreaInput"
+            "MeuxTextAreaInput",
+            "Seed"
         ],
         {
             "title_aux": "BaiduMeux_Comfy Tools"
@@ -35263,17 +35273,24 @@
     ],
     "https://github.com/fchangjun/Comfyui_MultiSaveImage": [
         [
+            "Mask Fill Holes",
+            "MaskBlur+",
             "MeuxAdvancedImageCrop",
             "MeuxImageLoader",
+            "MeuxMaskBlurPlus",
+            "MeuxMaskFillHoles",
+            "MeuxMaskLoader",
             "MeuxMultiSaveImage",
             "MeuxOutpaintSizePresetSafe",
             "MeuxRMBG",
             "MeuxRealESRGANUpscale",
+            "MeuxSeed",
             "MeuxSimpleLLMNode",
             "MeuxSizePresetSafe",
             "MeuxSmartEmptyLatent",
             "MeuxSmartExactResize",
-            "MeuxTextAreaInput"
+            "MeuxTextAreaInput",
+            "Seed"
         ],
         {
             "title_aux": "MultiSaveImage Node"
@@ -41933,6 +41950,7 @@
             "DummyOut",
             "EmptyLatentImageCustomPresets",
             "EmptyLatentImagePresets",
+            "EncodeVideoComponents",
             "EndRecordCUDAMemoryHistory",
             "FastPreview",
             "FilterZeroMasksAndCorrespondingImages",
@@ -43088,6 +43106,8 @@
             "Leon_Nano_Banana_API_Node",
             "Leon_Nano_Banana_Edit_Tuzi_API_Node",
             "Leon_Nano_Banana_Tuzi_API_Node",
+            "Leon_Official_Gemini_Node",
+            "Leon_Official_Nano_Banana_Node",
             "Leon_Qwen_Image_API_Node",
             "Leon_Qwen_Image_Edit_API_Node",
             "Leon_Recraft_Image_API_Node",
@@ -46905,14 +46925,17 @@
             "EndFrameInjector",
             "FrameAccumulator",
             "FrameContextFit",
+            "ImageExists",
             "IterVideoRouter",
             "IterationSwitch",
+            "MultiChannelSlicer",
             "PreprocessSettings",
             "PreprocessSettingsSimple",
             "PreprocessSettingsSingle",
             "PreprocessSwitch",
             "PreviewBridge",
             "ResolutionPicker",
+            "VideoConcatenate",
             "WanResolutionPicker"
         ],
         {
@@ -52466,6 +52489,7 @@
     "https://github.com/ruucm/ruucm-comfy": [
         [
             "BatchAverageImage",
+            "GazeOffsetCalculator",
             "LoadExternalLoraModelOnly",
             "RuucmShareScreen"
         ],
@@ -57787,9 +57811,11 @@
         [
             "Trellis2BatchSimplifyMeshAndExport",
             "Trellis2Continue",
+            "Trellis2DecodeLatents",
             "Trellis2ExportMesh",
             "Trellis2FillHolesWithCuMesh",
             "Trellis2FillHolesWithMeshlib",
+            "Trellis2ImageCondGenerator",
             "Trellis2LaplacianSmoothingWithOpen3d",
             "Trellis2LoadImageWithTransparency",
             "Trellis2LoadMesh",
@@ -57813,10 +57839,16 @@
             "Trellis2ReconstructMeshWithQuad",
             "Trellis2Remesh",
             "Trellis2RemeshWithQuad",
+            "Trellis2ShapeCascadeGenerator",
+            "Trellis2ShapeGenerator",
             "Trellis2SimplifyMesh",
+            "Trellis2SimplifyMeshAdvanced",
             "Trellis2SimplifyTrimesh",
+            "Trellis2SimplifyTrimeshAdvanced",
             "Trellis2SmoothNormals",
+            "Trellis2SparseGenerator",
             "Trellis2StringSelector",
+            "Trellis2TexSlatGenerator",
             "Trellis2TrimeshToMeshWithVoxel",
             "Trellis2UnWrapAndRasterizer",
             "Trellis2UnWrapTrimesh",

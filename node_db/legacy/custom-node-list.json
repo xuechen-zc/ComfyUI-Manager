@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "AnastasiyaW",
+            "title": "ComfyUI-SmartScreenshotCleaner [REMOVED]",
+            "reference": "https://github.com/AnastasiyaW/ComfyUI-SmartScreenshotCleaner",
+            "files": [
+                "https://github.com/AnastasiyaW/ComfyUI-SmartScreenshotCleaner"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for removing UI elements from screenshots by detecting and masking icons, buttons, and text. (Description by CC)"
+        },
+        {
             "author": "Raykosan",
             "title": "ComfyUI_RS-SaturationNode [REMOVED]",
             "reference": "https://github.com/Raykosan/ComfyUI_RS-SaturationNode",
