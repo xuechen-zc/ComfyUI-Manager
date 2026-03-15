@@ -26645,16 +26645,6 @@
         },
         {
             "author": "synthetai",
-            "title": "ComfyUI-ToolBox",
-            "reference": "https://github.com/synthetai/ComfyUI-ToolBox",
-            "files": [
-                "https://github.com/synthetai/ComfyUI-ToolBox"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of utility nodes for ComfyUI, including audio/video processing, file uploads, and AI image generation."
-        },
-        {
-            "author": "synthetai",
             "title": "ComfyUI-JM-MiniMax-API",
             "reference": "https://github.com/synthetai/ComfyUI-JM-MiniMax-API",
             "files": [
@@ -44650,7 +44640,6 @@
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes for HeartMuLa AI music generation - optimized for 16 GB GPUs"
         },
-
         {
             "author": "Anzhc",
             "title": "Anima-Mod-Guidance-ComfyUI-Node",
@@ -44660,6 +44649,16 @@
             ],
             "install_type": "git-clone",
             "description": "Strict official-style modulation guidance node for Anima models in ComfyUI."
+        },
+        {
+            "author": "George Jiang",
+            "title": "ComfyUI Save Image Without Metadata",
+            "reference": "https://github.com/GeorgeJiang/comfyui-save-image-no-meta",
+            "files": [
+                "https://github.com/GeorgeJiang/comfyui-save-image-no-meta"
+            ],
+            "install_type": "git-clone",
+            "description": "Save images without embedding workflow or prompt metadata"
         },
 
 
@@ -45052,18 +45051,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "George Jiang",
-            "title": "ComfyUI Save Image Without Metadata",
-            "description": "Save images without embedding workflow or prompt metadata",
-            "reference": "https://github.com/GeorgeJiang/comfyui-save-image-no-meta",
-            "files": [
-                "https://github.com/GeorgeJiang/comfyui-save-image-no-meta"
-            ],
-            "install_type": "git-clone",
-            "category": "image",
-            "description": "Save images without embedding workflow or prompt metadata"
         }
     ]
 }

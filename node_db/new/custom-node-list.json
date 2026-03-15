@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "George Jiang",
+            "title": "ComfyUI Save Image Without Metadata",
+            "reference": "https://github.com/GeorgeJiang/comfyui-save-image-no-meta",
+            "files": [
+                "https://github.com/GeorgeJiang/comfyui-save-image-no-meta"
+            ],
+            "install_type": "git-clone",
+            "description": "Save images without embedding workflow or prompt metadata"
+        },
+        {
             "author": "cuzelac",
             "title": "ComfyUI-CLAHE-Preprocessor",
             "reference": "https://github.com/cuzelac/ComfyUI-CLAHE-Preprocessor",

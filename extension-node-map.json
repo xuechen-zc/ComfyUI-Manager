@@ -6338,6 +6338,7 @@
             "DiffusionModelSelectorNode",
             "ImageResizeNode",
             "LORASelectorNode",
+            "ListCombinerNode",
             "ListCreaterNode",
             "ListRerouteNode",
             "LoadImageWithMetadataNode",
@@ -7970,6 +7971,7 @@
     "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation": [
         [
             "AMT VFI",
+            "ATM VFI",
             "CAIN VFI",
             "FILM VFI",
             "FLAVR VFI",
@@ -9399,6 +9401,7 @@
             "GRAnySelector",
             "GRAudioSelector",
             "GRImageSelector",
+            "GRLiveGroupController",
             "GRLoraLoader",
             "GRMenuHook",
             "GRPromptReplacer",
@@ -11619,6 +11622,7 @@
             "ImagetoTD",
             "ImagetoTD(JPEG)",
             "LoadTDImage",
+            "StringtoTD",
             "Tripo3DtoTD",
             "TripoSRtoTD",
             "VideotoTD"
@@ -13898,7 +13902,9 @@
     ],
     "https://github.com/MONKEYFOREVER2/ComfyUI-CameraForensicRealism": [
         [
-            "CameraForensicRealismEngine"
+            "CameraForensicRealismEngine",
+            "LUTApply",
+            "LUTLoader"
         ],
         {
             "title_aux": "ComfyUI-CameraForensicRealism"
@@ -14825,6 +14831,7 @@
             "iToolsPaintNode",
             "iToolsPreviewImage",
             "iToolsPreviewText",
+            "iToolsPromptBuilder",
             "iToolsPromptLoader",
             "iToolsPromptRecord",
             "iToolsPromptSaver",
@@ -20325,6 +20332,7 @@
             "StarDynamicLora",
             "StarDynamicLoraModelOnly",
             "StarEasyTextStorage",
+            "StarEverythingToIntStr",
             "StarFP8Converter",
             "StarFP8ModelPatchLoader",
             "StarFiveWildcards",
@@ -23173,12 +23181,15 @@
     ],
     "https://github.com/Xz3r0-M/ComfyUI-Xz3r0-Nodes": [
         [
+            "XAnyToString",
             "XAudioSave",
             "XDateTimeString",
             "XImageResize",
             "XImageSave",
+            "XKleinRefConditioning",
             "XLatentLoad",
             "XLatentSave",
+            "XMarkdownSave",
             "XMath",
             "XResolution",
             "XStringGroup",
@@ -25223,6 +25234,7 @@
     "https://github.com/aiolicollective/aioli-nodes": [
         [
             "BBoxMultipleFix",
+            "InpaintColorFix",
             "RatioOutpaintCalc"
         ],
         {
@@ -28793,7 +28805,7 @@
     ],
     "https://github.com/bulldog68/ComfyUI_FMJ_SP": [
         [
-            "FMJSpeedPrompt"
+            "\u2728 FMJ-speed-Prompt"
         ],
         {
             "title_aux": "FMJ-speed-Prompt"
@@ -29179,9 +29191,10 @@
             "Data_select",
             "Easy_QwenEdit2509",
             "IO_EasyMark",
+            "IO_LoadImgBatch",
             "IO_LoadImgList",
-            "IO_LoadShotList",
-            "IO_LoadTextList",
+            "IO_LoadShotBatch",
+            "IO_LoadTextBatch",
             "IO_PathProcessor",
             "IO_RegexPreset",
             "IO_ShotCreate",
@@ -34437,6 +34450,7 @@
             "CLIPSaveQwen",
             "CLIPScaleDualSDXLBlock",
             "CLIPScaleQwenBlock",
+            "CLIPTextEncodeWithOffload",
             "HDR Effects with LAB Adjust",
             "HDREffectsLabAdjust",
             "ModelMergeHiDream",
@@ -35692,6 +35706,7 @@
             "FL_AnimeLineExtractor",
             "FL_ApplyMask",
             "FL_Ascii",
+            "FL_AudioFrameCalculator",
             "FL_Audio_BPM_Analyzer",
             "FL_Audio_Beat_Visualizer",
             "FL_Audio_Crop",
@@ -38150,6 +38165,7 @@
     ],
     "https://github.com/hetima/ComfyUI-SingleLinePicker": [
         [
+            "SLPDirectoryContents",
             "SLPFilenamePrefix",
             "SLPLoraLoader",
             "SLPLoraLoaderModelOnly",
@@ -38230,6 +38246,7 @@
             "WWAA_DisplayAny",
             "WWAA_DitherNode",
             "WWAA_GBCamera",
+            "WWAA_GaussianDenoiseFilter",
             "WWAA_GridLayoutNode",
             "WWAA_ImageDimensionCalculator",
             "WWAA_ImageDimensionSize",
@@ -38726,10 +38743,12 @@
             "File List To File Path",
             "Fix Dimensions",
             "Get Timestamp",
+            "ImageConcatenateAuto",
             "LoadImageFromPath",
             "MP3 Embed In Image",
             "MP3 Extract From Image",
             "MP3 Path To Audio",
+            "MaxFramesByResolution",
             "MaxFramesCalculator",
             "RAMCleanup",
             "RemoveFirstLine",
@@ -38751,6 +38770,7 @@
             "TunnelAutoReconnect",
             "VF9_SetValue",
             "VHS_ExtractVideoPath",
+            "VideoSyncConcatenate",
             "_LoopAdd",
             "_LoopLessThan",
             "image_to_sha256",
@@ -42116,6 +42136,7 @@
             "CustomControlNetWeightsFluxFromList",
             "CustomSigmas",
             "CutAndDragOnPath",
+            "DecodeAndSaveVideo",
             "DiTBlockLoraLoader",
             "DifferentialDiffusionAdvanced",
             "DiffusionModelLoaderKJ",
@@ -42231,6 +42252,7 @@
             "PlotCoordinates",
             "PointsEditor",
             "PreviewAnimation",
+            "PreviewImageOrMask",
             "PreviewLatentNoiseMask",
             "RemapImageRange",
             "RemapMaskRange",
@@ -54244,7 +54266,9 @@
             "LoraReduceRank",
             "LoraRemapStrength",
             "LoraSmartCombine",
+            "MatAnyone2",
             "PowerLoraLoaderV2",
+            "VideoInpaint",
             "VideoMergeABC",
             "VideoTextEncodeCached_KJ",
             "WanFMLF",
@@ -55168,8 +55192,7 @@
             "SuperColorAdjustAllInOne",
             "SuperCreateTiles",
             "SuperHueSaturation",
-            "SuperLatentStats",
-            "SuperLevelsNormalize",
+            "SuperModelDownloader",
             "SuperPadImage",
             "SuperResizeImage",
             "SuperSVRCalcTiles",
@@ -55683,7 +55706,7 @@
     "https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep": [
         [
             "LoadVideosFromFolderSimple",
-            "VACESmooth",
+            "VACEInline",
             "VisualFrameSelector",
             "WanVACEBatchContext",
             "WanVACEExtend",
@@ -55881,6 +55904,7 @@
             "BlackWhiteColor_Element",
             "ChessboardPattern_Element",
             "ElementEasyImageSize",
+            "Element_ImageCurve",
             "Element_SigmaGraph",
             "Element_SigmaGraph_Curve",
             "EmptyImageRGB_Element",
@@ -56822,20 +56846,26 @@
     ],
     "https://github.com/tmode-1960/TA-ComfyUI-Nodes-Pack": [
         [
-            "TAEbuLMStudioLoadModel",
-            "TAEbuLMStudioUnload",
-            "TAEbuLMStudioVisionRequest",
+            "TACaptioning",
+            "TACleanupSwitch",
+            "TADiscordLink",
             "TAFilenameGenerator",
-            "TALMStudioLoadOnRun",
-            "TALMStudioLoadedModels",
-            "TALMStudioModelSelector",
-            "TALMStudioSmartLoader",
-            "TALoadCheckpointModelWithName",
-            "TALoadDiffusionModelWithName",
-            "TALoadGGUFModelWithName",
+            "TAFluxGuidanceGate",
+            "TAHelpLink",
+            "TAKSampler",
+            "TALatentPreview",
+            "TALoadModelWithName",
+            "TAModelPreset",
             "TAPromptController",
+            "TAPromptHub",
+            "TASageAttentionToggler",
+            "TASamplerPreset",
+            "TASaveImageOptional",
             "TASaveImageWithPrompt",
-            "ta_captioning"
+            "TASeedVR2Gate",
+            "TASmartLLM",
+            "TAUnifiedModelSwitcher",
+            "TA_LLM_PromptSelector"
         ],
         {
             "title_aux": "TA-ComfyUI-Nodes-Pack"
@@ -58071,6 +58101,8 @@
         [
             "Trellis2BatchSimplifyMeshAndExport",
             "Trellis2Continue",
+            "Trellis2Continue3",
+            "Trellis2Continue4",
             "Trellis2DecodeLatents",
             "Trellis2ExportMesh",
             "Trellis2FillHolesWithCuMesh",
@@ -58089,6 +58121,7 @@
             "Trellis2MeshWithVoxelMultiViewGenerator",
             "Trellis2MeshWithVoxelToMeshlibMesh",
             "Trellis2MeshWithVoxelToTrimesh",
+            "Trellis2MultiViewTexturing",
             "Trellis2OvoxelExportToGLB",
             "Trellis2PostProcess2",
             "Trellis2PostProcessAndUnWrapAndRasterizer",
@@ -58393,6 +58426,7 @@
             "vsLinx_BypassOnBool",
             "vsLinx_FitImageIntoBBoxMask",
             "vsLinx_ImpactMultilineWildcardText",
+            "vsLinx_LoadLastGeneratedImage",
             "vsLinx_LoadSelectedImagesBatch",
             "vsLinx_LoadSelectedImagesList",
             "vsLinx_MuteOnBool",
@@ -61069,7 +61103,12 @@
     "https://github.com/zaknak/ComfyUi_zaknak_nodes": [
         [
             "CensorBarsByMask",
-            "MosaicByMask"
+            "ChatOnce",
+            "CompatibleEndpoint",
+            "CompatibleModelSelector",
+            "MosaicByMask",
+            "PromptPreset",
+            "VisionChatOnce"
         ],
         {
             "title_aux": "ComfyUi_zaknak_nodes"
