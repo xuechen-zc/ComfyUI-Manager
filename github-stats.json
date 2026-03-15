@@ -1274,6 +1274,11 @@
         "last_update": "2024-12-09 17:50:23",
         "author_account_age_days": 1861
     },
+    "https://github.com/BISAM20/ComfyUI-ACES-IO": {
+        "stars": 3,
+        "last_update": "2026-03-15 15:11:37",
+        "author_account_age_days": 7
+    },
     "https://github.com/BNP1111/comfyui_flux_corrector": {
         "stars": 4,
         "last_update": "2025-04-25 16:47:45",
@@ -7128,6 +7133,11 @@
         "stars": 240,
         "last_update": "2024-05-22 15:30:47",
         "author_account_age_days": 1472
+    },
+    "https://github.com/StableDiffusionVN/SDVN_Segment_Anything": {
+        "stars": 0,
+        "last_update": "2026-02-03 07:03:38",
+        "author_account_age_days": 587
     },
     "https://github.com/StableLlama/ComfyUI-basic_data_handling": {
         "stars": 39,
@@ -13064,9 +13074,24 @@
         "last_update": "2025-02-25 16:35:18",
         "author_account_age_days": 3505
     },
+    "https://github.com/huchukato/ComfyUI-HuggingFace": {
+        "stars": 3,
+        "last_update": "2026-03-04 04:07:42",
+        "author_account_age_days": 622
+    },
     "https://github.com/huchukato/ComfyUI-QwenVL-Mod": {
         "stars": 28,
         "last_update": "2026-03-14 01:41:25",
+        "author_account_age_days": 622
+    },
+    "https://github.com/huchukato/ComfyUI-RIFE-TensorRT-Auto": {
+        "stars": 2,
+        "last_update": "2026-03-05 06:21:53",
+        "author_account_age_days": 622
+    },
+    "https://github.com/huchukato/ComfyUI-Upscaler-TensorRT-Auto": {
+        "stars": 2,
+        "last_update": "2026-03-04 04:54:50",
         "author_account_age_days": 622
     },
     "https://github.com/huchukato/comfy-tagcomplete": {
@@ -16414,6 +16439,11 @@
         "last_update": "2025-04-06 10:43:14",
         "author_account_age_days": 4280
     },
+    "https://github.com/nestflow/ComfyUI-Booru-Tagger": {
+        "stars": 0,
+        "last_update": "2026-02-21 01:44:12",
+        "author_account_age_days": 3551
+    },
     "https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle": {
         "stars": 30,
         "last_update": "2026-02-03 16:32:50",
@@ -19619,9 +19649,19 @@
         "last_update": "2026-03-13 13:59:48",
         "author_account_age_days": 2637
     },
+    "https://github.com/tardigrade1001/comfyui-mistral-caption": {
+        "stars": 0,
+        "last_update": "2026-03-12 08:07:17",
+        "author_account_age_days": 2637
+    },
     "https://github.com/tardigrade1001/latent-rotate-90": {
         "stars": 0,
         "last_update": "2026-03-13 14:01:02",
+        "author_account_age_days": 2637
+    },
+    "https://github.com/tardigrade1001/send-to-comfyui": {
+        "stars": 0,
+        "last_update": "2026-03-13 05:01:23",
         "author_account_age_days": 2637
     },
     "https://github.com/tatookan/comfyui_ssl_gemini_EXP": {
