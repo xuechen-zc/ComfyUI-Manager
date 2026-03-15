@@ -5485,7 +5485,6 @@
             "PrimereAnyDetailer",
             "PrimereAnyOutput",
             "PrimereApiProcessor",
-            "PrimereAutoSamplerSettings",
             "PrimereCKPT",
             "PrimereCKPTLoader",
             "PrimereCLIPEncoder",
@@ -5521,6 +5520,7 @@
             "PrimereMetaTupleCollector",
             "PrimereMidjourneyStyles",
             "PrimereModelConceptSelector",
+            "PrimereModelControl",
             "PrimereModelKeyword",
             "PrimereMultiImage",
             "PrimereNetworkDataCollector",
@@ -9110,6 +9110,14 @@
         ],
         {
             "title_aux": "ComfyUI-DeepseekOCR"
+        }
+    ],
+    "https://github.com/GeorgeJiang/comfyui-save-image-no-meta": [
+        [
+            "\ud83d\udcbe Save Image (No Meta)"
+        ],
+        {
+            "title_aux": "ComfyUI Save Image Without Metadata"
         }
     ],
     "https://github.com/GeraldWie/ComfyUI-I2I-slim": [
@@ -47616,7 +47624,8 @@
             "RT_LTX2_Extended_Duration_Node",
             "RT_LTX2_RoyalPrompt",
             "RT_LTX2_STG_Guider",
-            "RT_LTX2_SelfRefiningPatch"
+            "RT_LTX2_SelfRefiningPatch",
+            "RT_LTX2_Video_LoRA_Injector"
         ],
         {
             "title_aux": "ComfyUI-RT-LTX2-RareTools"
@@ -52746,6 +52755,7 @@
             "BatchAverageImage",
             "GazeOffsetCalculator",
             "LoadExternalLoraModelOnly",
+            "NanoBananaEdit",
             "RuucmShareScreen"
         ],
         {
@@ -56119,18 +56129,6 @@
         ],
         {
             "title_aux": "ComfyUI-JM-Volcengine-API"
-        }
-    ],
-    "https://github.com/synthetai/ComfyUI-ToolBox": [
-        [
-            "AutoDLDownload",
-            "CreatePaths",
-            "FolderDeleter",
-            "FolderViewe",
-            "PathOutput"
-        ],
-        {
-            "title_aux": "ComfyUI-ToolBox"
         }
     ],
     "https://github.com/synthetai/ComfyUI_FaceEnhancer": [
