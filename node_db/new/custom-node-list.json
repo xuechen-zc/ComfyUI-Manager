@@ -94,6 +94,37 @@
             "description": "🧝 Interactive assistant that lives in your ComfyUI workspace. Reacts to queue events with animated sprites, voice lines, and text bubbles. Features multiple personalities: Diana (calm), Kitty (cute), Kerrigan (dark). Includes audio toggle, idle timer, and smart error detection."
         },
         {
+            "author": "tardigrade1001",
+            "title": "comfyui-mistral-caption",
+            "reference": "https://github.com/tardigrade1001/comfyui-mistral-caption",
+            "files": [
+                "https://github.com/tardigrade1001/comfyui-mistral-caption"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that allows interaction with Mistral AI language and vision models directly inside a ComfyUI workflow."
+        },
+        {
+            "author": "tardigrade1001",
+            "title": "send-to-comfyui",
+            "reference": "https://github.com/tardigrade1001/send-to-comfyui",
+            "files": [
+                "https://github.com/tardigrade1001/send-to-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A lightweight browser extension + custom ComfyUI node that creates a seamless Web → ComfyUI pipeline for sending images directly from the browser into your workflows."
+        },
+        {
+            "author": "BISAM20",
+            "title": "ComfyUI-ACES-IO",
+            "id": "comfyui-aces-io",
+            "reference": "https://github.com/BISAM20/ComfyUI-ACES-IO",
+            "files": [
+                "https://github.com/BISAM20/ComfyUI-ACES-IO"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional OpenColorIO / ACES color-management nodes for ComfyUI. Mirrors Nuke's OCIO node set with ACES 2.0, 1.3, and 1.2 support, EXR sequence loading, animated preview, and video export (MP4, WebP, GIF)."
+        },
+        {
             "author": "Dangocan",
             "title": "ComfyUI GLM-OCR",
             "id": "comfyui-glm-ocr",
