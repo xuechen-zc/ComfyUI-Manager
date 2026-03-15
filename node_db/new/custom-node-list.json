@@ -12,6 +12,16 @@
             "description": "Interactive 2D rigging pose editor embedded inside a ComfyUI node. Drag joints to pose a figure, control eye direction, and export as IMAGE."
         },
         {
+            "author": "Rimor-dev",
+            "title": "Diana - Interactive Assistant",
+            "reference": "https://github.com/Rimor-dev/ComfyUI-Diana",
+            "files": [
+                "https://github.com/Rimor-dev/ComfyUI-Diana"
+            ],
+            "install_type": "git-clone",
+            "description": "🧝 Interactive assistant that lives in your ComfyUI workspace. Reacts to queue events with animated sprites, voice lines, and text bubbles. Features multiple personalities: Diana (calm), Kitty (cute), Kerrigan (dark). Includes audio toggle, idle timer, and smart error detection."
+        },
+        {
             "author": "Dangocan",
             "title": "ComfyUI GLM-OCR",
             "id": "comfyui-glm-ocr",
