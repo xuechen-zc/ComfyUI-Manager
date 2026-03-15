@@ -6002,6 +6002,16 @@
             "title_aux": "ComfyUI GLM-OCR"
         }
     ],
+    "https://github.com/Dangocan/comfyui_qwenvl_lora": [
+        [
+            "QwenVLCaption",
+            "QwenVLLoRALoader",
+            "QwenVLModelLoader"
+        ],
+        {
+            "title_aux": "ComfyUI Qwen-VL LoRA"
+        }
+    ],
     "https://github.com/DanielBartolic/ComfyUI-Qwen3.5": [
         [
             "LoadImageFromURL",
@@ -23295,6 +23305,7 @@
             "GetResolutionImage",
             "InpaintConditioningNode",
             "InpaintFluxKontextConditioning",
+            "MultiReferenceLatent",
             "Prepimg2Vid",
             "RemoveBackgroundNode",
             "ShowAnyDataType",
@@ -25931,14 +25942,6 @@
         ],
         {
             "title_aux": "ComfyUI Image Saver"
-        }
-    ],
-    "https://github.com/aliabougazia/comfyui_pt_security_scanner": [
-        [
-            "PTSecurityScanner"
-        ],
-        {
-            "title_aux": "comfyui_pt_security_scanner"
         }
     ],
     "https://github.com/alibof96/ComfyUI-DownscaleIRN": [
@@ -41745,6 +41748,14 @@
             "title_aux": "qq-nodes-comfyui"
         }
     ],
+    "https://github.com/ketle-man/comfyui-2dpose-editor": [
+        [
+            "PoseEditor2D"
+        ],
+        {
+            "title_aux": "ComfyUI 2D Pose Editor"
+        }
+    ],
     "https://github.com/kevinmcmahondev/comfyui-kmcdev-image-filter-adjustments": [
         [
             "ImageBlankAlpha",
@@ -53477,6 +53488,15 @@
         ],
         {
             "title_aux": "Comfyui-WL-MainImageDesign"
+        }
+    ],
+    "https://github.com/senjinthedragon/comfyui-gender-tag-filter": [
+        [
+            "GenderNLFilter",
+            "GenderTagFilter"
+        ],
+        {
+            "title_aux": "ComfyUI Gender Tag Filter"
         }
     ],
     "https://github.com/sergekatzmann/ComfyUI_Nimbus-Pack": [

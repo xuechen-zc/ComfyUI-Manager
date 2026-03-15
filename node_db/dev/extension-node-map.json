@@ -1230,6 +1230,7 @@
     ],
     "https://github.com/BuffMcBigHuge/ComfyUI-Buff-Nodes": [
         [
+            "BatchRaftOpticalFlowNode",
             "ConsoleOutput",
             "FilePathSelectorFromDirectory",
             "FrameRateModulator",
