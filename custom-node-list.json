@@ -44693,6 +44693,17 @@
             "install_type": "git-clone",
             "description": "Interactive 2D rigging pose editor embedded inside a ComfyUI node. Drag joints to pose a figure, control eye direction, and export as IMAGE."
         },
+        {
+            "author": "senjinthedragon",
+            "title": "ComfyUI Gender Tag Filter",
+            "reference": "https://github.com/senjinthedragon/comfyui-gender-tag-filter",
+            "files": [
+            	"https://github.com/senjinthedragon/comfyui-gender-tag-filter"
+            ],
+            "install_type": "git-clone",
+            "category": "utils/tags",
+            "description": "Filters and rewrites gendered vocabulary in Danbooru tags and natural language prompts to fix female-biased output from models like TIPO."
+        },
 
 
 
@@ -45084,17 +45095,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "senjinthedragon",
-            "title": "ComfyUI Gender Tag Filter",
-            "reference": "https://github.com/senjinthedragon/comfyui-gender-tag-filter",
-            "files": [
-            	"https://github.com/senjinthedragon/comfyui-gender-tag-filter"
-            ],
-            "install_type": "git-clone",
-            "category": "utils/tags",
-            "description": "Filters and rewrites gendered vocabulary in Danbooru tags and natural language prompts to fix female-biased output from models like TIPO."
         }
     ]
 }

@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "senjinthedragon",
+            "title": "ComfyUI Gender Tag Filter",
+            "reference": "https://github.com/senjinthedragon/comfyui-gender-tag-filter",
+            "files": [
+            	"https://github.com/senjinthedragon/comfyui-gender-tag-filter"
+            ],
+            "install_type": "git-clone",
+            "category": "utils/tags",
+            "description": "Filters and rewrites gendered vocabulary in Danbooru tags and natural language prompts to fix female-biased output from models like TIPO."
+        },
+        {
             "author": "ketle-man",
             "title": "ComfyUI 2D Pose Editor",
             "id": "comfyui-2dpose-editor",
