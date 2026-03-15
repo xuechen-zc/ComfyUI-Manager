@@ -43337,8 +43337,7 @@
             "install_type": "git-clone",
             "description": "Ultra fast frame interpolation using Rife TensorRT with fully automatic installation and optimization. Features automatic TensorRT engine building, CUDA toolkit detection, and resolution profiles for optimal performance. 2-4x faster than original RIFE implementation with enhanced stability and memory management.",
             "category": "video",
-            "tags": ["video", "interpolation", "rife", "tensorrt", "cuda", "performance", "frame", "motion", "automatic", "optimization", "enhanced", "fork", "stable"],
-            "version": "2.0.0"
+            "tags": ["video", "interpolation", "rife", "tensorrt", "cuda", "performance", "frame", "motion", "automatic", "optimization", "enhanced", "fork", "stable"]
         },
         {
             "author": "huchukato",
@@ -43351,8 +43350,7 @@
             "install_type": "git-clone",
             "description": "2-4x faster ComfyUI image upscaling using TensorRT with automatic installation and model optimization. Supports popular upscaling models with automatic TensorRT engine building, CUDA toolkit detection, and memory-efficient processing. Enhanced performance and stability over original implementation.",
             "category": "image",
-            "tags": ["image", "upscale", "tensorrt", "cuda", "performance", "enhancement", "automatic", "optimization", "esrgan", "edsr", "memory", "efficient", "enhanced", "fork", "stable"],
-            "version": "1.2.0"
+            "tags": ["image", "upscale", "tensorrt", "cuda", "performance", "enhancement", "automatic", "optimization", "esrgan", "edsr", "memory", "efficient", "enhanced", "fork", "stable"]
         },
         {
             "author": "huchukato",
@@ -43365,8 +43363,7 @@
             "install_type": "git-clone",
             "description": "HuggingFace model downloader for ComfyUI with advanced search and intelligent download system. Search, browse, and download models directly from HuggingFace repository without leaving ComfyUI interface. Features API token support, model type filtering, and migration path from Civicomfy with enhanced stability.",
             "category": "utility",
-            "tags": ["huggingface", "model", "download", "search", "browse", "api", "repository", "management", "interface", "migration", "civicomfy", "enhanced", "stable"],
-            "version": "1.0.0"
+            "tags": ["huggingface", "model", "download", "search", "browse", "api", "repository", "management", "interface", "migration", "civicomfy", "enhanced", "stable"]
         },
         {
             "author": "kadima-tech",
@@ -44735,6 +44732,17 @@
             "install_type": "git-clone",
             "description": "An improved and extended node of various Booru taggers (WD taggers, Pixai, Camie, etc.)"
         },
+        {
+            "author": "Stable Diffusion VN",
+            "title": "SDVN Segment Anything",
+            "id": "SDVNSegment",
+            "reference": "https://github.com/StableDiffusionVN/SDVN_Segment_Anything",
+            "files": [
+                "https://github.com/StableDiffusionVN/SDVN_Segment_Anything"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of nodes developed from the original Segment Anything set, to streamline and fix new library conflicts"
+        },
 
 
 
@@ -45126,17 +45134,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Stable Diffusion VN",
-            "title": "SDVN Segment Anything",
-            "id": "SDVNSegment",
-            "reference": "https://github.com/StableDiffusionVN/SDVN_Segment_Anything",
-            "files": [
-                "https://github.com/StableDiffusionVN/SDVN_Segment_Anything"
-            ],
-            "install_type": "git-clone",
-            "description": "A set of nodes developed from the original Segment Anything set, to streamline and fix new library conflicts"
         }
     ]
 }
